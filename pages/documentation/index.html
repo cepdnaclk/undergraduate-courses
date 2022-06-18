@@ -1,0 +1,75 @@
+---
+layout: default
+permalink: /documentation/
+
+title: Documentation
+
+---
+<style>
+    a {
+        color: #2c84fa;
+        text-decoration: none
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<!-- breadcrumb -->
+<main class="container">
+    <div class="bg-secondary p-3 pb-1 rounded">
+        <h1 class="text-white">Documentation</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate Courses</a></li>
+                <li class="breadcrumb-item active text-white">Documentation</li>
+            </ol>
+        </nav>
+    </div>
+</main>
+
+<main class="pb-5 px-1 pt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 col-lg-8">
+                <div class="container p-3">
+                    <!-- Add new files to pages/documentation/ then it will be added here automatically, and sorted according to value -->
+                    <!-- {% assign docPages = site.pages | where: "layout", "documentation" | sort: "index"%} -->
+                    <!-- {% for item in docPages %} -->
+                    <!-- <ul style="font-size: 1.1rem;"> -->
+                    <!-- <li><a href="{{item.permalink | relative_url}}">{{item.question}}</a></li> -->
+                    <!-- </ul> -->
+                    <!-- {% endfor %} -->
+
+                    <h3>Course Pages</h3>
+                    <ul style="font-size: 1.1rem;">
+                        <li><a href="{{ '/documentation/add-student-page/' | relative_url }}">How to add a new Course page ?</a></li>
+                        <li><a href="{{ '/documentation/edit-student-page/' | relative_url }}">How to edit a Course page ?</a></li>
+                    </ul>
+                    <br>
+
+                    <h3>Other</h3>
+                    <ul style="font-size: 1.1rem;">
+                        <li><a href="{{ '/documentation/run-locally/' | relative_url }}">How to run this website locally?</a></li>
+                        <li><a href="{{ '/documentation/run-on-gh-pages/' | relative_url }}">How to run this on GitHub pages?</a></li>
+                        <li><a href="{{ '/documentation/performance-badges/' | relative_url }}">Performance Badges</a></li>
+                        <li><a href="https://github.com/cepdnaclk/people.ce.pdn.ac.lk">Source Code</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="container">
+                    <!-- contact us section -->
+                    <p><b>If you have any questions, Please contact any of the developers.</b></p>
+                    <ul style="font-size: 1rem;">
+                        <li><a href="{{ '/students/e18/077/' | relative_url }}">Dharmarathna N.S. </a></li>
+                        <li><a href="{{ '/students/e18/224/' | relative_url }}">Mihiranga G.D.R.</a></li>
+                        <li><a href="{{ '/students/e18/227/' | relative_url }}">Mudalige D.H.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
