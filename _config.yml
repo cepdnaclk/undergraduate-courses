@@ -1,14 +1,13 @@
-title: Jekyll Minima Bootstrap5 Boilerplate
+title: Department Course Page for Undergraduate Students
 
-author:
-  name: NuwanJ
-  email: nuwanjaliyagoda@gmail.com
+# author:
+#   name: 
+#   email: 
 
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+description: 
+  The aim of this project is to improve the undergraduate course page on the department
+  website with more details, teacher-student interactions, and statistics of the previous years.
+  
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
