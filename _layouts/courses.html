@@ -1,0 +1,174 @@
+---
+layout: default
+---
+
+<main class="container">
+    <div class="bg-secondary p-3 pb-1 rounded">
+        <!-- <h1 class="text-white">Course Details</h1> -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate Courses</a></li>
+                <li class="breadcrumb-item text-white">
+                    {%- if page.course_number -%}
+                    {{page.course_number}}
+                    {%- endif -%}
+                </li>
+            </ol>
+        </nav>
+    </div>
+</main>
+
+
+<div class="container pt-4">
+        <div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <!-- course number -->
+                    {% if page.course_number %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Course Number</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.course_number}}
+                        </div>
+                    </div>
+                    <hr>
+                    {% endif %}
+
+                    <!-- course title -->
+                    {% if page.course_title %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Course Title</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.course_title}}
+                        </div>
+                    </div>
+                    <hr>
+                    {% endif %}
+					
+                    <!-- credits -->
+                    {% if page.credits %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Credits</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.credits}}
+                        </div>
+                    </div>
+                    <hr>
+                    {% endif %}
+
+                    <!-- core/elective -->
+                    {% if page.core_elective %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Core/Elective</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.core_elective}}
+                        </div>
+                    </div>
+                    <hr>
+                    {% endif %}
+
+                    <!-- prerequisites -->
+                    {% if page.prerequisites %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Prerequisites</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.prerequisites}}
+                        </div>
+                    </div>
+                    <hr>
+                    {% endif %}
+					
+                    <!-- aims/objectives -->
+                    {% if page.aims_objectives %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            {{page.aims_objectives}}
+                        </div>
+                    </div>
+					<hr>
+                    {% endif %}	
+
+                    <!-- ilos -->
+                    {% if page.ilos_knowledge %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
+                        </div>
+						
+						<div class="col-sm-9">
+                            <div>
+								<span class="mb-0" style="font-weight: 500">Knowledge:</span>
+							</div>
+							
+							<div class="text-secondary">
+								At the end of this course, a student will be able to; 
+								<ul>
+                                    {%- for item in page.ilos_knowledge -%}
+                                    <li>{{item}}</li>
+                                    {%- endfor -%}
+                                </ul>
+							</div>
+							
+                            <div>
+								<span class="mb-0" style="font-weight: 500">Skill:</span>
+							</div>
+							
+							<div class="text-secondary">
+								At the end of this course, a student will be able to; 
+								<ul>
+                                    {%- for item in page.ilos_skill -%}
+                                    <li>{{item}}</li>
+                                    {%- endfor -%}
+                                </ul>
+							</div>	
+
+							<div>
+								<span class="mb-0" style="font-weight: 500">Attitude:</span>
+							</div>
+							
+							<div class="text-secondary">
+								<ul>
+                                    {%- for item in page.ilos_attitude -%}
+                                    <li>{{item}}</li>
+                                    {%- endfor -%}
+                                </ul>
+							</div>	
+                        </div>
+                    </div>
+					<hr>
+                    {% endif %}	
+
+					<!-- Textbooks and References -->
+                    {% if page.textbooks_references %}
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="mb-0" style="font-weight: 500">Textbooks and References</span>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            <ul>
+								{%- for item in page.textbooks_references -%}
+								<li>{{item}}</li>
+								{%- endfor -%}
+							</ul>
+                        </div>
+                    </div>
+                    {% endif %}	
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
