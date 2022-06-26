@@ -4,23 +4,16 @@ This is the footer used in every page
 
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        {%- comment -%}
-        copyright text
-        {%- endcomment -%}
-        <p class="col-md-6 mb-1 text-muted" style="font-size:100%;">&copy; COPYRIGHT {{site.time | date: "%Y" }} DEPARTMENT OF COMPUTER ENGINEERING, UOP<br>
-            {%- comment -%}
-            Last updated text
-            {%- endcomment -%}
+        <!-- Copyright and Last Updated text -->
+        <p class="col-md-6 mb-1 text-muted" style="font-size:100%;">
+            Copyright &copy; {{site.time | date: "%Y" }}<br>
+            Department of Computer Engineering, UOP<br>
             Last Update : {{site.time | date: "%d/%m/%Y" }}
         </p>
+        
         <p class="text-xl-left text-muted" style="font-size:100%;">
-
-            {%- comment -%}
-            Documentation link
-            {%- endcomment -%}
+            <!-- Documentation link -->
             <a href="{{ '/documentation/' | relative_url }}">Documentation</a>
-
         </p>
     </footer>
 </div>
-
