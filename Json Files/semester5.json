@@ -242,6 +242,47 @@
                     "teleMobile": "0715117771"
                 }
             }
+        },
+        "EE386" : {
+            "name" : "Electronics II",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "EE285"
+            },
+            "content" : "Data conversion circuits, Diode Logic Circuits, BJT Logic families, MOS Logic Families, Storage Elements, Design Parameter and issues, Interfacing logic families, Active Filters, Oscillators, Circuit modeling and simulation, Electronic Laboratory.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "33h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "24h",
+                "Assignments" : "NULL"
+            }, 
+            "modules": {
+                "Logic Circuits" : "NULL",
+                "Active Filters" : "NULL",
+                "Oscillators" : "NULL",
+                "Data Conversion Circuits" : "NULL",
+                "Circuit Simulation" : "NULL"
+            },
+            "references": {
+                "0" : "Millman and Taub, Pulse and digital circuits",
+                "1" : "Millman and Halkias, Integrated Electronics."
+            },
+            "marks": {
+                "Practicals" : 20,
+                "Assignments" : 10,
+                "Mid-Exam" : 20,
+                "End-Exam" : 50
+            },
+            "lecturers":{
+                "0": "NULL"
+            }
         }
     }
 }
