@@ -75,6 +75,84 @@
             "lecturers":{
                 "0" : "NULL"
             }
+        },
+        "CO328" : {
+            "name" : "Software Engineering",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO226",
+                "1" : "CO322",
+                "2" : "CO324"
+            },
+            "content" : "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "28h",
+                "Tutorial Classes" : "3h",
+                "Practical Classes" : "8h",
+                "Assignments" : "20h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "Eric Evans, Domain-Driven Design: Tackling Complexity in the Heart of Software",
+                "1" : "James O. Coplien, Gertrud BjÃƒÂ¸rnvig, Lean Architecture for Agile Software Development",
+                "2" : "Serge Demeyer, StÃƒÂ©phane Ducasse, Oscar Nierstrasz,  Object-Oriented Reengineering Patterns"
+            },
+            "marks": {
+                "Practicals" : 10,
+                "Assignments" : 30,
+                "Mid-Exam" : 20,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        },
+        "EE387" : {
+            "name" : "Signal Processing",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "EE282",
+                "1" : "EM212"
+            },
+            "content" : "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "39h",
+                "Tutorial Classes" : "13h",
+                "Practical Classes" : "8h",
+                "Assignments" : "8h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "Discrete time signal processing 3rd edition",
+                "1" : "Signals and systems 3rd edition"
+            },
+            "marks": {
+                "Practicals" : 15,
+                "Assignments" : 10,
+                "Mid-Exam" : 25,
+                "End-Exam" : 50
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
         }
     }
 }
