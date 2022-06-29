@@ -1,0 +1,137 @@
+{
+    "semester" :1,
+    "subjects" : {
+        "GP101" : {
+            "name" : "English 1",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
+            "ILOs" : "NULL",
+            "allocation" : "L20, A=50",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP109" : {
+            "name" : "Materials Science",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Introduction to the structure and properties of engineering materials, Principles underlying structure-property relationships, Phase equilibrium, Structure and properties of cement and timber, Properties and applications of polymers, ceramics and glasses, Properties and applications of composites, Mechanical testing of engineering materials, Laboratory testing practices",
+            "ILOs" : "NULL",
+            "allocation" : "L&T36, P&A=18",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP110" : {
+            "name" : "Engineering Mechanics",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Force systems, Analysis of simple structures, Work and energy methods, Inertial properties of plane and three-dimensional objects, Fluid pressure, Fluid statics, Particle kinematics, Planar rigid body kinematics, Particle kinetics, Planar rigid body kinetics, Laboratory work",
+            "ILOs" : "NULL",
+            "allocation" : "L28, T11, P12",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP112" : {
+            "name" : "Engineering Measurements",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Units and standards, Approximation errors and calibration, Measurement of physical parameters, Measurement project, Presentation of engineering information, Surveying",
+            "ILOs" : "NULL",
+            "allocation" : "L&T17, P&A56",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP114" : {
+            "name" : "Engineering Drawing",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other: speed tests",
+            "ILOs" : "NULL",
+            "allocation" : "L18, P=45, A=9",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP115" : {
+            "name" : "Calculas I",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
+            "ILOs" : "NULL",
+            "allocation" : "L36, A=18",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        }
+    }
+}

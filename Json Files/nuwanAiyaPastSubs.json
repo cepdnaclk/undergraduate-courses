@@ -1,0 +1,1169 @@
+{
+    "version": 9,
+    "semester": 6,
+    "subjects": {
+       "Semester7":{
+          "CO421": {
+             "name": "Final Year Project I",
+             "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration. (3 credits)",
+             "allocation": "A90=45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "": ""
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO422": {
+             "name": "Professional Practices",
+             "content": "Professionalism, Group Dynamics and Psychology, Communication Skills. (2 credits)",
+             "allocation": "L25, A10=30",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "": ""
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO423": {
+             "name": "Software Project Management",
+             "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics. (2 credits)",
+             "allocation": "L22, P6, A10=30",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "": ""
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO424": {
+             "name": "Information Systems Management",
+             "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study. (2 credits)",
+             "allocation": "L20, A20=30",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "": ""
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          }
+       },
+       "Semester6":{
+          "CO326": {
+             "name": "Computer Systems Engineering: Industrial Networks",
+             "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
+             "allocation": "L34, P12, A10 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Project/Practicals": "30",
+                "Mid Exam" : "20",
+                "End Exam": "50"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Kamalanath Samarakoon",
+                   "title": "B.Sc. Eng. (Peradeniya), M.Eng. (AIT), Ph.D. (Cardiff), C.Eng. (SL), C.Eng. (UK), MIET (UK) , MIE (SL), MIEEE (USA)",
+                   "email": "kamalanath@ce.pdn.ac.lk",
+                   "teleOffice": "0812393918",
+                   "teleMobile": "0712277994"
+                }
+             }
+          },
+          "CO327": {
+             "name": "Operating Systems",
+             "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
+             "allocation": "L31, P12, A16 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Tutorials": "15",
+                "Assignments/Project": "25",
+                "Mid Exam": "20",
+                "End Exam": "40"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Asitha Bandaranayake",
+                   "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+                   "email": "asithab@pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": "0715117771"
+                }
+             }
+          },
+          "CO328": {
+             "name": "Software Engineering",
+             "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
+             "allocation": "L28, T3, P8, A20 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "Eric Evans, Domain-Driven Design": "#"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "EE387": {
+             "name": "Signal Processing",
+             "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
+             "allocation": "L39, T13, P8, A8=60",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "Discrete time signal processing 3rd edition": "#",
+                "Signals and systems 3rd edition": "#"
+             },
+             "marks": {
+                "Practicals/Assignments": "25",
+                "Mid Exam": "25",
+                "End Exam": "50"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Ruwan Ranaweera",
+                   "title": "",
+                   "email": "rdbranaweera@ee.pdn.ac.lk",
+                   "teleOffice": "081-2393442",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. Nalin Harischandra",
+                   "title": "",
+                   "email": "nalin@ee.pdn.ac.lk",
+                   "teleOffice": "081-2393426",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO503": {
+             "name": "Advanced Embedded Systems",
+             "content": "Introduction to embedded systems, Custom single-purpose processors, General-purpose processors: software, Embedded system modelling: state machine and concurrent process models, Design technologies of embedded systems, Hardware/software co-design of embedded systems, Operating systems for embedded systems, Design example, System on a Chip (SoC).",
+             "allocation": "L&T30, P&A30=45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Mid": "20",
+                "Project/Labs": "40",
+                "End": "40"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Isuru Nawinne",
+                   "title": "",
+                   "email": "isurunawinne@gmail.com",
+                   "teleOffice": "",
+                   "teleMobile": "071-8495506"
+                }
+             }
+          },
+          "CO515": {
+             "name": "Advances in Computer Networks:Selected Topics",
+             "content": "An overview of networking trends, Data center networks and applications, Network function virtualization and Software Defined Networks, Carrier internt protocol, Multiprotocol label Switching (MPLS), Carrier Ethernet, Provider backbone, Metro Ethernet, Traffic Engineering, Big data concepts and applications, Network management.",
+             "allocation": "L35, T2, A16=45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO553": {
+             "name": "Formal Verification Tools and Techniques for Complex Reactive Systems",
+             "content": "The aim of this course is to impart a working knowledge of formal methods used in rigorous verification of reactive systems and enable students to use them in designing systems.As principle objectives, at the end of the course,students are expected toknow how the behaviour of a complex (safety-critical) reactive system could be specified and how such a system could be designed so that they could prove the correctness of the system behaviour usingan appropriate formalism from among, (symbolic) model checking and temporal logic, Hoare logic and weakest precondition calculus, Petri nets and process algebra.",
+             "allocation": "L31, T4, A20 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO527": {
+             "name": "Advanced Database Systems",
+             "content": "Data storage and indexing structures, Query Optimization and database tuning, Transaction Processing, Database security, Distributed Databases, Object databases and Object-relational databases, other data models, Data models for advanced applications.",
+             "allocation": "L32, T6, P12, A2 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO552": {
+             "name": "Game Theory and Markov Decision Processes",
+             "content": "Introduction to game theory, Mixed Strategies, Expected Payoffs, Nash Equilibrium and Nash Theorem, 2-Player Zero-Sum Games, and The Minimax Theorem, Linear Programming, Simplex Algorithm, LP Duality Theorem, Computing Solutions for General Finite Strategic Games, Games in Extensive Form, Games of Perfect Information, Games on Graphs, Simulation, Markov Decision Processes and Stochastic Games, Selfish Network Routing, Congestion Games, and the Price of Anarchy, Auctions and Mechanism Design, Reachability and safety games, Buchi and coBuchi Games.",
+             "allocation": "L35, T10, A10 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO541": {
+             "name": "Artificial Intelligence",
+             "content": "Introduction, Artificial intelligence programming, Knowledge representation and inference, Expert systems, Search, Natural language processing, Vision, Dealing with uncertainty, Role of neural networks and fuzzy logic in AI, Applications of AI.",
+             "allocation": "L&T38, P&A14 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO543": {
+             "name": "Image Processing",
+             "content": "Course Content: Introduction, Digital image fundamentals, Image enhancement in the spatial domain, Image enhancement in the frequency domain, Colour image processing, Image compression, Assignments.",
+             "allocation": "L&T30, P&A30 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "CO544": {
+             "name": "Machine Learning and Data Mining",
+             "content": "Introduction, Input, Output, Basic algorithms, Evaluation and credibility, Real machine learning algorithms, Data preparation for knowledge discovery.",
+             "allocation": "L&T40, P&A10 =45",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Class Participation": "5",
+                "Assignments/Project": "25",
+                "Mid Exam": "20",
+                "End Exam": "50"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Sampath Deegalla",
+                   "title": "B.Sc. Eng: University of Peradeniya",
+                   "email": "dsdeegalla@pdn.ac.lk",
+                   "teleOffice": "081-2393477",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. Damayanthi Herath",
+                   "title": "BSc (Eng), PhD (Melbourne)",
+                   "email": "damayanthiherath@eng.pdn.ac.lk",
+                   "teleOffice": "081-2393920",
+                   "teleMobile": ""
+                }
+             }
+          }
+       },
+ 
+ 
+       "Semester3":{
+          "CO221": {
+             "name": "Digital Design",
+             "content": "Introduction to digital logic, Number systems and digital logic, Combination logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation",
+             "allocation": "Lectures - 30h , Practical classes - 16h, Assignments - 14h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "Combinational Logic": "",
+                "Synchronous Sequential Circuits": "",
+                "Asynchronous Sequential Circuits": ""
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Kamalanath Samarakoon",
+                   "title": "B.Sc. Eng. (Peradeniya), M.Eng. (AIT), Ph.D. (Cardiff), C.Eng. (SL), C.Eng. (UK), MIET (UK) , MIE (SL), MIEEE (USA)",
+                   "email": "kamalanath@ce.pdn.ac.lk",
+                   "teleOffice": "0812393918",
+                   "teleMobile": "0712277994"
+                },
+                "1": {
+                   "name": "Shirley Devapriya Dewasurendra",
+                   "title": "B.Sc.Eng.(Peradeniya), M.Eng.(AIT), D.E.A., PhD (INP,Grenoble), C.Eng. (SL), M.I.Mech.E.(UK), C.Eng. (UK) MIEEE, MIE(SL)",
+                   "email": "devapriyad@pdn.ac.lk",
+                   "teleOffice": "0812393478",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO222": {
+             "name": "Programming Methodology",
+             "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools.",
+             "allocation": "Lectures - 24h , Tutorial classes - 8h, Practical classes - 14h, Assignments - 12h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-blue",
+             "modules": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Roshan G. Ragel",
+                   "title": "BSc Eng (Peradeniya), PhD (UNSW), SMIEEE (USA), MIEEE-CS (USA)",
+                   "email": "roshanr@ce.pdn.ac.lk",
+                   "teleOffice": "0812393913",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO223": {
+             "name": "Computer Communication<br>Networks I",
+             "content": "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks.",
+             "allocation": "Lectures - 30h, Tutorial classes - 2h, Practical classes - 22h, Assignments - 4h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-blue-grey",
+             "modules": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Asitha Bandaranayake",
+                   "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+                   "email": "asithab@pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": "0715117771"
+                }
+             }
+          },
+          "EE282": {
+             "name": "Network Analysis",
+             "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks",
+             "allocation": "Lectures - 45h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-green",
+             "modules": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": "NULL"
+             }
+          },
+          "EM201": {
+             "name": "Mathematics III",
+             "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
+             "allocation": "Lectures - 36h , Tutorial classes - 9h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-red",
+             "modules": {
+                "0": "NULL"
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. S. P. C. Perera",
+                   "title": "",
+                   "email": "pperera@pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. D.S.K. Karunasinghe",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EM313": {
+             "name": "Discreet Mathematics",
+             "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
+             "allocation": "Lectures - 36h , Tutorial Classes - 9h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "modules": {
+                "Logic and Proof": "",
+                "Number Theory": "",
+                "Group Theory": "",
+                "Growth of Functions": "",
+                "Graph Theory": "",
+                "Algorithms": "",
+                "Computing Machines": ""
+             },
+             "marks": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. G. W. R. M. R. Palamakumbura",
+                   "title": "",
+                   "email": "rpalam@pdn.ac.lk",
+                   "teleOffice": "0812393349",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. R. Meegaskumbura",
+                   "title": "",
+                   "email": "rochanam@pdn.ac.lk",
+                   "teleOffice": "0812393354",
+                   "teleMobile": ""
+                }
+             }
+          }
+       },
+       "Semester4":{
+          "CO224": {
+             "name": "Computer Architecture",
+             "content": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+             "allocation": "Lectures - 29h , Tutorial - 4h, Practical Classes - 14, Assignments - 10",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "marks": {
+                "Assignments": 20,
+                "Quiz/Labs": 20,
+                "Mid Exam": 20,
+                "End Exam": 40
+             },
+             "modules": {
+                "Computer Abstractions and Technology": "",
+                "Instructions: Language of the Computer": "",
+                "Arithmetic for Computers": "",
+                "The Processor": "",
+                "Large and Fast: Exploiting Memory Hierarchy": "",
+                "Storage and Other I/O Topics": "",
+                "Multicores, Multiprocessors, and Clusters": ""
+             },
+             "references": {
+                "CO224 Syllabus": "https://drive.google.com/open?id=1BlOleNTyjaH-wOvPLYXESEGVvTEPg4vG",
+                "Computer Organization and Design": "https://drive.google.com/open?id=1R9oiVTVqGJKacpBr7Fw7p6ipuoJCV2e8"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Roshan G. Ragel",
+                   "title": "BSc Eng (Peradeniya), PhD (UNSW), SMIEEE (USA), MIEEE-CS (USA)",
+                   "email": "roshanr@ce.pdn.ac.lk",
+                   "teleOffice": "0812393913",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. Isuru Nawinne",
+                   "title": "",
+                   "email": "isurunawinne@gmail.com",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO225": {
+             "name": "Software Construction",
+             "content": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+             "allocation": "Lectures - 31h , Tutorial classes - 6, Practical classes - 20, Assignments - 8",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-blue",
+             "marks": {
+                "Practical": 30,
+                "Group Project": 30,
+                "End Exam": 40
+             },
+             "modules": {
+                "Introduction": "",
+                "Data Collections": "",
+                "I/O Handling": "",
+                "Declarative Programming": "",
+                "Classes and Objects:": "",
+                "Event-driven Programming": "",
+                "Concurrency and Network Clients": "",
+                "Code quality:": ""
+             },
+             "references": {
+                "CO225 Syllabus (old)": "https://drive.google.com/open?id=1n7I7hnamqnjl1Pc54PHp5j12ZPVsOWuR"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Dhammika Elkaduwe",
+                   "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+                   "email": "dhammika@ce.pdn.ac.lk",
+                   "teleOffice": "0812393914",
+                   "teleMobile": "0777655802"
+                },
+                "1": {
+                   "name": "Dr. Janaka Alawatugoda",
+                   "title": "BSc (Hons) in Computer Science (UoP), PhD (Queensland University of Technology)",
+                   "email": "alawatugoda@eng.pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO226": {
+             "name": "Database Systems",
+             "content": "The aim of this course is to provide basic theoretical and practical concepts of database management systems so that students will be able to use that knowledge to design, develop and maintain database systems effectively.",
+             "allocation": "Lectures - 31h, Tutorial classes - 4, Practical classes - 12, Assignments - 8",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-blue-grey",
+             "marks": {
+                "Practical/Tutorial": 20,
+                "Project": 20,
+                "Mid Exam": 20,
+                "End Exam": 40
+             },
+             "modules": {
+                "Introduction to Database Systems": "",
+                "Data Modelling": "",
+                "RDBMS Concepts": "",
+                "Database Query Languages": "",
+                "Database Programming Techniques": "",
+                "Introduction to indexes and Query Optimization": "",
+                "Introduction to Transaction Processing": "",
+                "Database Project": ""
+             },
+             "references": {
+                "CO226 Syllabus": "https://drive.google.com/open?id=17gTTJTT2xya4DgLpxc5QgTonzstLr15C"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Manjula Sandirigama",
+                   "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+                   "email": "m_sandirigama@ce.pdn.ac.lk",
+                   "teleOffice": "0812393473",
+                   "teleMobile": "0718385968"
+                }
+             }
+          },
+          "EE285": {
+             "name": "Electronics I",
+             "content": "",
+             "allocation": "Lectures - h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-green",
+             "marks": {
+                "Labs/Assignments": 30,
+                "Mid Exam": 20,
+                "End Exam": 50
+             },
+             "modules": {
+                "Diodes": "",
+                "BJT Transistors": "",
+                "Amplifiers": "",
+                "OP-Amps": "",
+                "JFET Transistors": "",
+                "MOSFET Transistors": ""
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. K.R.M. Nimal Rathnayaka",
+                   "title": "",
+                   "email": "nimal@ee.pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EM202": {
+             "name": "Mathematics IV",
+             "content": "",
+             "allocation": "Lectures - h , Tutorial classes - h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-red",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "Statistics": "",
+                "Functions of Several Variables": "",
+                "Curves and Surfaces": "",
+                "Multiple Integral": "",
+                "Vector Fields": "",
+                "Optimization": ""
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. D.S.K. Karunasinghe",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. M.I.M. Ishak",
+                   "title": "",
+                   "email": "mimishak@pdn.ac.lk",
+                   "teleOffice": "0812393340",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EM314": {
+             "name": "Numerical Methods",
+             "content": "",
+             "allocation": "Lectures - h , Tutorial Classes - h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "Assignments/Tutorials": 30,
+                "Mid Exam": 20,
+                "End Exam": 50
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Janitha Gunatilake",
+                   "title": "MSc/PhD: Texas Tech University",
+                   "email": "janithag@pdn.ac.lk",
+                   "teleOffice": "0812393348",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "N. L. Jayatilake",
+                   "title": "BSc. Eng(1995)",
+                   "email": "namalj@pdn.ac.lk",
+                   "teleOffice": "0812393348",
+                   "teleMobile": ""
+                }
+             }
+          }
+       },
+       "ShortSem":{
+          "CO227": {
+             "name": "Computer Engineering Project",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EF509": {
+             "name": "Engineer as an Entrepreneur",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EF524": {
+             "name": "Business Law",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EF501": {
+             "name": "Engineer in Society",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EF528": {
+             "name": "Digital Art",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "EF520": {
+             "name": "Effective Communication in English",
+             "content": "",
+             "allocation": "",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-deep-orange",
+             "marks": {
+                "0": "NULL"
+             },
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "lecturers": {
+                "0": {
+                   "name": "",
+                   "title": "",
+                   "email": "",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          }
+       },
+       "Semester5":{
+          "CO321": {
+             "name": "Embedded Systems",
+             "content": "To provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
+             "allocation": "Lectures - 31h , Practical classes - 20h, Assignments - 8h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "Introduction to microcontrollers": "",
+                "Memory organization of microcontrollers": "",
+                "Programming of flash microcontrollers": "",
+                "I/O port configuration and programming interfaces": "",
+                "A/D converters and applications": "",
+                "Timer systems of microcontrollers": "",
+                "Applications of non-volatile memory": "",
+                "Industrial Applications": "",
+                "Student Project": ""
+             },
+             "references": {
+                "Book - AVR Microcontroller and Embedded Systems File": "https://feels.pdn.ac.lk/pluginfile.php/39720/mod_resource/content/1/Book%20-%20AVR%20Microcontroller%20and%20Embedded%20Systems.pdf"
+             },
+             "marks": {
+                "Labs": 20,
+                "Project": 20,
+                "Mid Exam": 20,
+                "End Exam": 40
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Isuru Nawinne",
+                   "title": "",
+                   "email": "isurunawinne@gmail.com",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO322": {
+             "name": "Data Structures and Algorithms",
+             "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
+             "allocation": "Lectures - 30h , Practical classes - 18h, Assignments - 12h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "Running time and time complexity": "",
+                "Divide and conquer": "",
+                "Linear abstract data types": "",
+                "Hashing and the set ADT": "",
+                "Trees": "",
+                "Graphs": "",
+                "Greedy algorithms": "",
+                "Dynamic programming": ""
+             },
+             "references": {
+                "CO322 Syllabus": "https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi"
+             },
+             "marks": {
+                "Practical": 20,
+                "Assignments": 20,
+                "Mid Exam": 20,
+                "End Exam": 40
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Dhammika Elkaduwe",
+                   "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+                   "email": "dhammika@ce.pdn.ac.lk",
+                   "teleOffice": "0812393914",
+                   "teleMobile": "0777655802"
+                },
+                "1": {
+                   "name": "Dr. Isuru Nawinne",
+                   "title": "",
+                   "email": "isurunawinne@gmail.com",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO323": {
+             "name": "Computer Communication Networks II",
+             "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
+             "allocation": "Lectures - 30h , Tutorial - 2h, Practical classes - 23h, Assignments - 3h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "0": "NULL"
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Practicals / Assignments": 30,
+                "Student Seminar": 10,
+                "Mid Exam": 10,
+                "End Exam": 50
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Asitha Bandaranayake",
+                   "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+                   "email": "asithab@pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": "0715117771"
+                }
+             }
+          },
+          "CO324": {
+             "name": "Network and Web Application Design",
+             "content": "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
+             "allocation": "Lectures - 26h , Tutorial - 4h, Practical classes - 16h, Assignments - 14h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-blue",
+             "modules": {
+                "Review of Internet protocol stack": "",
+                "Network servers": "",
+                "Design of application protocols": "",
+                "I/O concurrency": "",
+                "Remote procedure calls": "",
+                "HTTP and HTML": "",
+                "Dynamic web content generation": "",
+                "Web frameworks": "",
+                "Browser scripting": "",
+                "Network application security": "",
+                "Deployment considerations": ""
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Labs": 30,
+                "Group Project": 30,
+                "Group Presentations": 10,
+                "End Exam": 40
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Janaka Alawatugoda",
+                   "title": "BSc (Hons) in Computer Science (UoP), PhD (Queensland University of Technology)",
+                   "email": "alawatugoda@eng.pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "Dr. Damayanthi Herath",
+                   "title": "",
+                   "email": "damayanthiherath@eng.pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          },
+          "CO325": {
+             "name": "Computer and Network Security",
+             "content": "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
+             "allocation": "Lectures - 30h, Tutorial - 5h, Practical classes - 10h, Assignments - 10h",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "Introduction:": "",
+                "Symmetric key ciphers:": "",
+                "Asymmetric key ciphers": "",
+                "Cryptographic hash functions": "",
+                "Cryptographic primitives and protocols:": "",
+                "Protocol attacks and countermeasures": "",
+                "Computer security – Authentication mechanisms and protocols": "",
+                "Computer security – Access control": "",
+                "Network security – Identity and trust systems": "",
+                "Network security – Secure Communication": "",
+                "Usability, psychology, organisational security policy":""
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Practical/Tutorial": 20,
+                "Mid Exam": 20,
+                "End Exam": 60
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Asitha Bandaranayake",
+                   "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+                   "email": "asithab@pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": "0715117771"
+                }
+             }
+          },
+          "EE386": {
+             "name": "Electronics II",
+             "content": "",
+             "allocation": "Lectures - xh, Tutorial - xh, Practical classes - xh, Assignments - xh",
+             "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+             "bg": "clr-bg-orange",
+             "modules": {
+                "Logic Circuits": "",
+                "Active Filters": "",
+                "Oscillators": "",
+                "Data Conversion Circuits": "",
+                "Circuit Simulation": ""
+             },
+             "references": {
+                "0": "NULL"
+             },
+             "marks": {
+                "Practical/Tutorial": 0,
+                "Project": 0,
+                "Mid Exam": 0,
+                "End Exam":0
+             },
+             "lecturers": {
+                "0": {
+                   "name": "Dr. Waranatha L. Abeygunasekara",
+                   "title": "",
+                   "email": "waranatha@ee.pdn.ac.lk",
+                   "teleOffice": "",
+                   "teleMobile": ""
+                }
+             }
+          }
+       }
+    }
+ }
