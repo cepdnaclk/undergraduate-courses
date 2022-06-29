@@ -54,13 +54,13 @@
             }
         },
         "CO322" : {
-            "name" : "Embedded Systems",
+            "name" : "Data Structures and Algorithms",
             "credits" : 3,
             "Core/Elective" : "Core",
             "prerequisite" : {
-                "0" : "CO224"
+                "0" : "CO225"
             },
-            "content" : "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
+            "content" : "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
             "objectives" : "NULL",
             "ILOs" : {
                 "Knowledge" : "NULL",
@@ -68,26 +68,26 @@
                 "Attitude" : "NULL"
             },
             "allocation" : {
-                "Lectures" : "31h",
+                "Lectures" : "30h",
                 "Tutorial Classes" : "NULL",
-                "Practical Classes" : "20h",
-                "Assignments" : "8h"
+                "Practical Classes" : "18h",
+                "Assignments" : "12h"
             }, 
             "modules": {
-                "Introduction to microcontrollers" : "NULL",
-                "Memory organization of microcontrollers" : "NULL",
-                "Programming of flash microcontrollers" : "NULL",
-                "I/O port configuration and programming interfaces" : "NULL",
-                "A/D converters and applications" : "NULL",
-                "Timer systems of microcontrollers" : "NULL",
-                "Applications of non-volatile memory" : "NULL",
-                "Industrial Applications" : "NULL",
-                "Student Project" : "NULL"
+                "Running time and time complexity" : "NULL",
+                "Divide and conquer" : "NULL",
+                "Linear abstract data types" : "NULL",
+                "Hashing and the set ADT" : "NULL",
+                "Trees" : "NULL",
+                "Graphs" : "NULL",
+                "Greedy algorithms" : "NULL",
+                "Dynamic programming" : "NULL"
             },
             "references": {
-                "0" : "Book - AVR Microcontroller and Embedded Systems File: https://feels.pdn.ac.lk/pluginfile.php/39720/mod_resource/content/1/Book%20-%20AVR%20Microcontroller%20and%20Embedded%20Systems.pdf",
-                "1" : "Fredrick M. Cady: Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.",
-                "2" : "Mano, M.M. & Kime, C.R.: Logic and Computer Design Fundamentals"
+                "0" : "Cormen, Rivest, Introduction to Algorithms",
+                "1" : "Aho, Hopcroft and Ullman, Data structures and algorithms",
+                "2" : "Sedgewick and Wayne, Algorithms",
+                "3" : "CO322 Syllabus : https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi"
             },
             "marks": {
                 "Practicals" : 20,
@@ -96,13 +96,7 @@
                 "End-Exam" : 40
             },
             "lecturers":{
-                "0": {
-                    "name": "Dr. Isuru Nawinne",
-                    "title": "",
-                    "email": "isurunawinne@gmail.com",
-                    "teleOffice": "",
-                    "teleMobile": ""
-                }
+                "0" : "NULL"
             }
         },
     }
