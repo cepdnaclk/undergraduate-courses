@@ -2,14 +2,23 @@
     "semester" : 2,
     "subjects" : {
         "GP102" : {
-            "name" : "English 2",
+            "name" : "English II",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
-            "ILOs" : "NULL",
-            "allocation" : "L20, A=50",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "20h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "50h"
+            },
             "modules": {
                 "0":"NULL"
             },
@@ -17,7 +26,10 @@
                 "0":"NULL"
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"
@@ -26,20 +38,33 @@
         "GP106" : {
             "name" : "Computing",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Introduction to computing, Problem solving with mathematical packages (as a calculator), The fundamentals of algorithms, Introduction to high-level programming languages, Problem solving with programs, Scientific programming with a mathematical package",
-            "ILOs" : "NULL",
-            "allocation" : "L25, T10, P20",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "The aim of the module is to teach basic building blocks of a computer and software design so that the students will be able to formulate and solve complex engineering problems by using computers",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "25h",
+                "Tutorial Classes" : "10h",
+                "Practical Classes" : "20h",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "0":"NULL"
             },
             "references": {
-                "0":"NULL"
+                "0" : "Brian H. Hahn and Daniel T. Valentine, Essential Matlab for Engineers and Scientists, 4e, Elsevier, 2010, ISBN: 978-0-12-374883-6",
+                "1" : "R. G. Ragel and D. S. Deegalla, Programming with Matlab, Lecture Notes for GP106, 2014"
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 20,
+                "Assignments" : 20,
+                "Mid-Exam" : 20,
+                "End-Exam" : 40
             },
             "lecturers":{
                 "0":"NULL"
@@ -48,20 +73,32 @@
         "GP111" : {
             "name" : "Elementary Thermodynamics",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Fundamentals, The Zeroth Law and the First Law, Thermodynamic substances, Application of the First Law to closed systems, Application of the First Law to open systems, Air standard cycles, The Rankine cycle, The Second Law, Laboratory classes",
-            "ILOs" : "NULL",
-            "allocation" : "L27, T9, P12, A=6",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "27h",
+                "Tutorial Classes" : "9h",
+                "Practical Classes" : "12h",
+                "Assignments" : "6h"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
                 "0":"NULL"
             },
-             "marks": {
-                "0":"NULL"
+             "marks":  {
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"
@@ -70,20 +107,33 @@
         "GP113" : {
             "name" : "Fundamentals of Manufacture",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Introduction to manufacturing industry, Introduction to manufacturing processes and safety measures, Machining: Casting: Welding, Metal forming and Forging, Manufacturing systems, Automobile technology, Printed circuit board (PCB) fabrication and soldering and related technologies",
-            "ILOs" : "NULL",
-            "allocation" : "L20, T7, P36",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "To provide fundamental knowledge on Manufacturing Engineering enabling students to evaluate, design and manufacture products satisfying organizational and consumer requirements and to select, perform and control manufacturing machines and use materials and equipment in a coordinated manner satisfying economies and standards.",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "20h",
+                "Tutorial Classes" : "7h",
+                "Practical Classes" : "36h",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "0":"NULL"
             },
             "references": {
-                "0":"NULL"
+                "0" : "Anderson, J., and Tatro, E.E., Shop Theory, 6th Edition, Tata McGraw-Hill, New Delhi, 2001.",
+                "1" : "Chapman, W.A.J., Workshop Technology, Part II."
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 10,
+                "Assignments" : 10,
+                "Mid-Exam" : 30,
+                "End-Exam" : 50
             },
             "lecturers":{
                 "0":"NULL"
@@ -92,20 +142,38 @@
         "GP116" : {
             "name" : "Linera Algebra",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Vectors, Matrix theory, Determinants, Transformations, Solution of simultaneous equations, Vector space, Characteristic value problems, Quadratic forms",
-            "ILOs" : "NULL",
-            "allocation" : "L36, A=18",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "To encourage students to develop a working knowledge of the central ideas of linear algebra: vector spaces, linear transformations, orthogonality, eigenvalues, eigenvectors and canonical forms and the applications of these ideas in science and engineering",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "36h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "18h"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
-                "0":"NULL"
+                "0" : "Advanced Engineering Mathematics - E. Kreyszig",
+                "1" : "Elementary Linear Algebra and its Applications-James W. Daniel",
+                "2" : "Matrices for Scientists and Engineers - W.W. Bell",
+                "3" : "Linear Algebra with Applications - H.G. Campbell",
+                "4" : "Elementary Linear and Matrix Algebra. The view point of Geometry- John T. Moore",
+                "5" : "Matrix Algebra for Engineers - J.M. Gere" ,
+                "6" : "Introduction to Linear Algebra- Gilbert Strang"
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 0,
+                "Assignments" : 10,
+                "Mid-Exam" : 30,
+                "End-Exam" : 60
             },
             "lecturers":{
                 "0":"NULL"
@@ -114,12 +182,21 @@
         "GP118" : {
             "name" : "Basic Electrical and Electronic Engineering",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Measurements, Circuits, Electrostatics, Electromagnetism",
-            "ILOs" : "NULL", 
-            "allocation" : "L27, T6, P24",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "27h",
+                "Tutorial Classes" : "6h",
+                "Practical Classes" : "24h",
+                "Assignments" : "NULL"
+            },
             "modules": {
                 "0":"NULL"
             },
@@ -127,7 +204,10 @@
                 "0":"NULL"
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"

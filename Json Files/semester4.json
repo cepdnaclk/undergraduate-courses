@@ -16,7 +16,12 @@
                 "Skill" : "Design architectural solutions and describe designs using an HDL.\\nUse simulator to test a designed processor.",
                 "Attitude" : "Gain appreciation of computer systems and how they are built and tested using tools."
             },
-            "allocation" : "Lectures - 29h , Tutorial classes - 4h, Practical classes - 14h, Assignments - 10h",
+            "allocation" : {
+                "Lectures" : "29h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "14h",
+                "Assignments" : "10h"
+            }, 
             "modules": {
                 "Overview" : "Difference between Computer Architecture and Computer Organization; Role of computer architecture in Computer Engineering... L-1, T-0, P-0, A-0",
                 "Fundamentals of computer architecture" : "Von Neumann machine organization, Instruction types and addressing modes, Subroutine call and return mechanisms, Instruction decoding and execution; Registers and register files; I/O techniques and interrupts... L-2, T-0, P-0, A-0",
@@ -55,7 +60,12 @@
                 "Skill" : "Scan and parse unstructured and structured textual formats to extract data.\\nTraverse a linked data structure to perform a computation.\\nWrite a simple network client (e.g. web crawler).\\nBuild programs usable via multiple interfaces (command-line, GUI.)\\nWrite secure, testable and modular code.",
                 "Attitude" : "Use the right tool/technique for the job.\\nDo one thing and do it well (UNIX “tiny tools” philosophy)."
             },
-            "allocation" : "Lectures - 25h , Tutorial classes - 6h, Practical classes - 20h, Assignments - 8h",
+            "allocation" : {
+                "Lectures" : "25h",
+                "Tutorial Classes" : "6h",
+                "Practical Classes" : "20h",
+                "Assignments" : "8h"
+            }, 
             "modules": {
                 "Introduction of features of a selected language" : "Control constructs, static / dynamic typing, scope and name-spaces, automatic memory management... L-4, T-0, P-3, A-1",
                 "Data collections (containers)" : "Lists, tuples, sets and hash tables, Iterating over collections, efficiency considerations... L-2, T-1, P-2, A-1",
@@ -96,7 +106,12 @@
                 "Skill" : "",
                 "Attitude" : ""
             },
-            "allocation" : "Lectures - 31h , Tutorial classes - 4h, Practical classes - 12h, Assignments - 8h",
+            "allocation" : {
+                "Lectures" : "31h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "12h",
+                "Assignments" : "8h"
+            }, 
             "modules": {
                 "Introduction to database systems" : "Information models and Systems, Database system evolution, File based systems, DBMS approach, Database environment and components, DBMS functions, DBMS architecture, Data independence, Database system life cycle",
                 "Data modelling" : "Importance of data modelling in system development; Levels of abstraction and practice; Conceptual models: ER/EER and UML; Logical models: Relational and OO Models, Relational mapping",
@@ -146,7 +161,12 @@
                 "Skill" : "",
                 "Attitude" : ""
             },
-            "allocation" : "Lectures - 36h , Tutorial classes - 9h, Practical classes - 0h, Assignments - 0h",
+            "allocation" : {
+                "Lectures" : "36h",
+                "Tutorial Classes" : "9h",
+                "Practical Classes" : "NULL",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "Surfaces and Space curves in R3" : "",
                 "Special Lines and Planes" : "",
@@ -186,7 +206,12 @@
                 "Skill" : "",
                 "Attitude" : ""
             },
-            "allocation" : "Lectures - 31h , Tutorial classes - 4h, Practical classes - 0h, Assignments - 20h",
+            "allocation" : {
+                "Lectures" : "31h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "NULL",
+                "Assignments" : "20h"
+            }, 
             "modules": {
                 "Introduction to Numerical methods" : "Introduction, Taylor series, Error analysis, Round-off Errors, Truncation Errors",
                 "Solutions to nonlinear equations" : "Root finding methods, Bracketing methods:Graphical methods, Bisection method, Rate of convergence, Open methods:Fixed point iteration, Newton-Raphson method, Systems of nonlinear equations",
@@ -230,7 +255,12 @@
                 "Skill" : "Obtain characteristics of electronic components experimentally.\\nSelect suitable components to design a given electronic circuit.\\nDesign simple circuits using electronic components.",
                 "Attitude" : "At the end of the course, students should be able to appreciate the different types of electronic components and their applicability for building different types of electronic circuits"
             },
-            "allocation" : "Lectures - 30h , Tutorial classes - 3h, Practical classes - 21h, Assignments - 3h",
+            "allocation" : {
+                "Lectures" : "30h",
+                "Tutorial Classes" : "3h",
+                "Practical Classes" : "21h",
+                "Assignments" : "3h"
+            }, 
             "modules": {
                 "Diodes" : "Semiconductors, p-n junction, diodes, operation principle of diodes ideal & piece-wise linear modeling, diode circuits & applications... L-4, T-0, P-0, A-1",
                 "Bipolar Junction Transistor" : "Terminal Characteristics, Operational principles, as an amplifier and a switch, biasing circuits & amplifier configurations, dc/ac load line analysis, small signal analysis... L-6, T-1, P-0, A-1",

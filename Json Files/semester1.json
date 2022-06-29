@@ -1,15 +1,24 @@
 {
-    "semester" :1,
+    "semester" : 1,
     "subjects" : {
         "GP101" : {
             "name" : "English 1",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
-            "ILOs" : "NULL",
-            "allocation" : "L20, A=50",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "20h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "50h"
+            },
             "modules": {
                 "0":"NULL"
             },
@@ -17,7 +26,10 @@
                 "0":"NULL"
             },
              "marks": {
-                "0":"NULL"
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"
@@ -26,20 +38,32 @@
         "GP109" : {
             "name" : "Materials Science",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Introduction to the structure and properties of engineering materials, Principles underlying structure-property relationships, Phase equilibrium, Structure and properties of cement and timber, Properties and applications of polymers, ceramics and glasses, Properties and applications of composites, Mechanical testing of engineering materials, Laboratory testing practices",
-            "ILOs" : "NULL",
-            "allocation" : "L&T36, P&A=18",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "Introduce the structure and properties of Engineering Materials, Relate Material properties to atomic, molecular and microstructural features.",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "38h",
+                "Tutorial Classes" : "1h",
+                "Practical Classes" : "12h",
+                "Assignments" : "NULL"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
                 "0":"NULL"
             },
-             "marks": {
-                "0":"NULL"
+            "marks": {
+                "Practicals" : 10,
+                "Assignments" : 10,
+                "Mid-Exam" : 30,
+                "End-Exam" : 50
             },
             "lecturers":{
                 "0":"NULL"
@@ -48,20 +72,33 @@
         "GP110" : {
             "name" : "Engineering Mechanics",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Force systems, Analysis of simple structures, Work and energy methods, Inertial properties of plane and three-dimensional objects, Fluid pressure, Fluid statics, Particle kinematics, Planar rigid body kinematics, Particle kinetics, Planar rigid body kinetics, Laboratory work",
-            "ILOs" : "NULL",
-            "allocation" : "L28, T11, P12",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "To introduce the state of rest or motion of bodies that are subjected to the action of forces. Emphasis will be on applications to Engineering Designs.",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "28h",
+                "Tutorial Classes" : "11h",
+                "Practical Classes" : "12h",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "0":"NULL"
             },
             "references": {
-                "0":"NULL"
+                "0" : "Hibbeler, R.C., (2013). Engineering Mechanics: Statics and Dynamics, 13th edition, Pearson (or any edition from 9th).",
+                "1" : "Douglas, J. F., Gasiorek, G. M., Swaffield, J. A., Jack, L. B., (2005), Fluid Mechanics, 5th edition, Pearson (or any later Editions)."
             },
-             "marks": {
-                "0":"NULL"
+            "marks": {
+                "Practicals" : 10,
+                "Assignments" : 10,
+                "Mid-Exam" : 20,
+                "End-Exam" : 60
             },
             "lecturers":{
                 "0":"NULL"
@@ -70,20 +107,32 @@
         "GP112" : {
             "name" : "Engineering Measurements",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Units and standards, Approximation errors and calibration, Measurement of physical parameters, Measurement project, Presentation of engineering information, Surveying",
-            "ILOs" : "NULL",
-            "allocation" : "L&T17, P&A56",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "The objective of the course is to enable students to understand different aspects of instrumentation and to learn procedures to solve engineering problems through measurement and experimentation.",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "25h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "12h",
+                "Assignments" : "20h"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
                 "0":"NULL"
             },
-             "marks": {
-                "0":"NULL"
+            "marks": {
+                "Practicals" : 40,
+                "Assignments" : 20,
+                "Mid-Exam" : 0,
+                "End-Exam" : 40
             },
             "lecturers":{
                 "0":"NULL"
@@ -92,20 +141,32 @@
         "GP114" : {
             "name" : "Engineering Drawing",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other: speed tests",
-            "ILOs" : "NULL",
-            "allocation" : "L18, P=45, A=9",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "18h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "45h",
+                "Assignments" : "9h"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
                 "0":"NULL"
             },
-             "marks": {
-                "0":"NULL"
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"
@@ -114,20 +175,32 @@
         "GP115" : {
             "name" : "Calculas I",
             "credits" : 3,
+            "Core/Elective" : "Core",
             "prerequisite" : "NULL",
             "content" : "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
-            "ILOs" : "NULL",
-            "allocation" : "L36, A=18",
-            "img" : "NULL",
-            "bg" : "NULL",
+            "Objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attidute" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "36h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "18h"
+            },
             "modules": {
                 "0":"NULL"
             },
             "references": {
                 "0":"NULL"
             },
-             "marks": {
-                "0":"NULL"
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
             },
             "lecturers":{
                 "0":"NULL"
