@@ -177,7 +177,7 @@
                 "Deployment considerations" : "NULL"
             },
             "references": {
-                "0" : "ohn Goerzen and Brandon Rhodes, Foundations of Python Network Programming",
+                "0" : "John Goerzen and Brandon Rhodes, Foundations of Python Network Programming",
                 "1" : "Jan Newmarch, Network programming with Go (http://jan.newmarch.name/go/)"
             },
             "marks": {
@@ -188,6 +188,59 @@
             },
             "lecturers":{
                 "0" : "NULL"
+            }
+        },
+        "CO325" : {
+            "name" : "Computer and Network Security",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO223"
+            },
+            "content" : "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "30h",
+                "Tutorial Classes" : "5h",
+                "Practical Classes" : "10h",
+                "Assignments" : "10h"
+            }, 
+            "modules": {
+                "Introduction" : "NULL",
+                "Symmetric key ciphers" : "NULL",
+                "Asymmetric key ciphers" : "NULL",
+                "Cryptographic hash functions" : "NULL",
+                "Cryptographic primitives and protocols" : "NULL",
+                "Protocol attacks and countermeasures" : "NULL",
+                "Computer security – Authentication mechanisms and protocols" : "NULL",
+                "Computer security – Access control" : "NULL",
+                "Network security – Identity and trust systems" : "NULL",
+                "Network security – Secure Communication" : "NULL",
+                "Usability, psychology, organisational security policy" :"NULL"
+            },
+            "references": {
+                "0" : "Ross Anderson, Security Engineering",
+                "1" : "Behrouz Forouzan, Cryptography & Network Security"
+            },
+            "marks": {
+                "Practicals" : 10,
+                "Assignments" : 10,
+                "Mid-Exam" : 20,
+                "End-Exam" : 60
+            },
+            "lecturers":{
+                "0": {
+                    "name": "Dr. Asitha Bandaranayake",
+                    "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+                    "email": "asithab@pdn.ac.lk",
+                    "teleOffice": "",
+                    "teleMobile": "0715117771"
+                }
             }
         }
     }
