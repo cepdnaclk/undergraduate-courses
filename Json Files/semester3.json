@@ -13,7 +13,12 @@
                 "Skill" : "Draw up the formal requirement specification starting from an informal requirement.\\nDesign and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.\\nDemonstrate the conformance of a design to its specifications including temporal behaviour.",
                 "Attitude" : "The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.\\nDiscourage trial and error implementation of the circuits."
             },
-            "allocation" : "Lectures - 30h, Practical classes - 16h, Assignments=14h",
+            "allocation" : {
+                "Lectures" : "30h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "16h",
+                "Assignments" : "14h"
+            }, 
             "modules": {
                 "Introduction to digital logic" : "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits... L-1, T-0, P-0, A-0",
                 "Number systems and digital logic" : "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic... L-3, T-0, P-0, A-0",
@@ -50,7 +55,12 @@
                 "Skill" : "Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).\\nVisualise program control flow and memory structures.\\nUse assertions and debugging to understand and debug programs",
                 "Attitude" : "Inculcate a disciplined attitude towards programming in the small.\\nDiscourage trial-and-error programming"
             },
-            "allocation" : "Lectures - 24h , Tutorial classes - 8h, Practical classes - 14h, Assignments - 12h",
+            "allocation" : {
+                "Lectures" : "24h",
+                "Tutorial Classes" : "8h",
+                "Practical Classes" : "14h",
+                "Assignments" : "12h"
+            },
             "modules": {
                 "Problem solving" : "From problem statements to algorithms to programs... L-2, T-1, P-0, A-0",
                 "Storing and naming data and operators" : "Variables, data types, operators and expressions... L-3, T-0, P-0, A-0",
@@ -88,7 +98,12 @@
                 "Skill" : "NULL",
                 "Attitude" : "NULL"
             },
-            "allocation" : "Lectures - 30h, Tutorial classes - 2h, Practical classes - 22h, Assignments - 4h",
+            "allocation" : {
+                "Lectures" : "30h",
+                "Tutorial Classes" : "2h",
+                "Practical Classes" : "22h",
+                "Assignments" : "4h"
+            },
             "modules": {
                 "0":"NULL"
             },
@@ -123,7 +138,12 @@
                 "Skill" : "NULL",
                 "Attitude" : "NULL"
             },
-            "allocation" : "Lectures - 36h , Tutorial classes - 9h",
+            "allocation" : {
+                "Lectures" : "36h",
+                "Tutorial Classes" : "9h",
+                "Practical Classes" : "NULL",
+                "Assignments" : "NULL"
+            },
             "modules": {
                 "0":"NULL"
             },
@@ -158,7 +178,12 @@
                 "Skill" : "Model and analyze real world problems dealing with uncertainty using the discrete and the continuous random variables",
                 "Attitude" : "Apply concepts of sampling distributions and point estimation for statistical inference and testing hypothesis related to decision making"
             },
-            "allocation" : "Lectures - 24h, Tutorial classes - 4h, Assignments - 4h",
+            "allocation" : {
+                "Lectures" : "24h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "NULL",
+                "Assignments" : "4h"
+            }, 
             "modules": {
                 "Random variables" : "",
                 "Discrete probability distributions" : "",
@@ -193,7 +218,12 @@
                 "Skill" : "NULL",
                 "Attitude" : "NULL"
             },
-            "allocation" : "Lectures - 36h , Tutorial Classes - 9h",
+            "allocation" : {
+                "Lectures" : "36h",
+                "Tutorial Classes" : "9h",
+                "Practical Classes" : "NULL",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "Logic and Proof": "",
                 "Number Theory": "",
@@ -241,7 +271,12 @@
                 "Skill" : "NULL",
                 "Attitude" : "NULL"
             },
-            "allocation" : "Lectures - 45h",
+            "allocation" : {
+                "Lectures" : "45h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "NULL"
+            }, 
             "modules": {
                 "Review of DC Circuits" : "Notations and conventions; Ohm's law, Kirchhoff's voltage law and current law, Nodal and mesh analysis; Source transformation, Circuits with dependent sources.",
                 "First-order Circuits" : "Voltage-current relationships for inductor and capacitor, RL and RC circuits; Time domain solution to first-order differential equation, Time constant, Forced and natural responses",
