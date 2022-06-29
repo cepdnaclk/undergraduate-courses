@@ -68,6 +68,78 @@
             "lecturers":{
                 "0" : "NULL"
             }
+        },
+        "CO423" : {
+            "name" : "Software Project Management",
+            "credits" : 2,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO328"
+            },
+            "content" : "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "22h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "6h",
+                "Assignments" : "10h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "NULL"
+            },
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        },
+        "CO424" : {
+            "name" : "Information Systems Management",
+            "credits" : 2,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO328"
+            },
+            "content" : "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "20h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "20h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "NULL"
+            },
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 50,
+                "Mid-Exam" : 0,
+                "End-Exam" : 50
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
         }
     }
 }
