@@ -1,4 +1,43 @@
 {
     "semester" : 6,
-    
+    "subjects" : {
+        "CO326" : {
+            "name" : "Computer Systems Engineering: Industrial Networks",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO321",
+                "1" : "EE386"
+            },
+            "content" : "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "34h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "12h",
+                "Assignments" : "10h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "NULL"
+            },
+            "marks": {
+                "Practicals" : 20,
+                "Assignments" : 10,
+                "Mid-Exam" : 20,
+                "End-Exam" : 50
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        },
+        
+    }
 }
