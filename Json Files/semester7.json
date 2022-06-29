@@ -34,6 +34,40 @@
             "lecturers":{
                 "0" : "NULL"
             }
+        },
+        "CO422" : {
+            "name" : "Professional Practices",
+            "credits" : 2,
+            "Core/Elective" : "Core",
+            "prerequisite" : "NULL",
+            "content" : "Professionalism, Group Dynamics and Psychology, Communication Skills.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "25h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "10h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "NULL"
+            },
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 0,
+                "Mid-Exam" : 0,
+                "End-Exam" : 0
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
         }
     }
 }

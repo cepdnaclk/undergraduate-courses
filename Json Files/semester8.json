@@ -1,11 +1,13 @@
 {
     "semester" : 8,
     "subjects" : {
-        "CO421" : {
+        "CO425" : {
             "name" : "Final Year Project II",
             "credits" : 3,
             "Core/Elective" : "Core",
-            "prerequisite" : "NULL",
+            "prerequisite" : {
+                "0" : "CO421"
+            },
             "content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
             "objectives" : "NULL",
             "ILOs" : {
