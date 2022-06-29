@@ -1,0 +1,137 @@
+{
+    "semester" : 2,
+    "subjects" : {
+        "GP102" : {
+            "name" : "English 2",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
+            "ILOs" : "NULL",
+            "allocation" : "L20, A=50",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP106" : {
+            "name" : "Computing",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Introduction to computing, Problem solving with mathematical packages (as a calculator), The fundamentals of algorithms, Introduction to high-level programming languages, Problem solving with programs, Scientific programming with a mathematical package",
+            "ILOs" : "NULL",
+            "allocation" : "L25, T10, P20",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP111" : {
+            "name" : "Elementary Thermodynamics",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Fundamentals, The Zeroth Law and the First Law, Thermodynamic substances, Application of the First Law to closed systems, Application of the First Law to open systems, Air standard cycles, The Rankine cycle, The Second Law, Laboratory classes",
+            "ILOs" : "NULL",
+            "allocation" : "L27, T9, P12, A=6",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP113" : {
+            "name" : "Fundamentals of Manufacture",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Introduction to manufacturing industry, Introduction to manufacturing processes and safety measures, Machining: Casting: Welding, Metal forming and Forging, Manufacturing systems, Automobile technology, Printed circuit board (PCB) fabrication and soldering and related technologies",
+            "ILOs" : "NULL",
+            "allocation" : "L20, T7, P36",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP116" : {
+            "name" : "Linera Algebra",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Vectors, Matrix theory, Determinants, Transformations, Solution of simultaneous equations, Vector space, Characteristic value problems, Quadratic forms",
+            "ILOs" : "NULL",
+            "allocation" : "L36, A=18",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "GP118" : {
+            "name" : "Basic Electrical and Electronic Engineering",
+            "credits" : 3,
+            "prerequisite" : "NULL",
+            "content" : "Measurements, Circuits, Electrostatics, Electromagnetism",
+            "ILOs" : "NULL", 
+            "allocation" : "L27, T6, P24",
+            "img" : "NULL",
+            "bg" : "NULL",
+            "modules": {
+                "0":"NULL"
+            },
+            "references": {
+                "0":"NULL"
+            },
+             "marks": {
+                "0":"NULL"
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        }
+    }
+}

@@ -1,0 +1,264 @@
+{
+    "semester" : 4,
+    "subjects" : {
+        "CO224" : {
+            "name" : "Computer Architecture",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO221",
+                "1" : "CO222"
+            },
+            "content" : "Overview, Fundamentals of computer architecture, Computer arithmetic, CPU organization, Pipelining, Memory hierarchies, Interfacing and communication, Performance issues, Multiprocessors.",
+            "objectives" : "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+            "ILOs" : {
+                "Knowledge" : "Represent and manipulate numbers in different formats.\\nDescribe the elements of a computer such as microprocessor, cache, memory and system buses.\\nExplain the memory hierarchy and how it operates.\\nDescribe multiprocessor systems, SIMD, GPU and Vector and elaborate their importance.\\nDesign and analyse single-, multi-cycle and pipelined processors.\\nAnalyse issues related to system performance.",
+                "Skill" : "Design architectural solutions and describe designs using an HDL.\\nUse simulator to test a designed processor.",
+                "Attitude" : "Gain appreciation of computer systems and how they are built and tested using tools."
+            },
+            "allocation" : "Lectures - 29h , Tutorial classes - 4h, Practical classes - 14h, Assignments - 10h",
+            "modules": {
+                "Overview" : "Difference between Computer Architecture and Computer Organization; Role of computer architecture in Computer Engineering... L-1, T-0, P-0, A-0",
+                "Fundamentals of computer architecture" : "Von Neumann machine organization, Instruction types and addressing modes, Subroutine call and return mechanisms, Instruction decoding and execution; Registers and register files; I/O techniques and interrupts... L-2, T-0, P-0, A-0",
+                "Computer arithmetic" : "Integer arithmetic: Multiplication, Division, Significance of range,precision and accuracy; Floating-point arithmetic: Standard methods of representation, Addition, Subtraction, Multiplication, Division;Conversion between integer and floating-point numbers... L-3, T-1, P-0, A-0",
+                "CPU organization" : "Implementation of the von Neumann machine; Control and data paths,single vs. Multiple bus datapaths; Instruction set architecture,Implementing instructions; Register transfer notation, Conditional and unconditional transfers, ALU control; Control unit: hardwired vs. Microprogrammed realizations; Arithmetic units for multiplication and division... L-5, T-1, P-4, A-4",
+                "Pipelining" : "Introduction to instruction level parallelism, Overview of pipelining, Pipelined data paths and control, Pipeline hazards: structural, data and control hazards, forwarding, stalls; Reducing the effect of hazards... L-4, T-0, P-2, A-0",
+                "Memory hierarchies" : "Memory systems hierarchy, Electronic, magnetic and optical technologies; Main memory organization, latency, cycle-time, bandwidth and interleaving; Cache memories: Address mapping, line size, replacement and write-back policies; Virtual memory, page faults, TLBs, protection... L-5, T-1, P-4, A-3",
+                "Interfacing and communication" : "I/O fundamentals: Types and characteristics of I/O devices, handshaking, buffering; Buses: types of buses, synchronous and asynchronous buses, bus masters and slaves, bus arbitration, bus standards; programmed I/O, interrupt driven I/O, Interrupt structures: vectored and prioritized, interrupt overhead; Direct memory access... L-4, T-0, P-4, A-3",
+                "Performance issues" : "Metrics for computer performance, clock rate, MIPS, Cycles per instruction, benchmarks, limitations of performance metrics... L-2, T-1, P-0, A-0",
+                "Multiprocessors" : "Introduction to shared memory multiprocessors, clusters, message passing systems, Flynns classification... L-3, T-0, P-0, A-0"
+            },
+            "references": {
+                "0" : "David Patterson, John L. Hennessy, Computer Organization and Design: The Hardware/Software Interface, 4th Edition"
+            },
+            "marks": {
+                "Practicals" : 20,
+                "Assignments" : 20,
+                "Mid-Exam" : 20,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "CO225" : {
+            "name" : "Software Construction",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO222"
+            },
+            "content" : "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
+            "objectives" : "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+            "ILOs" : {
+                "Knowledge" : "Choose an appropriate data collection for efficiently representing a problem's data and its associated computations.\\nApply declarative programming to data-intensive problems.\\nUse objects or algebraic data types to construct a suitable data representation for problems involving trees and graphs.\\nIdentify opportunities for concurrency in existing code or a problem description.\\nCleanly separate user interface and input/output concerns from core program logic.",
+                "Skill" : "Scan and parse unstructured and structured textual formats to extract data.\\nTraverse a linked data structure to perform a computation.\\nWrite a simple network client (e.g. web crawler).\\nBuild programs usable via multiple interfaces (command-line, GUI.)\\nWrite secure, testable and modular code.",
+                "Attitude" : "Use the right tool/technique for the job.\\nDo one thing and do it well (UNIX “tiny tools” philosophy)."
+            },
+            "allocation" : "Lectures - 25h , Tutorial classes - 6h, Practical classes - 20h, Assignments - 8h",
+            "modules": {
+                "Introduction of features of a selected language" : "Control constructs, static / dynamic typing, scope and name-spaces, automatic memory management... L-4, T-0, P-3, A-1",
+                "Data collections (containers)" : "Lists, tuples, sets and hash tables, Iterating over collections, efficiency considerations... L-2, T-1, P-2, A-1",
+                "Input/output, error handling and parsing textual formats" : "Command-line arguments, files and streams, errors and exceptions, pattern matching with regular expressions, parsing structured data (HTML, XML and JSON.)... L-3, T-1, P-3, A-1",
+                "Declarative programming" : "Functions as first-class values, closures, collection-oriented programming: map, filter and reduce (accumulate)... L-3, T-1, P-3, A-1",
+                "Classes and objects" : "Classes as user-defined types, object instances, references and aliasing, composing objects, defining linked structures (trees and graphs)... L-3, T-1, P-3, A-1",
+                "Event-driven programming" : "Graphical user interfaces and callbacks, Observer pattern and model-view separation, threading and asynchronous updates... L-3, T-1, P-3, A-1",
+                "Concurrency and network clients" : "Language facilities for concurrency (co-routines, fork/join),multiprocessing and pipelines, sockets... L-4, T-1, P-2, A-1",
+                "Code quality" : "Secure programming, assertions and unit tests, writing testable code, test and build automation, code modularity and reuse... L-3, T-0, P-3, A-1"
+            },
+            "references": {
+                "0" : "Mark Pilgrim, Dive into Python 3: http://www.diveinto.org/python3/",
+                "1" : "Software Carpentry Lessons: http://software-carpentry.org/v4/",
+                "2" : "Brad Miller and David Ranum, Problem Solving with Algorithms and Data Structures: http://interactivepython.org/runestone/static/pythonds/index.html"
+            },
+            "marks": {
+                "Practicals" : 30,
+                "Assignments" : 30,
+                "Mid-Exam" : 0,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0":"NULL"
+            }
+        },
+        "CO226" : {
+            "name" : "Database Systems",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO222",
+                "1" : "EM214"
+            },
+            "content" : "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
+            "objectives" : "",
+            "ILOs" : {
+                "Knowledge" : "",
+                "Skill" : "",
+                "Attitude" : ""
+            },
+            "allocation" : "Lectures - 31h , Tutorial classes - 4h, Practical classes - 12h, Assignments - 8h",
+            "modules": {
+                "Introduction to database systems" : "Information models and Systems, Database system evolution, File based systems, DBMS approach, Database environment and components, DBMS functions, DBMS architecture, Data independence, Database system life cycle",
+                "Data modelling" : "Importance of data modelling in system development; Levels of abstraction and practice; Conceptual models: ER/EER and UML; Logical models: Relational and OO Models, Relational mapping",
+                "RDBMS concepts" : "Relational algebra and relational calculus; Relational integrity, Normalization: 1NF, 2NF, 3NF and BCNF; Object oriented extensions",
+                "Database query languages" : "4GL environments; SQL: DDL, DML and DCL; Triggers; Views",
+                "Database programming techniques" : "Embedded SQL; Database programming with function/procedure calls: ODBC, JDBC; Stored procedures",
+                "Introduction to indexes and query optimization" : "Types of indexes: primary and secondary indexes, Query optimization: rule based and cost based approaches",
+                "Introduction to transaction processing" : "Transactions, ACID properties, Concurrency control, Serialization, Failure and recovery",
+                "Database Project" : ""
+            },
+            "references": {
+                "0" : "Ramez Elmasri and Shamkant B. Navathe, Fundamentals of Database Systems 7th Edition, 2016",
+                "1" : "Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems, 3rd Edition, McGrawHill, 2004"
+            },
+            "marks": {
+                "Practicals" : 20,
+                "Assignments" : 20,
+                "Mid-Exam" : 20,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0": {
+                    "name": "Dr. S. Deegalla",
+                    "title": "",
+                    "email": "sampath@eng.pdn.ac.lk",
+                    "teleOffice": "",
+                    "teleMobile": ""
+                },
+                "1": {
+                    "name": "Dr. Manjula Sandirigama",
+                    "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+                    "email": "m_sandirigama@ce.pdn.ac.lk",
+                    "teleOffice": "0812393473",
+                    "teleMobile": "0718385968"
+                 }
+            }
+        },
+        "EM212" : {
+            "name" : "Calculus II",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : "NULL",
+            "content" : "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
+            "objectives" : "",
+            "ILOs" : {
+                "Knowledge" : "",
+                "Skill" : "",
+                "Attitude" : ""
+            },
+            "allocation" : "Lectures - 36h , Tutorial classes - 9h, Practical classes - 0h, Assignments - 0h",
+            "modules": {
+                "Surfaces and Space curves in R3" : "",
+                "Special Lines and Planes" : "",
+                "Multiple Integrals & Coordinate Transformations" : "",
+                "Vector Fields" : "",
+                "Maxwells Equations" : ""
+                
+            },
+            "references": {
+                "0" : "NULL"
+            },
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 10,
+                "Mid-Exam" : 30,
+                "End-Exam" : 60
+            },
+            "lecturers":{
+                "0": {
+                    "name": "Dr. S. P. C. Perera",
+                    "title": "",
+                    "email": "pperera@pdn.ac.lk",
+                    "teleOffice": "",
+                    "teleMobile": ""
+                }
+            }
+        },
+        "EM215" : {
+            "name" : "Numerical Methods",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : "NULL",
+            "content" : "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
+            "objectives" : "",
+            "ILOs" : {
+                "Knowledge" : "",
+                "Skill" : "",
+                "Attitude" : ""
+            },
+            "allocation" : "Lectures - 31h , Tutorial classes - 4h, Practical classes - 0h, Assignments - 20h",
+            "modules": {
+                "Introduction to Numerical methods" : "Introduction, Taylor series, Error analysis, Round-off Errors, Truncation Errors",
+                "Solutions to nonlinear equations" : "Root finding methods, Bracketing methods:Graphical methods, Bisection method, Rate of convergence, Open methods:Fixed point iteration, Newton-Raphson method, Systems of nonlinear equations",
+                "Approximation and curve fitting" : "Least squares approximation, Fourier approximation"
+            },
+            "references": {
+                "0" : "Steven C. Chapra, Raymond P. Canale (2015). Numerical methods for engineers. 7th edition, McGraw-Hill publishers, New York."
+            },
+            "marks": {
+                "Practicals" : 0,
+                "Assignments" : 10,
+                "Mid-Exam" : 30,
+                "End-Exam" : 60
+            },
+            "lecturers": {
+                "0": {
+                   "name": "Dr. Janitha Gunatilake",
+                   "title": "MSc/PhD: Texas Tech University",
+                   "email": "janithag@pdn.ac.lk",
+                   "teleOffice": "0812393348",
+                   "teleMobile": ""
+                },
+                "1": {
+                   "name": "N. L. Jayatilake",
+                   "title": "BSc. Eng(1995)",
+                   "email": "namalj@pdn.ac.lk",
+                   "teleOffice": "0812393348",
+                   "teleMobile": ""
+                }
+            }
+        },
+        "EE285" : {
+            "name" : "Electronics I",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : "NULL",
+            "content" : "Diodes, Bipolar Junction Transistor, Amplifiers, Operational Amplifiers(OPAMP), OPAMP Applications, Junction Field Effect Transistors(JFET), Metal Oxide Semiconductor(MOS) Field Effect Transistors, Electronic Laboratory.",
+            "objectives" : "To introduce commonly used electronics components, their operations, characteristics and practical use for designing electronic circuits. At the end of this course students should be able to implement single stage amplifiers, use a BJT as a switch and explain the behavior of the circuit, select a suitable OP-Amp for a given application and implement OP-Amp circuits for common applications.",
+            "ILOs" : {
+                "Knowledge" : "Describe commonly used electronic components.\\nDescribe their operations and characteristics.\\nDescribe their applications.",
+                "Skill" : "Obtain characteristics of electronic components experimentally.\\nSelect suitable components to design a given electronic circuit.\\nDesign simple circuits using electronic components.",
+                "Attitude" : "At the end of the course, students should be able to appreciate the different types of electronic components and their applicability for building different types of electronic circuits"
+            },
+            "allocation" : "Lectures - 30h , Tutorial classes - 3h, Practical classes - 21h, Assignments - 3h",
+            "modules": {
+                "Diodes" : "Semiconductors, p-n junction, diodes, operation principle of diodes ideal & piece-wise linear modeling, diode circuits & applications... L-4, T-0, P-0, A-1",
+                "Bipolar Junction Transistor" : "Terminal Characteristics, Operational principles, as an amplifier and a switch, biasing circuits & amplifier configurations, dc/ac load line analysis, small signal analysis... L-6, T-1, P-0, A-1",
+                "Amplifiers" : "General Concepts, voltage gain, current/power gain input , resistance, and output resistance, multi-stage amplifiers, coupling techniques, frequency response... L-5, T-1, P-0, A-0",
+                "Operational Amplifiers(OPAMP)" : "The ideal Op-Amp, open-loop gain, input resistance, and output resistance. Characteristics of Real Op-Amps: open- loop transfer function, voltage gains, bandwidth, slew rate, power bandwidth, clipping, offset voltages and currents, rejection ratios... L-5, T-0, P-0, A-0",
+                "OPAMP Applications: Linear Applications" : "(Inverting and noninverting amplifiers. Differential and summing amplifiers. Integrators and differentiators.), Non-linear Applications ( precision rectifiers, peak detectors, Schmitt-trigger comparator and logarithmic amplifiers)... L-6, T-1, P-0, A-0",
+                "Junction Field Effect Transistors(JFET)" : "JFET Terminal Characteristics , Circuit Models, Applications: Amplifier Configurations, , DC/AC load line analysis... L-2, T-0, P-0, A-1",
+                "Metal Oxide Semiconductor(MOS) Field Effect Transistors" : "MOS Terminal Characteristics , Circuit Models, Applications: Amplifier Configurations, DC/AC load line analysis... L-2, T-0, P-0, A-0",
+                "Electronic Laboratory" : "... L-0, T-0, P-21, A-0"
+            },
+            "references": {
+                "0" : "Millman and Halkias, Integrated Electronics"
+            },
+            "marks": {
+                "Practicals" : 20,
+                "Assignments" : 10,
+                "Mid-Exam" : 20,
+                "End-Exam" : 50
+            },
+            "lecturers":{
+                "0": {
+                    "name": "Dr. K.R.M. Nimal Rathnayaka",
+                    "title": "",
+                    "email": "nimal@ee.pdn.ac.lk",
+                    "teleOffice": "",
+                    "teleMobile": ""
+                }
+            }
+        }
+    }
+}
