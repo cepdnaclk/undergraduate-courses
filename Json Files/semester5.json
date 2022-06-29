@@ -142,5 +142,53 @@
                 }
             }
         },
+        "CO324" : {
+            "name" : "Network and Web Application Design",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO223",
+                "1" : "CO225"
+            },
+            "content" : "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "26h",
+                "Tutorial Classes" : "4h",
+                "Practical Classes" : "16h",
+                "Assignments" : "14h"
+            }, 
+            "modules": {
+                "Review of Internet protocol stack" : "NULL",
+                "Network servers" : "NULL",
+                "Design of application protocols" : "NULL",
+                "I/O concurrency" : "NULL",
+                "Remote procedure calls" : "NULL",
+                "HTTP and HTML" : "NULL",
+                "Dynamic web content generation" : "NULL",
+                "Web frameworks" : "NULL",
+                "Browser scripting" : "NULL",
+                "Network application security" : "NULL",
+                "Deployment considerations" : "NULL"
+            },
+            "references": {
+                "0" : "ohn Goerzen and Brandon Rhodes, Foundations of Python Network Programming",
+                "1" : "Jan Newmarch, Network programming with Go (http://jan.newmarch.name/go/)"
+            },
+            "marks": {
+                "Practicals" : 30,
+                "Assignments" : 30,
+                "Mid-Exam" : 0,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        }
     }
 }
