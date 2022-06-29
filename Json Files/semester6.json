@@ -38,6 +38,43 @@
                 "0" : "NULL"
             }
         },
-        
+        "CO327" : {
+            "name" : "Operating Systems",
+            "credits" : 3,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO224",
+                "1" : "CO322"
+            },
+            "content" : "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
+            "objectives" : "NULL",
+            "ILOs" : {
+                "Knowledge" : "NULL",
+                "Skill" : "NULL",
+                "Attitude" : "NULL"
+            },
+            "allocation" : {
+                "Lectures" : "31h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "12h",
+                "Assignments" : "16h"
+            }, 
+            "modules": {
+               "0" : "NULL"
+            },
+            "references": {
+                "0" : "A. Tanenbaum, Modern Operating Systems",
+                "1" : "Vahalia, Unix Internals: The new frontiers"
+            },
+            "marks": {
+                "Practicals" : 15,
+                "Assignments" : 25,
+                "Mid-Exam" : 20,
+                "End-Exam" : 40
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        }
     }
 }
