@@ -1,5 +1,26 @@
-<footer class="mt-5">
-    <p>
-        <a class="text-decoration-none" href="#">Back to top</a>
-    </p>
-</footer>
+{%- comment -%}
+This is the footer used in every page
+{%- endcomment -%}
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        {%- comment -%}
+        copyright text
+        {%- endcomment -%}
+        <p class="col-md-6 mb-1 text-muted" style="font-size:100%;">&copy; COPYRIGHT {{site.time | date: "%Y" }} DEPARTMENT OF COMPUTER ENGINEERING, UOP<br>
+            {%- comment -%}
+            Last updated text
+            {%- endcomment -%}
+            Last Update : {{site.time | date: "%d/%m/%Y" }}
+        </p>
+        <p class="text-xl-left text-muted" style="font-size:100%;">
+
+            {%- comment -%}
+            Documentation link
+            {%- endcomment -%}
+            <a href="{{ '/documentation/' | relative_url }}">Documentation</a>
+
+        </p>
+    </footer>
+</div>
+
