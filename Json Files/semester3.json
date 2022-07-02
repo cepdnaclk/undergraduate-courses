@@ -20,14 +20,78 @@
                 "Assignments" : "14h"
             }, 
             "modules": {
-                "Introduction to digital logic" : "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits... L-1, T-0, P-0, A-0",
-                "Number systems and digital logic" : "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic... L-3, T-0, P-0, A-0",
-                "Combinational logic circuits" : "Boolean algebra, Boolean laws and theorems, Sum-of-products and Product-of-sums methods, Simplifications of Boolean expressions, Truth tables, Karnaugh Maps, Quine Mc-clusky method, Don’t care combinations, Elimination of timing Hazards... L-6, T-0, P-2, A-0",
-                "Modular design of combinational circuits" : "Introduction of Levels of Integration, Multiplexers, De-multiplexers, Encoders, Decoders, read only memory (ROM), programmable logic arrays... L-4, T-0, P-2, A-2",
-                "Sequential logic circuits and memory elements" : "SR flip flops, Gated, edge triggered and Master-slave operation, JK flip flop, D flip-flop, T flip-flop, Registers, Serial/Parallel conversion, CodesError detection and correction... L-6, T-0, P-4, A-2",
-                "Design of synchronous sequential circuits" : "Analysis of Synchronous circuits, Mealy-Moore Networks and Models, State diagrams and state tables State minimization, State assignment, Assignment Rules, Next state and output equation realization, Design of Counters, ROM utilization for Sequential circuits... L-5, T-0, P-4, A-4",
-                "Analysis and design of asynchronous sequential circuits" : "Analysis of Asynchronous circuits, Design Procedure, Flow tables, Reduction of state and flow tables, Race free State assignment, Hazards in asynchronous circuits... L-5, T-0, P-4, A-0",
-                "Digital circuit design and implementation" : "Solving a relatively complex problem via self-study and consolidating the knowledge acquired... L-0, T-0, P-0, A-6"
+                "Introduction to digital logic" : {
+                    "Description" : "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits",
+                    "Allocation" : {
+                        "L" : "1h",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Number systems and digital logic" : {
+                    "Description" : "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic",
+                    "Allocation" : {
+                        "L" : "3h",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Combinational logic circuits" : {
+                    "Description" : "Boolean algebra, Boolean laws and theorems, Sum-of-products and Product-of-sums methods, Simplifications of Boolean expressions, Truth tables, Karnaugh Maps, Quine Mc-clusky method, Don’t care combinations, Elimination of timing Hazards",
+                    "Allocation" : {
+                        "L" : "6h",
+                        "T" : "NULL",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                },
+                "Modular design of combinational circuits" : {
+                    "Description" : "Introduction of Levels of Integration, Multiplexers, De-multiplexers, Encoders, Decoders, read only memory (ROM), programmable logic arrays",
+                    "Allocation" : {
+                        "L" : "4h",
+                        "T" : "NULL",
+                        "P" : "2h",
+                        "A" : "2h"
+                    }
+                },
+                "Sequential logic circuits and memory elements" : {
+                    "Description" : "SR flip flops, Gated, edge triggered and Master-slave operation, JK flip flop, D flip-flop, T flip-flop, Registers, Serial/Parallel conversion, CodesError detection and correction",
+                    "Allocation" : {
+                        "L" : "6h",
+                        "T" : "NULL",
+                        "P" : "4h",
+                        "A" : "2h"
+                    }
+                },
+                "Design of synchronous sequential circuits" : {
+                    "Description" : "Analysis of Synchronous circuits, Mealy-Moore Networks and Models, State diagrams and state tables State minimization, State assignment, Assignment Rules, Next state and output equation realization, Design of Counters, ROM utilization for Sequential circuits",
+                    "Allocation" : {
+                        "L" : "5h",
+                        "T" : "NULL",
+                        "P" : "4h",
+                        "A" : "4h"
+                    }
+                },
+                "Analysis and design of asynchronous sequential circuits" : {
+                    "Description" : "Analysis of Asynchronous circuits, Design Procedure, Flow tables, Reduction of state and flow tables, Race free State assignment, Hazards in asynchronous circuits",
+                    "Allocation" : {
+                        "L" : "5h",
+                        "T" : "NULL",
+                        "P" : "4h",
+                        "A" : "NULL"
+                    }
+                },
+                "Digital circuit design and implementation" : {
+                    "Description" : "Solving a relatively complex problem via self-study and consolidating the knowledge acquired",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "6h"
+                    }
+                } 
             },
             "references": {
                 "0" : "Morris Mano, Digital Design, 3rd Edition",
@@ -62,16 +126,96 @@
                 "Assignments" : "12h"
             },
             "modules": {
-                "Problem solving" : "From problem statements to algorithms to programs... L-2, T-1, P-0, A-0",
-                "Storing and naming data and operators" : "Variables, data types, operators and expressions... L-3, T-0, P-0, A-0",
-                "Control flow" : "Simple and nested conditions and iterations... L-2, T-1, P-2, A-0",
-                "Using standard library functions" : "Basic input/output functions... L-2, T-1, P-2, A-0",
-                "Structured programming" : "Defining functions, parameter passing by value... L-2, T-0, P-2, A-0",
-                "Static allocation" : "Arrays (single and multidimensional), strings, and structures (records)... L-3, T-1, P-0, A-4",
-                "References (pointers)" : "Dynamic allocation and type casts... L-2, T-1, P-2, A-6\\nLinked structures, box and pointer diagrams... L-1, T-1, P-0, A-0",
-                "Memory layout" : "Stack and heap... L-2, T-1, P-0, A-0\\nError checking, assertions and testing... L-1, T-1, P-2, A-2",
-                "Language tool-chains" : "Compilation, linking and loading... L-3, T-0, P-2, A-0",
-                "Support tools" : "debuggers, commonly used static-code checkers... L-1, T-0, P-2, A-0"
+                "Problem solving" : {
+                    "Description" : "From problem statements to algorithms to programs",
+                    "Allocation" : {
+                        "L" : "2h",
+                        "T" : "1h",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Storing and naming data and operators" : {
+                    "Description" : "Variables, data types, operators and expressions",
+                    "Allocation" : {
+                        "L" : "3h",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Control flow" : {
+                    "Description" : "Simple and nested conditions and iterations",
+                    "Allocation" : {
+                        "L" : "2h",
+                        "T" : "1h",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                },
+                "Using standard library functions" : {
+                    "Description" : "Basic input/output functions",
+                    "Allocation" : {
+                        "L" : "2h",
+                        "T" : "1h",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                },
+                "Structured programming" : {
+                    "Description" : "Defining functions, parameter passing by value",
+                    "Allocation" : {
+                        "L" : "2h",
+                        "T" : "NULL",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                },
+                "Static allocation" : {
+                    "Description" : "Arrays (single and multidimensional), strings, and structures (records)",
+                    "Allocation" : {
+                        "L" : "3h",
+                        "T" : "1h",
+                        "P" : "NULL",
+                        "A" : "4h"
+                    }
+                },
+                "References (pointers)" : {
+                    "Description" : "Dynamic allocation and type casts\\nLinked structures, box and pointer diagrams",
+                    "Allocation" : {
+                        "L" : "2h\\n1h",
+                        "T" : "1h\\n1h",
+                        "P" : "2h\\nNULL",
+                        "A" : "6h\\nNULL"
+                    }
+                },
+                "Memory layout" : {
+                    "Description" : "Stack and heap\\nError checking, assertions and testing",
+                    "Allocation" : {
+                        "L" : "2h\\n1h",
+                        "T" : "1h\\n1h",
+                        "P" : "NULL\\n2h",
+                        "A" : "NULL\\n2h"
+                    }
+                },
+                "Language tool-chains" : {
+                    "Description" : "Compilation, linking and loading",
+                    "Allocation" : {
+                        "L" : "3h",
+                        "T" : "NULL",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                },
+                "Support tools" : {
+                    "Description" : "debuggers, commonly used static-code checkers",
+                    "Allocation" : {
+                        "L" : "1h",
+                        "T" : "NULL",
+                        "P" : "2h",
+                        "A" : "NULL"
+                    }
+                }
             },
             "references": {
                 "0" : "J.D. Ulman, Foundations of Computer Science C edition"
@@ -185,12 +329,12 @@
                 "Assignments" : "4h"
             }, 
             "modules": {
-                "Random variables" : "",
-                "Discrete probability distributions" : "",
-                "Continuous random variables and probability distributions" : "",
-                "Sampling distributions" : "",
-                "Inferences on mean and variance" : "",
-                "Hypothesis Testing" : ""
+                "Random variables" : "NULL",
+                "Discrete probability distributions" : "NULL",
+                "Continuous random variables and probability distributions" : "NULL",
+                "Sampling distributions" : "NULL",
+                "Inferences on mean and variance" : "NULL",
+                "Hypothesis Testing" : "NULL"
             },
             "references": {
                 "0" : "D.C. Montgomery and G.C. Runger (2007). Applied Statistics and Probability for Engineers. 4th Edition (or any later edition), John Wiley and Sons, Inc",
@@ -225,13 +369,13 @@
                 "Assignments" : "NULL"
             }, 
             "modules": {
-                "Logic and Proof": "",
-                "Number Theory": "",
-                "Group Theory": "",
-                "Growth of Functions": "",
-                "Graph Theory": "",
-                "Algorithms": "",
-                "Computing Machines": ""
+                "Logic and Proof": "NULL",
+                "Number Theory": "NULL",
+                "Group Theory": "NULL",
+                "Growth of Functions": "NULL",
+                "Graph Theory": "NULL",
+                "Algorithms": "NULL",
+                "Computing Machines": "NULL"
             },
             "references": {
                 "0" : "Kenneth H. Rosen, Discrete Mathematics & It's Applications seventh edition"
@@ -278,12 +422,60 @@
                 "Assignments" : "NULL"
             }, 
             "modules": {
-                "Review of DC Circuits" : "Notations and conventions; Ohm's law, Kirchhoff's voltage law and current law, Nodal and mesh analysis; Source transformation, Circuits with dependent sources.",
-                "First-order Circuits" : "Voltage-current relationships for inductor and capacitor, RL and RC circuits; Time domain solution to first-order differential equation, Time constant, Forced and natural responses",
-                "Second-order Circuits" : "Second-order differential equation and solution; nodal and mesh analysis of second order and higher order circuits, Evaluation of initial conditions, Forced response and natural response, Under-damped, critically damped and over-damped second order circuits, Analysis of higher order circuits",
-                "Sinusoidal Steady State Analysis" : "Average value and r.m.s. value of a.c. waveforms, Review of complex numbers; Phasor representation of sinusoidal waveforms, Impedance and admittance, Series and parallel combination of impedances, Nodal and mesh analysis, Mutually-coupled circuits, Power in a.c. circuits, Maximum power transfer theorem, Series and parallel resonance",
-                "Laplace Transform and network analysis" : "Laplace transform, Properties of Laplace transform, Application to network analysis, Initial value theorem, Final value theorem, Transform of step, ramp, impulse and other waveforms, Transform circuits, Network functions, T-, Phi-, Bridged-T, paralleled T, and ladder networks, Poles and zeros, stability of networks",
-                "Two-Port Networks" : "z-,y-, hybrid and transmission parameters; T-,π -, and hybrid equivalent circuits; Relationship between sets of parameters, Parallel and series connection of two-port networks"
+                "Review of DC Circuits" : {
+                    "Description" : "Notations and conventions; Ohm's law, Kirchhoff's voltage law and current law, Nodal and mesh analysis; Source transformation, Circuits with dependent sources.",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "First-order Circuits" : {
+                    "Description" : "Voltage-current relationships for inductor and capacitor, RL and RC circuits; Time domain solution to first-order differential equation, Time constant, Forced and natural responses",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Second-order Circuits" : {
+                    "Description" : "Second-order differential equation and solution; nodal and mesh analysis of second order and higher order circuits, Evaluation of initial conditions, Forced response and natural response, Under-damped, critically damped and over-damped second order circuits, Analysis of higher order circuits",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Sinusoidal Steady State Analysis" : {
+                    "Description" : "Average value and r.m.s. value of a.c. waveforms, Review of complex numbers; Phasor representation of sinusoidal waveforms, Impedance and admittance, Series and parallel combination of impedances, Nodal and mesh analysis, Mutually-coupled circuits, Power in a.c. circuits, Maximum power transfer theorem, Series and parallel resonance",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Laplace Transform and network analysis" : {
+                    "Description" : "Laplace transform, Properties of Laplace transform, Application to network analysis, Initial value theorem, Final value theorem, Transform of step, ramp, impulse and other waveforms, Transform circuits, Network functions, T-, Phi-, Bridged-T, paralleled T, and ladder networks, Poles and zeros, stability of networks",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                },
+                "Two-Port Networks" : {
+                    "Description" : "z-,y-, hybrid and transmission parameters; T-,π -, and hybrid equivalent circuits; Relationship between sets of parameters, Parallel and series connection of two-port networks",
+                    "Allocation" : {
+                        "L" : "NULL",
+                        "T" : "NULL",
+                        "P" : "NULL",
+                        "A" : "NULL"
+                    }
+                } 
             },
             "references": {
                 "0" : "Network Analysis 3rd Edition, M.E. Van Valkenburg, Prentice Hall",
