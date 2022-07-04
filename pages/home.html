@@ -57,7 +57,8 @@ title: Undergraduate Courses
 					<h6>Course Content:</h6> 
 					<div>{{ course.content }}</div>	<br>
 					<div>({{ course.other }})</div> <br>
-					<a href="{{ course.url }}">More details</a> 
+					<a href="{{ course.url| relative_url }}">More details</a> 
+
 					<h6>&nbsp;</h6> <hr> 
 				{%- endfor -%}
 			</div>
