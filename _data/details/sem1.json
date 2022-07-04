@@ -1,0 +1,16 @@
+[
+    {
+        "code": "gp101",
+        "title": "GP101 English I (3 credits)",
+        "content": "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
+        "other": "Lectures - 20h, Assignments - 50h",
+        "url": "/courses/semester1/gp101/"
+    },
+    {
+        "code": "gp103",
+        "title": "GP103 Mathematics I (3 credits)",
+        "content": "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
+        "other": "Lectures - 36h, Assignments - 18h",
+        "url": "/courses/semester3/co222/"
+    }
+]
