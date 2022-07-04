@@ -39,8 +39,20 @@ title: Undergraduate Courses
 			<div class="tab-pane fade show active" id="v-pills-semester1" role="tabpanel" aria-labelledby="v-pills-semester1-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester1">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem1 }}
+						<div class="ctu-content-span">
+							<h4><strong>Semester 1 Courses</strong></h4>
+							<h6>All Engineering students follow the same first semester. These courses are credited towards their general programme (first year).</h6> <h6>&nbsp;</h6>
+							
+							{% for course in site.data.details.sem1 %}
+								<h5>{{ course.title }}</h5> 
+								<h6>Course Content:</h6> 
+								<div>{{ course.content }}</div>	<br>
+								<div>({{ course.other }})</div> <br>
+								<a href="{{ course.url }}">More details</a> 
+								<h6>&nbsp;</h6> <hr> 
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -48,8 +60,13 @@ title: Undergraduate Courses
 			<div class="tab-pane fade" id="v-pills-semester2" role="tabpanel" aria-labelledby="v-pills-semester2-tab">		
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester2">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem2 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem2 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -57,8 +74,20 @@ title: Undergraduate Courses
 			<div class="tab-pane fade" id="v-pills-semester3" role="tabpanel" aria-labelledby="v-pills-semester3-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester3">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem3 }}
+						<div class="ctu-content-span">
+							<h4><strong>Semester 3 Courses</strong></h4>
+							<h6>The following compulsory courses are offered to Computer Engineering students in their 3rd semester.</h6> <h6>&nbsp;</h6>
+							
+							{% for course in site.data.details.sem3 %}
+								<h5>{{ course.title }}</h5> 
+								<h6>Course Content:</h6> 
+								<div>{{ course.content }}</div>	<br>
+								<div>({{ course.other }})</div> <br>
+								<a href="{{ course.url }}">More details</a> 
+								<h6>&nbsp;</h6> <hr> 							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -66,8 +95,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-semester4" role="tabpanel" aria-labelledby="v-pills-semester4-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester4">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem4 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem4 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -76,8 +110,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-semester5" role="tabpanel" aria-labelledby="v-pills-semester5-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester5">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem5 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem5 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -86,8 +125,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-semester6" role="tabpanel" aria-labelledby="v-pills-semester6-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester6">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem6 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem6 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -96,8 +140,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-semester7" role="tabpanel" aria-labelledby="v-pills-semester7-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester7">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem7 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem7 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -106,8 +155,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-semester8" role="tabpanel" aria-labelledby="v-pills-semester8-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-semester8">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.sem8 }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.sem8 %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -116,8 +170,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-technical" role="tabpanel" aria-labelledby="v-pills-technical-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-technical">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.technical }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.technical %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
@@ -126,8 +185,13 @@ title: Undergraduate Courses
 		    <div class="tab-pane fade" id="v-pills-general" role="tabpanel" aria-labelledby="v-pills-general-tab">
 				<div class="ctu-ultimate-style-1-content "> 
 					<div class="ctu-ulitate-style-1-tabs  active" id="ctu-ulitate-style-1-id-general">
-						<div class="ctu-content-span"></div>
-						{{ site.pages.semesters.general }}
+						<div class="ctu-content-span">
+
+							{% for course in site.data.details.general %}
+							
+							{% endfor %}
+
+						</div>
 					</div> 
 				</div>
 			</div>
