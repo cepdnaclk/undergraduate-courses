@@ -41,5 +41,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add --all
-          git commit -m "Profiles were updated with the details from Google Form" || echo "No changes"
+          git commit -m "Course details were updated using Google Form" || echo "No changes"
           git push
