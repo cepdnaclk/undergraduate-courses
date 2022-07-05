@@ -1,9 +1,44 @@
 [
     {
-        "code": "co222",
-        "title": "CO222 Programming Methodology (3 credits)",
-        "content": "Course Content: TODO",
-        "other": "Lecture Hours and Assignment Count: TODO",
+        "code": "co221",
+        "title": "CO221 : Digital Design (3 credits)",
+        "content": "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation",
+        "other": "Lectures - 30h ,  Practical classes - 16h,  Assignments - 14h",
         "url": "/courses/semester3/co222/"
-    }
+    },
+    {
+        "code": "co222",
+        "title": "CO222 : Programming Methodology (3 credits)",
+        "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools.",
+        "other": "Lectures - 24h , Tutorial classes - 8h,  Practical classes - 14h,  Assignments - 12h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co223",
+        "title": "CO223 : Computer Communication Networks I (3 credits)",
+        "content": "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks.",
+        "other": "Lectures - 30h,  Tutorial classes - 2h,  Practical classes - 22h,  Assignments - 4h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "em201",
+        "title": "EM201: Mathematics III (3 credits)",
+        "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
+        "other": "Lectures - 36h ,  Tutorial classes - 9h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "em313",
+        "title": "EM313: Discrete Mathematics (3 credits)",
+        "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
+        "other": "Lectures - 36h , Tutorial Classes - 9h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "ee282",
+        "title": "EE282: Network Analysis for Computer Engineering (3 credits)",
+        "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks",
+        "other": "Lectures -  45h",
+        "url": "/courses/semester3/co222/"
+    }	
 ]

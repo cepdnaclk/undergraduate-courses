@@ -1,0 +1,44 @@
+[
+    {
+        "code": "co224",
+        "title": "CO224 Computer Architecture (3 credits)",
+        "content": "Overview, Fundamentals of computer architecture, Computer arithmetic, CPU organization, Pipelining, Memory hierarchies, Interfacing and communication, Performance issues, Multiprocessors.",
+        "other": "Lectures - 29h , Tutorial classes - 4h,  Practical classes - 14h,  Assignments - 10h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co225",
+        "title": "CO225 Software Construction (3 credits)",
+        "content": "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
+        "other": "Lectures - 25h,  Tutorial classes - 6h,  Practical classes - 20h,   Assignments - 8h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co226",
+        "title": "CO226 Database Systems (3 credits)",
+        "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project.",
+        "other": "Lectures - 31h, Tutorial classes - 4h, Practical classes - 12h,  Assignments - 8h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "em202",
+        "title": "EM202 Mathematics IV (3 credits)",
+        "content": "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
+        "other": "Lectures - 36h, Tutorial classes - 9h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "em314",
+        "title": "EM314 Numerical Methods (3 credits)",
+        "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
+        "other": "Lectures - 31h, Tutorial classes - 4h,  Assignments - 20h",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "ee285",
+        "title": "EE285 Electronics I (3 credits)",
+        "content": "Diodes, Bipolar Junction Transistor, Amplifiers, Operational Amplifiers(OPAMP), OPAMP Applications, Junction Field Effect Transistors(JFET), Metal Oxide Semiconductor(MOS) Field Effect Transistors, Electronic Laboratory.",
+        "other": "Lectures - 30h, Tutorial classes - 3h, Practical classes - 21h,  Assignments - 3h",
+        "url": "/courses/semester3/co222/"
+    }	
+]
