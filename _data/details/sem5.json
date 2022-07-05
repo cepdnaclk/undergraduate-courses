@@ -1,0 +1,44 @@
+[
+    {
+        "code": "co321",
+        "title": "Embedded Systems (3 credits)",
+        "content": "Introduction to microcontrollers, Memory organization of microcontrollers, Programming of flash microcontrollers, I/O port configuration and programming interfaces, A/D converters and applications, Timer systems of microcontrollers, Applications of non-volatile memory, Industrial Applications, Student Project.",
+        "other": "L31, P20, A8 =45",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co322",
+        "title": "Data Structures and Algorithms (3 credits)",
+        "content": "",
+        "other": "",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co323",
+        "title": "Computer Communication Networks II (3 credits)",
+        "content": "",
+        "other": "",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co324",
+        "title": "CO324 Network and Web Application Design (3 credits)",
+        "content": "",
+        "other": "",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "co325",
+        "title": "CO325 Computer and Network Security (3 credits)",
+        "content": "",
+        "other": "",
+        "url": "/courses/semester3/co222/"
+    },
+    {
+        "code": "ee386",
+        "title": "EE386 Electronics II (3 credits)",
+        "content": "",
+        "other": "",
+        "url": "/courses/semester3/co222/"
+    }	
+]
