@@ -6,7 +6,7 @@ import json # to get data from _data/courses/semester#.json
 
 if __name__ == "__main__":
 
-    print("Extracting data in _data/courses/semester#.json files to seperate jekyll frontmatters...")
+    print("Extracting data in _data/courses/semester#.json files to create jekyll frontmatters...")
 
     # select student from json file
     # jsonPath = f"../_data/courses/semester1.json"
