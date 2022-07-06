@@ -4,13 +4,13 @@
         "name" : "English 1",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
         "objectives" : "NULL",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "20h",
@@ -39,13 +39,13 @@
         "name" : "Materials Science",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Introduction to the structure and properties of engineering materials, Principles underlying structure-property relationships, Phase equilibrium, Structure and properties of cement and timber, Properties and applications of polymers, ceramics and glasses, Properties and applications of composites, Mechanical testing of engineering materials, Laboratory testing practices",
         "objectives" : "Introduce the structure and properties of Engineering Materials, Relate Material properties to atomic, molecular and microstructural features.",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "38h",
@@ -74,13 +74,13 @@
         "name" : "Engineering Mechanics",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Force systems, Analysis of simple structures, Work and energy methods, Inertial properties of plane and three-dimensional objects, Fluid pressure, Fluid statics, Particle kinematics, Planar rigid body kinematics, Particle kinetics, Planar rigid body kinetics, Laboratory work",
         "objectives" : "To introduce the state of rest or motion of bodies that are subjected to the action of forces. Emphasis will be on applications to Engineering Designs.",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "28h",
@@ -110,13 +110,13 @@
         "name" : "Engineering Measurements",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Units and standards, Approximation errors and calibration, Measurement of physical parameters, Measurement project, Presentation of engineering information, Surveying",
         "objectives" : "The objective of the course is to enable students to understand different aspects of instrumentation and to learn procedures to solve engineering problems through measurement and experimentation.",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "25h",
@@ -145,13 +145,13 @@
         "name" : "Engineering Drawing",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other: speed tests",
         "objectives" : "NULL",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "18h",
@@ -180,13 +180,13 @@
         "name" : "Calculas I",
         "credits" : 3,
         "core/elective" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
         "objectives" : "NULL",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
-            "Attidute" : "NULL"
+            "Attitude" : "NULL"
         },
         "allocation" : {
             "Lectures" : "36h",
