@@ -1,7 +1,6 @@
 # Author: E/18/227 Dinuka Mudalige - e18227@eng.pdn.ac.lk
 
-from ast import For
-import os
+# import os
 import json # to get data from _data/semester#.json
 # import requests
 
@@ -10,8 +9,10 @@ if __name__ == "__main__":
     print("Extracting data in _data/courses/semester#.json files to seperate jekyll frontmatters...")
 
     # select student from json file
-    jsonPath = f"../_data/courses/semester1.json"
-    dataInJSON = json.load(open(jsonPath))
+    # jsonPath = f"../_data/courses/semester1.json"
+    # dataInJSON = json.load(open(jsonPath))
+    dataInJSON = json.load(open("_data/courses/semester1.json"))
+    
     for thisCourse in dataInJSON:
         print(thisCourse)
         
