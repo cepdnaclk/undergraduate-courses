@@ -37,7 +37,7 @@ if __name__ == "__main__":
             print(f"Splitted csv is longer/shorter than it should be! {len(courseData)}")
             quit()
 
-        if ":" not in studentData[0]:
+        if ":" not in courseData[0]:
             # if there is no timestamp in this line or this is the header line
             continue         
 
@@ -56,21 +56,24 @@ if __name__ == "__main__":
         #         courseData[i] = "EMPTY"
 
         outputString = f"""---
-layout: courses
-permalink: "/courses/{semester}/{course_code.lower()}/"
-title: {courseData[COURSE_NAME]}
-
-course_number : {course_code.upper()} 
-course_title : {courseData[COURSE_NAME]}
-credits : {}
-core_elective : {} 
-prerequisites : {}
-aims_objectives : {}
-ilos_knowledge : {}
-ilos_skill : {}
-ilos_attitude : {}
-textbooks_references : {}
 ---"""
+
+#         outputString = f"""---
+# layout: courses
+# permalink: "/courses/{semester}/{course_code.lower()}/"
+# title: {courseData[COURSE_NAME]}
+
+# course_number : {course_code.upper()} 
+# course_title : {courseData[COURSE_NAME]}
+# credits : {}
+# core_elective : {} 
+# prerequisites : {}
+# aims_objectives : {}
+# ilos_knowledge : {}
+# ilos_skill : {}
+# ilos_attitude : {}
+# textbooks_references : {}
+# ---"""
 
         # write to html file
         file_url = "../"+f"pages/courses/{semester}/{course_code.lower()}.html"
@@ -80,4 +83,3 @@ textbooks_references : {}
         htmlFile.close()
 
         print("-------------")
-
