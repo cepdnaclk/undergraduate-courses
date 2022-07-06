@@ -14,8 +14,8 @@
         },
         "allocation" : {
             "Lectures" : "20h",
-            "Tutorial Classes" : "NULL",
-            "Practical Classes" : "NULL",
+            "Tutorial-Classes" : "NULL",
+            "Practical-Classes" : "NULL",
             "Assignments" : "50h"
         },
         "modules": [
@@ -49,8 +49,8 @@
         },
         "allocation" : {
             "Lectures" : "38h",
-            "Tutorial Classes" : "1h",
-            "Practical Classes" : "12h",
+            "Tutorial-Classes" : "1h",
+            "Practical-Classes" : "12h",
             "Assignments" : "NULL"
         },
         "modules": [
@@ -84,8 +84,8 @@
         },
         "allocation" : {
             "Lectures" : "28h",
-            "Tutorial Classes" : "11h",
-            "Practical Classes" : "12h",
+            "Tutorial-Classes" : "11h",
+            "Practical-Classes" : "12h",
             "Assignments" : "NULL"
         }, 
         "modules": [
@@ -120,8 +120,8 @@
         },
         "allocation" : {
             "Lectures" : "25h",
-            "Tutorial Classes" : "4h",
-            "Practical Classes" : "12h",
+            "Tutorial-Classes" : "4h",
+            "Practical-Classes" : "12h",
             "Assignments" : "20h"
         },
         "modules":[
@@ -155,8 +155,8 @@
         },
         "allocation" : {
             "Lectures" : "18h",
-            "Tutorial Classes" : "NULL",
-            "Practical Classes" : "45h",
+            "Tutorial-Classes" : "NULL",
+            "Practical-Classes" : "45h",
             "Assignments" : "9h"
         },
         "modules": [
@@ -190,8 +190,8 @@
         },
         "allocation" : {
             "Lectures" : "36h",
-            "Tutorial Classes" : "NULL",
-            "Practical Classes" : "NULL",
+            "Tutorial-Classes" : "NULL",
+            "Practical-Classes" : "NULL",
             "Assignments" : "18h"
         },
         "modules": [
