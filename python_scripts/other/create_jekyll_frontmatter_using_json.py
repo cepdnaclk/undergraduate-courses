@@ -11,7 +11,7 @@ if __name__ == "__main__":
     # select student from json file
     # jsonPath = f"../_data/courses/semester1.json"
     # dataInJSON = json.load(open(jsonPath))
-    dataInJSON = json.load(open("_data/courses/semester1.json"))
+    dataInJSON = json.load(open("_data/courses/semester2.json"))
 
     for thisCourse in dataInJSON:
         # print(thisCourse)
@@ -27,7 +27,7 @@ if __name__ == "__main__":
         
         outputString = f"""---
 layout: courses
-permalink: "/courses/semester1/{thisCourse["code"].lower()}/"
+permalink: "/courses/semester2/{thisCourse["code"].lower()}/"
 title: {thisCourse["name"]}
 
 course_number : {thisCourse["code"].upper()} 
@@ -44,7 +44,7 @@ textbooks_references : {thisCourse["references"]}
 
         # write to html file (jekyll frontmatter)
         # file_url = "../"+f"pages/courses/semester1/{course_code.lower()}.html"
-        file_url = f"pages/courses/semester1/{course_code.lower()}.html"
+        file_url = f"pages/courses/semester2/{course_code.lower()}.html"
         os.makedirs(os.path.dirname(file_url), exist_ok=True)
         htmlFile = open(file_url, "w")
         htmlFile.write(outputString)
