@@ -1,7 +1,7 @@
 [   
     {
         "code": "gp101",
-        "name" : "English 1",
+        "name" : "English I",
         "credits" : 3,
         "core/elective" : "Core",
         "prerequisites" : "NULL",
@@ -25,10 +25,10 @@
             "NULL"
         ],
         "marks": {
-            "Practicals" : 0,
-            "Assignments" : 0,
-            "Mid-Exam" : 0,
-            "End-Exam" : 0
+            "Practicals" : "NULL",
+            "Assignments" : "NULL",
+            "Mid-Exam" : "NULL",
+            "End-Exam" : "NULL"
         },
         "lecturers": [
             "NULL"
@@ -166,10 +166,10 @@
             "NULL"
         ],
         "marks": {
-            "Practicals" : 0,
-            "Assignments" : 0,
-            "Mid-Exam" : 0,
-            "End-Exam" : 0
+            "Practicals" : "NULL",
+            "Assignments" : "NULL",
+            "Mid-Exam" : "NULL",
+            "End-Exam" : "NULL"
         },
         "lecturers":[
             "NULL"
@@ -201,10 +201,10 @@
             "NULL"
         ],
         "marks": {
-            "Practicals" : 0,
-            "Assignments" : 0,
-            "Mid-Exam" : 0,
-            "End-Exam" : 0
+            "Practicals" : "NULL",
+            "Assignments" : "NULL",
+            "Mid-Exam" : "NULL",
+            "End-Exam" : "NULL"
         },
         "lecturers": [
             "NULL"
