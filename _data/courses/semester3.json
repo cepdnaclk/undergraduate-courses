@@ -4,7 +4,7 @@
         "name" : "Digital Design",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
         "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation: its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
         "ILOs" : {
@@ -119,7 +119,7 @@
         "name" : "Programming Methodology",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "objectives" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "ILOs" : {
@@ -253,7 +253,7 @@
         "name" : "Computer Communication Networks 1",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
         "objectives" : "NULL",
         "ILOs" : {
@@ -294,7 +294,7 @@
         "name" : "Ordinary Differencial Equations",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
         "objectives" : "NULL",
         "ILOs" : {
@@ -335,7 +335,7 @@
         "name" : "Probability & Statistics",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "NULL",
         "objectives" : "To introduce basic concepts of probability and statistics and their use in applications",
         "ILOs" : {
@@ -376,7 +376,7 @@
         "name" : "Discrete Mathematics",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
         "objectives" : "NULL",
         "ILOs" : {
@@ -430,7 +430,7 @@
         "name" : "Network Analysis for Computer Engineering",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks.",
         "objectives" : "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.",
         "ILOs" : {
