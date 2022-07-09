@@ -85,67 +85,21 @@
       }
     },
     "definitions" : {
-      "BatchList" : {
+      "Course" : {
         "type" : "object",
         "properties" : {
-          "batch" : {
+          "code" : {
             "type" : "string",
-            "pattern" : "^E\\d{2}$",
-            "description" : "Batch ID, 'E' Should be capital"
+            "pattern" : "^[a-z]{2}d{3}$",
+            "description" : "Course Code"
           },
-          "url" : {
-            "type" : "string",
-            "format" : "uri",
-            "description" : "The URI of the API to get the list of students belong to that batch"
-          },
-          "count" : {
-            "type" : "number",
-            "minimum" : 0,
-            "description" : "The number of students in that batch"
-          }
-        },
-        "example" : {
-          "E15" : {
-            "batch" : "E15",
-            "url" : "https://api.ce.pdn.ac.lk/people/v1/students/E15/",
-            "count" : 60
-          },
-          "E14" : {
-            "batch" : "E14",
-            "url" : "https://api.ce.pdn.ac.lk/people/v1/students/E14/",
-            "count" : 62
-          }
-        }
-      },
-      "Email" : {
-        "type" : "object",
-        "description" : "Email address, in format name@domain",
-        "properties" : {
           "name" : {
-            "type" : "string"
-          },
-          "domain" : {
-            "type" : "string"
-          }
-        }
-      },
-      "Student" : {
-        "type" : "object",
-        "properties" : {
-          "eNumber" : {
             "type" : "string",
-            "pattern" : "^E/\\d{2}/\\d{3}$",
-            "description" : "E Number of the student"
+            "description" : "Course Name"
           },
-          "batch" : {
-            "type" : "string",
-            "pattern" : "^E\\d{2}$",
-            "description" : "The prefix of the batch, 'E' Should be capital"
-          },
-          "honorific" : {
-            "type" : "string",
-            "enum" : [ "Mr.", "Ms.", "Mrs." ],
-            "description" : "Title"
+          "credits" : {
+            "type" : "integer",
+            "description" : "Credits"
           },
           "full_name" : {
             "type" : "string"
