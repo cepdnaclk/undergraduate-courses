@@ -4,13 +4,13 @@
         "name" : "Digital Design",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
         "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation: its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
         "ILOs" : {
-            "Knowledge" : "Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.\\nAnalyse static and dynamic behaviour of digital circuits.",
-            "Skill" : "Draw up the formal requirement specification starting from an informal requirement.\\nDesign and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.\\nDemonstrate the conformance of a design to its specifications including temporal behaviour.",
-            "Attitude" : "The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.\\nDiscourage trial and error implementation of the circuits."
+            "Knowledge" : ["Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.", "Analyse static and dynamic behaviour of digital circuits."],
+            "Skill" : ["Draw up the formal requirement specification starting from an informal requirement.", "Design and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.", "Demonstrate the conformance of a design to its specifications including temporal behaviour."],
+            "Attitude" : ["The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.", "Discourage trial and error implementation of the circuits."]
         },
         "allocation" : {
             "Lectures" : "30h",
@@ -104,7 +104,7 @@
             "Morris Mano, Digital Design, 3rd Edition",
             "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
         ],
-            "marks": {
+        "marks": {
             "Practicals" : 30,
             "Assignments" : 10,
             "Mid-Exam" : 20,
@@ -119,13 +119,13 @@
         "name" : "Programming Methodology",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "objectives" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "ILOs" : {
-            "Knowledge" : "Convert a simple well defined problem into a correct computer program using a typical Clike programming language.\\nUnderstand the logic of a simple piece of code and reason about it",
-            "Skill" : "Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).\\nVisualise program control flow and memory structures.\\nUse assertions and debugging to understand and debug programs",
-            "Attitude" : "Inculcate a disciplined attitude towards programming in the small.\\nDiscourage trial-and-error programming"
+            "Knowledge" : ["Convert a simple well defined problem into a correct computer program using a typical Clike programming language.", "Understand the logic of a simple piece of code and reason about it"],
+            "Skill" : ["Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).", "Visualise program control flow and memory structures.", "Use assertions and debugging to understand and debug programs"],
+            "Attitude" : ["Inculcate a disciplined attitude towards programming in the small.", "Discourage trial-and-error programming"]
         },
         "allocation" : {
             "Lectures" : "24h",
@@ -196,22 +196,22 @@
             },
             {
                 "topic": "References (pointers)",
-                "description" : "Dynamic allocation and type casts\\nLinked structures, box and pointer diagrams",
+                "description" : ["Dynamic allocation and type casts", "Linked structures, box and pointer diagrams"],
                 "allocation" : {
-                    "L" : "2h\\n1h",
-                    "T" : "1h\\n1h",
-                    "P" : "2h\\nNULL",
-                    "A" : "6h\\nNULL"
+                    "L" :["2h", "1h"],
+                    "T" :["1h", "1h"],
+                    "P" : ["2h", "NULL"],
+                    "A" : ["6h", "NULL"]
                 }
             },
             {
                 "topic": "Memory layout",
-                "description" : "Stack and heap\\nError checking, assertions and testing",
+                "description" : ["Stack and heap","Error checking, assertions and testing"],
                 "allocation" : {
-                    "L" : "2h\\n1h",
-                    "T" : "1h\\n1h",
-                    "P" : "NULL\\n2h",
-                    "A" : "NULL\\n2h"
+                    "L" : ["2h","1h"],
+                    "T" : ["1h","1h"],
+                    "P" : ["NULL","2h"],
+                    "A" : ["NULL","2h"]
                 }
             },
             {
@@ -235,9 +235,9 @@
                 }
             }
         ],
-        "references": {
-            "0" : "J.D. Ulman, Foundations of Computer Science C edition"
-        },
+        "references": [
+            "J.D. Ulman, Foundations of Computer Science C edition"
+        ],
         "marks": {
             "Practicals" : 20,
             "Assignments" : 20,
@@ -253,7 +253,7 @@
         "name" : "Computer Communication Networks 1",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
         "objectives" : "NULL",
         "ILOs" : {
@@ -294,7 +294,7 @@
         "name" : "Ordinary Differencial Equations",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
         "objectives" : "NULL",
         "ILOs" : {
@@ -335,7 +335,7 @@
         "name" : "Probability & Statistics",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "NULL",
         "objectives" : "To introduce basic concepts of probability and statistics and their use in applications",
         "ILOs" : {
@@ -376,7 +376,7 @@
         "name" : "Discrete Mathematics",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
         "objectives" : "NULL",
         "ILOs" : {
@@ -430,7 +430,7 @@
         "name" : "Network Analysis for Computer Engineering",
         "credits" : 3,
         "type" : "Core",
-        "prerequisite" : "NULL",
+        "prerequisites" : "NULL",
         "content" : "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks.",
         "objectives" : "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.",
         "ILOs" : {
