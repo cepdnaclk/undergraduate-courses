@@ -196,22 +196,42 @@
             },
             {
                 "topic": "References (pointers)",
-                "description" : ["Dynamic allocation and type casts", "Linked structures, box and pointer diagrams"],
+                "description" : "Dynamic allocation and type casts",
                 "allocation" : {
-                    "L" :["2h", "1h"],
-                    "T" :["1h", "1h"],
-                    "P" : ["2h", "NULL"],
-                    "A" : ["6h", "NULL"]
+                    "L" :"2h",
+                    "T" :"1h",
+                    "P" : "2h",
+                    "A" : "6h"
+                }
+            },
+            {
+                "topic": "NULL",
+                "description" : "Linked structures, box and pointer diagrams",
+                "allocation" : {
+                    "L" :"1h",
+                    "T" :"1h",
+                    "P" :"NULL",
+                    "A" :"NULL"
                 }
             },
             {
                 "topic": "Memory layout",
-                "description" : ["Stack and heap","Error checking, assertions and testing"],
+                "description" : "Stack and heap",
                 "allocation" : {
-                    "L" : ["2h","1h"],
-                    "T" : ["1h","1h"],
-                    "P" : ["NULL","2h"],
-                    "A" : ["NULL","2h"]
+                    "L" : "2h",
+                    "T" : "1h",
+                    "P" : "NULL",
+                    "A" : "NULL"
+                }
+            },
+            {
+                "topic": "NULL",
+                "description" : "Error checking, assertions and testing",
+                "allocation" : {
+                    "L" : "1h",
+                    "T" : "1h",
+                    "P" : "2h",
+                    "A" : "2h"
                 }
             },
             {
