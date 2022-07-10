@@ -243,38 +243,44 @@
         },
 
         "example" : {
-          "eNumber" : "E/99/999",
-          "batch" : "E99",
-          "honorific" : "Mr.",
-          "full_name" : "John Doe",
-          "name_with_initials" : "Doe J.",
-          "preferred_short_name" : "John",
-          "preferred_long_name" : "John Doe",
-          "emails" : {
-            "personal" : {
-              "name" : "johndoe",
-              "domain" : "gmail.com"
-            },
-            "faculty" : {
-              "name" : "e19999",
-              "domain" : "eng.pdn.ac.lk"
-            },
-            "location" : "Sri Lanka",
-            "interests" : [ "Computer Architecture", "Machine Learning" ],
-            "profile_image" : "https://people.ce.pdn.ac.lk/images/students/e99/e99999.jpg",
-            "urls" : {
-              "cv" : "https://johndoe.com/cv.pdf",
-              "website" : "https://johndoe.com/",
-              "linkedin" : "https://www.linkedin.com/in/john-doe/",
-              "github" : "https://github.com/JohnDoe/",
-              "facebook" : "#",
-              "researchgate" : "#",
-              "twitter" : "#"
-            },
-            "profile_page" : "https://people.ce.pdn.ac.lk/students/e99/999/"
-          }
+          "code" : "XX999",
+          "name" : "Course Name",
+          "credits" : 3,
+          "core_or_elective" : "Core",
+          "prerequisites" : [ "YY888" ],
+          "course_content" : "Course Content",
+          "objectives" : "Objectives of the course",
+          "ILOs" : {
+            "Knowledge" : [ "Knowledge gained from the course" ],
+            "Skill" : [ "Skills gained from the course" ],
+            "Attitude" : [ "Attitudes gained from the course" ]
+          },
+          "allocation" : "Total time allocations for different sessions of the given course",
+          "modules" : [ {
+            "topic" : "Topic of the module",
+            "description" : "Description of the module",
+            "allocation" : {
+              "L" : "Lecture hours of the given module",
+              "T" : "Tutorial Class hours of the given module",
+              "P" : "Practical Class hours of the given module",
+              "A" : "Assignments of the given module (in hours)"
+            }
+          } ],
+          "references" : [ "Useful reference materials of the given course" ],
+          "marks" : {
+            "description" : "Marks allocated for different sessions of the given course"
+          },
+          "lecturers" : [ {
+            "name" : "Name of the lecturer",
+            "title" : "Designation of the lecturer",
+            "email" : "Email address of the lecturer",
+            "teleOffice" : "Office telephone number of the lecturer",
+            "teleMobile" : "Mobile telephone number of the lecturer"
+          } ],
+          "url": "URL for the course details"
         }
       },
+      
       "CourseList" : {
         "type" : "object",
         "properties" : {
