@@ -147,25 +147,8 @@
             }
           },
           "allocation" : {
-            "type" : "object",
-            "properties" : {
-              "Lectures" : {
-                "type" : "string",
-                "description" : "Total Lectures hours"
-              },
-              "Tutorial-Classes" : {
-                "type" : "string",
-                "description" : "Total Tutorial Class hours"
-              },
-              "Practical-Classes" : {
-                "type" : "string",
-                "description" : "Total Practical Class hours"
-              },
-              "Assignments" : {
-                "type" : "string",
-                "description" : "Total Assignments (in hours)"
-              }
-            }
+            "type" : "string",
+            "description" : "Total time allocations for different sessions of the given course"
           },
           "modules" : {
             "type" : "array",
@@ -205,27 +188,24 @@
             },
             "description" : "Modules of a given course"
           },
+          "references" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            },
+            "description" : "Useful reference materials of the given course"
+          },
           "marks" : {
             "type" : "object",
             "properties" : {
-              "Practicals" : {
-                "type" : "string",
-                "description" : "Total Practicals marks"
+              "description" : {
+                "type" : "string"
               },
-              "Assignments" : {
-                "type" : "string",
-                "description" : "Total Assignments marks"
-              },
-              "Mid-Exam" : {
-                "type" : "integer",
-                "description" : "Mid Semester marks"
-              },
-              "End-Exam" : {
-                "type" : "integer",
-                "description" : "End Semester marks"
+              "allocation" : {
+                "type" : "string"
               }
             },
-            "description" : "Marks allocated to the given course"
+            "description" : "Marks allocated for different session of the given course"
           },
           "lecturers" : {
             "type" : "array",
@@ -309,7 +289,7 @@
         }
       }
     },
-    
+
      "host":"api.ce.pdn.ac.lk/",
      "schemes" : [ "https" ],
      "basePath":"people/v1/students/"
