@@ -205,24 +205,11 @@ layout: default
 			<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
 		</tr>						
 	
+		{%- for item in page.marks -%}
 		<tr>
-			<td><b>Continuous Assessments</b>
-				<ul>
-					<li>Practical</li>
-					<li>Assignments</li>
-					<li>Mid-semester Examination</li>
-				</ul>
-			</td>
-			<td style="text-align:center; vertical-align:middle">
-				<b>60</b>
-				<br>20<br>20
-				<br>20
-			</td>
+			<td style="vertical-align:middle">{{item[0]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[1]}}</td>
 		</tr>
-
-		<tr>
-			<td><b>End of Semester Evaluation</b></td>
-			<td style="text-align:center; vertical-align:middle"><b>40</b></td>
-		</tr>							
+		{%- endfor -%}							
 	</table>
 </div>
