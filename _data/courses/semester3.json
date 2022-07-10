@@ -104,12 +104,24 @@
             "Morris Mano, Digital Design, 3rd Edition",
             "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
         ],
-        "marks": {
-            "Practicals" : 30,
-            "Assignments" : 10,
-            "Mid-Exam" : 20,
-            "End-Exam" : 40
-        },
+        "marks": [
+			{
+				"description" : "Practicals",
+				"allocation" : "30"
+			},
+			{
+				"description" : "Assignments",
+				"allocation" : "10"
+			},
+			{
+				"description" : "Mid-Exam",
+				"allocation" : "20"
+			},
+			{
+				"description" : "End-Exam",
+				"allocation" : "40"
+			}
+        ],
         "lecturers": [
             "NULL"
         ]
@@ -127,12 +139,7 @@
             "Skill" : ["Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).", "Visualise program control flow and memory structures.", "Use assertions and debugging to understand and debug programs"],
             "Attitude" : ["Inculcate a disciplined attitude towards programming in the small.", "Discourage trial-and-error programming"]
         },
-        "allocation" : {
-            "Lectures" : "24h",
-            "Tutorial-Classes" : "8h",
-            "Practical-Classes" : "14h",
-            "Assignments" : "12h"
-        },
+        "allocation" : "Lectures : 24h, Tutorial-Classes : 8h, Practical-Classes : 14h, Assignments : 12h",
         "modules": [
             {
                 "topic": "Problem solving",
@@ -140,8 +147,8 @@
                 "allocation" : {
                     "L" : "2h",
                     "T" : "1h",
-                    "P" : "NULL",
-                    "A" : "NULL"
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
             {
@@ -149,9 +156,9 @@
                 "description" : "Variables, data types, operators and expressions",
                 "allocation" : {
                     "L" : "3h",
-                    "T" : "NULL",
-                    "P" : "NULL",
-                    "A" : "NULL"
+                    "T" : "-",
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
             {
@@ -161,7 +168,7 @@
                     "L" : "2h",
                     "T" : "1h",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -171,7 +178,7 @@
                     "L" : "2h",
                     "T" : "1h",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -179,9 +186,9 @@
                 "description" : "Defining functions, parameter passing by value",
                 "allocation" : {
                     "L" : "2h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -190,7 +197,7 @@
                 "allocation" : {
                     "L" : "3h",
                     "T" : "1h",
-                    "P" : "NULL",
+                    "P" : "-",
                     "A" : "4h"
                 }
             },
@@ -198,30 +205,50 @@
                 "topic": "References (pointers)",
                 "description" : ["Dynamic allocation and type casts", "Linked structures, box and pointer diagrams"],
                 "allocation" : {
-                    "L" :["2h", "1h"],
-                    "T" :["1h", "1h"],
-                    "P" : ["2h", "NULL"],
-                    "A" : ["6h", "NULL"]
+                    "L" : "2h",
+                    "T" : "1h",
+                    "P" : "2h",
+                    "A" : "6h"
                 }
             },
             {
-                "topic": "Memory layout",
-                "description" : ["Stack and heap","Error checking, assertions and testing"],
+                "topic": "",
+                "description" : "Linked structures, box and pointer diagrams",
                 "allocation" : {
-                    "L" : ["2h","1h"],
-                    "T" : ["1h","1h"],
-                    "P" : ["NULL","2h"],
-                    "A" : ["NULL","2h"]
+                    "L" : "1h",
+                    "T" : "1h",
+                    "P" : "-",
+                    "A" : "-"
+                }
+            },            
+            {
+                "topic": "Memory layout",
+                "description" : "Stack and heap",
+                "allocation" : {
+                    "L" : "2h",
+                    "T" : "1h",
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
+            {
+                "topic": "",
+                "description" : "Error checking, assertions and testing",
+                "allocation" : {
+                    "L" : "1h",
+                    "T" : "1h",
+                    "P" : "2h",
+                    "A" : "2h"
+                }
+            },            
             {
                 "topic": "Language tool-chains",
                 "description" : "Compilation, linking and loading",
                 "allocation" : {
                     "L" : "3h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -229,24 +256,47 @@
                 "description" : "debuggers, commonly used static-code checkers",
                 "allocation" : {
                     "L" : "1h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
+                }
+            },
+            {
+                "topic": "Total (hours)",
+                "description" : "",
+                "allocation" : {
+                    "L" : "24h",
+                    "T" : "8h",
+                    "P" : "14h",
+                    "A" : "12h"
                 }
             }
         ],
         "references": [
             "J.D. Ulman, Foundations of Computer Science C edition"
         ],
-        "marks": {
-            "Practicals" : 20,
-            "Assignments" : 20,
-            "Mid-Exam" : 20,
-            "End-Exam" : 40
-        },
+        "marks": [
+			{
+				"description" : "Practicals",
+				"allocation" : "20"
+			},
+			{
+				"description" : "Assignments",
+				"allocation" : "20"
+			},
+			{
+				"description" : "Mid-Exam",
+				"allocation" : "20"
+			},
+			{
+				"description" : "End-Exam",
+				"allocation" : "40"
+			}
+        ],
         "lecturers": [
             "NULL"
-        ]
+        ],
+		"url": "/courses/semester3/co222/"
     },
     {
         "code": "co223",
@@ -261,12 +311,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : {
-            "Lectures" : "30h",
-            "Tutorial-Classes" : "2h",
-            "Practical-Classes" : "22h",
-            "Assignments" : "4h"
-        },
+        "allocation" : "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 22h, Assignments : 4h",
         "modules": [
             "NULL"
         ],

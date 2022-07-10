@@ -63,13 +63,13 @@ layout: default
 			{% endif %}
 
 			<!-- core/elective -->
-			{% if page.core_elective %}
+			{% if page.core_or_elective %}
 			<div class="row">
 				<div class="col-sm-3">
 					<span class="mb-0" style="font-weight: 500">Core/Elective</span>
 				</div>
 				<div class="col-sm-9 text-secondary">
-					{{page.core_elective}}
+					{{page.core_or_elective}}
 				</div>
 			</div>
 			<hr>
@@ -89,13 +89,13 @@ layout: default
 			{% endif %}
 			
 			<!-- aims/objectives -->
-			{% if page.aims_objectives %}
+			{% if page.aims_and_objectives %}
 			<div class="row">
 				<div class="col-sm-3">
 					<span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
 				</div>
 				<div class="col-sm-9 text-secondary">
-					{{page.aims_objectives}}
+					{{page.aims_and_objectives}}
 				</div>
 			</div>
 			<hr>
@@ -184,109 +184,15 @@ layout: default
 			<th style="text-align:center; vertical-align:middle">A</th>
 		</tr>						
 	
+		{%- for item in page.modules -%}
 		<tr>
-			<td><b>Problem solving:</b> <br> From problem statements to algorithms to programs</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
+			<td><b>{{item[0]}}</b> <br>{{item[1]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[2]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[3]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[4]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[5]}}</td>
 		</tr>
-
-		<tr>
-			<td><b>Storing and naming data and operators:</b><br>Variables, data types, operators and expressions</td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Control flow:</b><br> Simple and nested conditions and iterations</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Using standard library functions:</b><br>Basic input/output functions</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Structured programming: </b><br> Defining functions, parameter passing by value</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Static allocation: </b><br> Arrays (single and multidimensional), strings, and structures (records) </td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">4</td>
-		</tr>
-		
-		<tr>
-			<td><b>References (pointers):</b><br> Dynamic allocation and type casts</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">6</td>
-		</tr>
-
-		<tr>
-			<td>Linked structures, box and pointer diagrams</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Memory layout: </b><br> Stack and heap</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td>Error checking, assertions and testing </td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-		</tr>
-
-		<tr>
-			<td><b>Language tool-chains:</b><br>Compilation, linking and loading</td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Support tools:</b><br>Debuggers, commonly used static-code checkers </td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-		
-		<tr>
-			<td><b>Total (hours)</b></td>
-			<td style="text-align:center; vertical-align:middle"><b>24<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>8<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>14<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>12<b/></td>
-		</tr>		
+		{%- endfor -%}
 	</table>
 	<p>L = Lectures, T = Tutorial classes, P = Practical classes, A – Homework assignments </p>
 </div>
@@ -299,20 +205,11 @@ layout: default
 			<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
 		</tr>						
 	
+		{%- for item in page.marks -%}
 		<tr>
-			<td><b>Continuous Assessments</b>
-				<ul>
-					<li>Practical</li>
-					<li>Assignments</li>
-					<li>Mid-semester Examination</li>
-				</ul>
-			</td>
-			<td style="text-align:center; vertical-align:middle"><b>60</b><br>20<br>20<br>20</td>
+			<td style="vertical-align:middle">{{item[0]}}</td>
+			<td style="text-align:center; vertical-align:middle">{{item[1]}}</td>
 		</tr>
-
-		<tr>
-			<td><b>End of Semester Evaluation</b></td>
-			<td style="text-align:center; vertical-align:middle"><b>40</b></td>
-		</tr>							
+		{%- endfor -%}							
 	</table>
 </div>
