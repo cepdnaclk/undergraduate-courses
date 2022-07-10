@@ -104,12 +104,24 @@
             "Morris Mano, Digital Design, 3rd Edition",
             "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
         ],
-        "marks": {
-            "Practicals" : 30,
-            "Assignments" : 10,
-            "Mid-Exam" : 20,
-            "End-Exam" : 40
-        },
+        "marks": [
+			{
+				"description" : "Practicals",
+				"allocation" : "30"
+			},
+			{
+				"description" : "Assignments",
+				"allocation" : "10"
+			},
+			{
+				"description" : "Mid-Exam",
+				"allocation" : "20"
+			},
+			{
+				"description" : "End-Exam",
+				"allocation" : "40"
+			}
+        ],
         "lecturers": [
             "NULL"
         ]
@@ -127,12 +139,7 @@
             "Skill" : ["Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).", "Visualise program control flow and memory structures.", "Use assertions and debugging to understand and debug programs"],
             "Attitude" : ["Inculcate a disciplined attitude towards programming in the small.", "Discourage trial-and-error programming"]
         },
-        "allocation" : {
-            "Lectures" : "24h",
-            "Tutorial-Classes" : "8h",
-            "Practical-Classes" : "14h",
-            "Assignments" : "12h"
-        },
+        "allocation" : "Lectures : 24h, Tutorial-Classes : 8h, Practical-Classes : 14h, Assignments : 12h",
         "modules": [
             {
                 "topic": "Problem solving",
@@ -268,15 +275,28 @@
         "references": [
             "J.D. Ulman, Foundations of Computer Science C edition"
         ],
-        "marks": {
-            "Practicals" : 20,
-            "Assignments" : 20,
-            "Mid-Exam" : 20,
-            "End-Exam" : 40
-        },
+        "marks": [
+			{
+				"description" : "Practicals",
+				"allocation" : "20"
+			},
+			{
+				"description" : "Assignments",
+				"allocation" : "20"
+			},
+			{
+				"description" : "Mid-Exam",
+				"allocation" : "20"
+			},
+			{
+				"description" : "End-Exam",
+				"allocation" : "40"
+			}
+        ],
         "lecturers": [
             "NULL"
-        ]
+        ],
+		"url": "/courses/semester3/co222/"
     },
     {
         "code": "co223",
@@ -291,12 +311,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : {
-            "Lectures" : "30h",
-            "Tutorial-Classes" : "2h",
-            "Practical-Classes" : "22h",
-            "Assignments" : "4h"
-        },
+        "allocation" : "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 22h, Assignments : 4h",
         "modules": [
             "NULL"
         ],

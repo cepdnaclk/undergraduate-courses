@@ -45,8 +45,18 @@ if __name__ == "__main__":
             modulesList.append(ml)
             ml = list()
 
-        # textbooks_references = thisCourse["references"]
 
+
+        marksList = list()
+        markl = list()
+        marks = thisCourse["marks"]
+
+        for mark in marks:
+            markl.append(mark["description"])
+            markl.append(mark["allocation"])
+            marksList.append(markl)
+            markl = list()
+        # textbooks_references = thisCourse["references"]
         # practicals_marks = thisCourse["marks"]["Practicals"]
         # assignments_marks = thisCourse["marks"]["Assignments"]
         # mid_exam_marks = thisCourse["marks"]["Mid-Exam"]
@@ -75,10 +85,7 @@ modules: {modulesList}
 
 textbooks_references : {thisCourse["references"]}
 
-practicals_marks : {thisCourse["marks"]["Practicals"]}
-assignments_marks : {thisCourse["marks"]["Assignments"]}
-mid_exam_marks : {thisCourse["marks"]["Mid-Exam"]}
-end_exam_marks : {thisCourse["marks"]["End-Exam"]}
+marks: {marksList}
 ---"""
         # print(outputString)
 
