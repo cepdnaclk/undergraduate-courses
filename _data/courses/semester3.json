@@ -140,8 +140,8 @@
                 "allocation" : {
                     "L" : "2h",
                     "T" : "1h",
-                    "P" : "NULL",
-                    "A" : "NULL"
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
             {
@@ -149,9 +149,9 @@
                 "description" : "Variables, data types, operators and expressions",
                 "allocation" : {
                     "L" : "3h",
-                    "T" : "NULL",
-                    "P" : "NULL",
-                    "A" : "NULL"
+                    "T" : "-",
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
             {
@@ -161,7 +161,7 @@
                     "L" : "2h",
                     "T" : "1h",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -171,7 +171,7 @@
                     "L" : "2h",
                     "T" : "1h",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -179,9 +179,9 @@
                 "description" : "Defining functions, parameter passing by value",
                 "allocation" : {
                     "L" : "2h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -190,7 +190,7 @@
                 "allocation" : {
                     "L" : "3h",
                     "T" : "1h",
-                    "P" : "NULL",
+                    "P" : "-",
                     "A" : "4h"
                 }
             },
@@ -198,30 +198,50 @@
                 "topic": "References (pointers)",
                 "description" : ["Dynamic allocation and type casts", "Linked structures, box and pointer diagrams"],
                 "allocation" : {
-                    "L" :["2h", "1h"],
-                    "T" :["1h", "1h"],
-                    "P" : ["2h", "NULL"],
-                    "A" : ["6h", "NULL"]
+                    "L" : "2h",
+                    "T" : "1h",
+                    "P" : "2h",
+                    "A" : "6h"
                 }
             },
             {
-                "topic": "Memory layout",
-                "description" : ["Stack and heap","Error checking, assertions and testing"],
+                "topic": "",
+                "description" : "Linked structures, box and pointer diagrams",
                 "allocation" : {
-                    "L" : ["2h","1h"],
-                    "T" : ["1h","1h"],
-                    "P" : ["NULL","2h"],
-                    "A" : ["NULL","2h"]
+                    "L" : "1h",
+                    "T" : "1h",
+                    "P" : "-",
+                    "A" : "-"
+                }
+            },            
+            {
+                "topic": "Memory layout",
+                "description" : "Stack and heap",
+                "allocation" : {
+                    "L" : "2h",
+                    "T" : "1h",
+                    "P" : "-",
+                    "A" : "-"
                 }
             },
+            {
+                "topic": "",
+                "description" : "Error checking, assertions and testing",
+                "allocation" : {
+                    "L" : "1h",
+                    "T" : "1h",
+                    "P" : "2h",
+                    "A" : "2h"
+                }
+            },            
             {
                 "topic": "Language tool-chains",
                 "description" : "Compilation, linking and loading",
                 "allocation" : {
                     "L" : "3h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
                 }
             },
             {
@@ -229,9 +249,19 @@
                 "description" : "debuggers, commonly used static-code checkers",
                 "allocation" : {
                     "L" : "1h",
-                    "T" : "NULL",
+                    "T" : "-",
                     "P" : "2h",
-                    "A" : "NULL"
+                    "A" : "-"
+                }
+            },
+            {
+                "topic": "Total (hours)",
+                "description" : "",
+                "allocation" : {
+                    "L" : "24h",
+                    "T" : "8h",
+                    "P" : "14h",
+                    "A" : "12h"
                 }
             }
         ],
