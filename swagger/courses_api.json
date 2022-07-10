@@ -12,7 +12,7 @@
     "paths" : {
       "/" : {
         "get" : {
-          "description" : "Retuns a list of available courses",
+          "description" : "Retuns the list of all available courses",
           "operationId" : "getCourses",
           "produces" : [ "application/json" ],
           "parameters" : [ ],
@@ -28,13 +28,13 @@
       },
       "/{semester}/" : {
         "get" : {
-          "description" : "Can obtain all the course details of a specified semester",
-          "operationId" : "getCourseDeatilsBySemester",
+          "description" : "Retuns the list of available courses the specified semester",
+          "operationId" : "getCourseDetailsBySemester",
           "produces" : [ "application/json" ],
           "parameters" : [ {
             "name" : "semester",
             "in" : "path",
-            "description" : "Semester (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)",
+            "description" : "Available Semesters (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)",
             "required" : true,
             "type" : "string"
           } ],
@@ -54,13 +54,13 @@
       "/{semester}/{courseCode}/" : {
         "get" : {
           "summary" : "Course details",
-          "description" : "Can obtain the details of a specific course by using this API",
+          "description" : "Returns the details of the specified course",
           "operationId" : "getCourseByCode",
           "produces" : [ "application/json" ],
           "parameters" : [ {
             "name" : "semester",
             "in" : "path",
-            "description" : "Semester (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)",
+            "description" : "Available Semesters (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)",
             "required" : true,
             "type" : "string"
           } , {
@@ -114,11 +114,11 @@
           },
           "course_content" : {
             "type" : "string",
-            "description" : "Course Content"
+            "description" : "Course Contents"
           },
           "objectives" : {
             "type" : "string",
-            "description" : "Objectives"	
+            "description" : "Objectives of the course"	
           },
           "ILOs" : {
             "type" : "object",
@@ -128,21 +128,21 @@
                 "items" : {
                   "type" : "string"
                 },
-                "description" : "Knowledge"
+                "description" : "Knowledge gained from the course"
               },
               "Skill" : {
                 "type" : "array",
                 "items" : {
                   "type" : "string"
                 },
-                "description" : "Skills"
+                "description" : "Skills gained from the course"
               },
               "Attitude" : {
                 "type" : "array",
                 "items" : {
                   "type" : "string"
                 },
-                "description" : "Attitudes"
+                "description" : "Attitudes gained from the course"
               }
             }
           },
@@ -157,30 +157,30 @@
               "properties" : {
                 "topic" : {
                   "type" : "string",
-                  "description" : "Topic"
+                  "description" : "Topic of the module"
                 },
                 "description" : {
                   "type" : "string",
-                  "description" : "Description"
+                  "description" : "Description of the module"
                 },
                 "allocation" : {
                   "type" : "object",
                   "properties" : {
                     "L" : {
                       "type" : "string",
-                      "description" : "Lecture hours of given module"
+                      "description" : "Lecture hours of the given module"
                     },
                     "T" : {
                       "type" : "string",
-                      "description" : "Tutorial Class hours of given module"
+                      "description" : "Tutorial Class hours of the given module"
                     },
                     "P" : {
                       "type" : "string",
-                      "description" : "Practical Class hours of given module"
+                      "description" : "Practical Class hours of the given module"
                     },
                     "A" : {
                       "type" : "string",
-                      "description" : "Assignments of given module (in hours)"
+                      "description" : "Assignments of the given module (in hours)"
                     }
                   }
                 }
@@ -205,7 +205,7 @@
                 "type" : "string"
               }
             },
-            "description" : "Marks allocated for different session of the given course"
+            "description" : "Marks allocated for different sessions of the given course"
           },
           "lecturers" : {
             "type" : "array",
@@ -235,6 +235,10 @@
               }
             },
             "description" : "Lecturers of the given course"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL for the course details"
           }
         },
 
