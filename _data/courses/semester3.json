@@ -130,9 +130,9 @@
         "code": "co222",
         "name" : "Programming Methodology",
         "credits" : 3,
-        "type" : "Core",
+        "core_or_elective" : "Core",
         "prerequisites" : "NULL",
-        "content" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
+        "course_content" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "objectives" : "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
         "ILOs" : {
             "Knowledge" : ["Convert a simple well defined problem into a correct computer program using a typical Clike programming language.", "Understand the logic of a simple piece of code and reason about it"],
