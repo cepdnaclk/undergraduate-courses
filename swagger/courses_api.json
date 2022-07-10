@@ -101,97 +101,163 @@
             "type" : "integer",
             "description" : "Credits"
           },
-          "full_name" : {
-            "type" : "string"
-          },
-          "name_with_initials" : {
-            "type" : "string"
-          },
-          "preferred_short_name" : {
-            "type" : "string"
-          },
-          "preferred_long_name" : {
-            "type" : "string"
-          },
-          "emails" : {
-            "type" : "object",
-            "properties" : {
-              "personal" : {
-                "description" : "Personal email address",
-                "allOf" : [ {
-                  "$ref" : "#/definitions/Email"
-                } ]
-              },
-              "faculty" : {
-                "description" : "Faculty email address",
-                "allOf" : [ {
-                  "$ref" : "#/definitions/Email"
-                } ]
-              }
-            }
-          },
-          "location" : {
+          "core_or_elective" : {
             "type" : "string",
-            "description" : "Hometown of the student"
+            "description" : "Core or Elective"
           },
-          "interests" : {
+          "prerequisites" : {
             "type" : "array",
             "items" : {
               "type" : "string"
             },
-            "description" : "Computer Engineering related interests of the student"
+            "description" : "Prerequisites"
           },
-          "profile_image" : {
+          "course_content" : {
             "type" : "string",
-            "format" : "uri",
-            "description" : "Link to the profile image of the student"
+            "description" : "Course Content"
           },
-          "urls" : {
+          "objectives" : {
+            "type" : "string",
+            "description" : "Objectives"	
+          },
+          "ILOs" : {
             "type" : "object",
             "properties" : {
-              "cv" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "Link to the CV in PDF format"
+              "Knowledge" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "string"
+                },
+                "description" : "Knowledge"
               },
-              "website" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "Link of the student's personal website"
+              "Skill" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "string"
+                },
+                "description" : "Skills"
               },
-              "linkedin" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "LinkedIn profile URL"
-              },
-              "github" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "GitHub profile URL"
-              },
-              "facebook" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "Facebook profile URL"
-              },
-              "researchgate" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "Researchgate profile URL"
-              },
-              "twitter" : {
-                "type" : "string",
-                "format" : "uri",
-                "description" : "Twitter profile URL"
+              "Attitude" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "string"
+                },
+                "description" : "Attitudes"
               }
             }
           },
-          "profile_page" : {
-            "type" : "string",
-            "format" : "uri",
-            "description" : "Link to the profile page of the student"
+          "allocation" : {
+            "type" : "object",
+            "properties" : {
+              "Lectures" : {
+                "type" : "string",
+                "description" : "Total Lectures hours"
+              },
+              "Tutorial-Classes" : {
+                "type" : "string",
+                "description" : "Total Tutorial Class hours"
+              },
+              "Practical-Classes" : {
+                "type" : "string",
+                "description" : "Total Practical Class hours"
+              },
+              "Assignments" : {
+                "type" : "string",
+                "description" : "Total Assignments (in hours)"
+              }
+            }
+          },
+          "modules" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "topic" : {
+                  "type" : "string",
+                  "description" : "Topic"
+                },
+                "description" : {
+                  "type" : "string",
+                  "description" : "Description"
+                },
+                "allocation" : {
+                  "type" : "object",
+                  "properties" : {
+                    "L" : {
+                      "type" : "string",
+                      "description" : "Lecture hours of given module"
+                    },
+                    "T" : {
+                      "type" : "string",
+                      "description" : "Tutorial Class hours of given module"
+                    },
+                    "P" : {
+                      "type" : "string",
+                      "description" : "Practical Class hours of given module"
+                    },
+                    "A" : {
+                      "type" : "string",
+                      "description" : "Assignments of given module (in hours)"
+                    }
+                  }
+                }
+              }
+            },
+            "description" : "Modules of a given course"
+          },
+          "marks" : {
+            "type" : "object",
+            "properties" : {
+              "Practicals" : {
+                "type" : "string",
+                "description" : "Total Practicals marks"
+              },
+              "Assignments" : {
+                "type" : "string",
+                "description" : "Total Assignments marks"
+              },
+              "Mid-Exam" : {
+                "type" : "integer",
+                "description" : "Mid Semester marks"
+              },
+              "End-Exam" : {
+                "type" : "integer",
+                "description" : "End Semester marks"
+              }
+            },
+            "description" : "Marks allocated to the given course"
+          },
+          "lecturers" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "name" : {
+                  "type" : "string",
+                  "description" : "Name of the lecturer"
+                },
+                "title" : {
+                  "type" : "string",
+                  "description" : "Designation of the lecturer"
+                },
+                "email" : {
+                  "type" : "string",
+                  "description" : "Email address of the lecturer"
+                },
+                "teleOffice" : {
+                  "type" : "string",
+                  "description" : "Office telephone number of the lecturer"
+                },
+                "teleMobile" : {
+                  "type" : "string",
+                  "description" : "Mobile telephone number of the lecturer"
+                }
+              }
+            },
+            "description" : "Lecturers of the given course"
           }
         },
+
         "example" : {
           "eNumber" : "E/99/999",
           "batch" : "E99",
@@ -243,6 +309,7 @@
         }
       }
     },
+    
      "host":"api.ce.pdn.ac.lk/",
      "schemes" : [ "https" ],
      "basePath":"people/v1/students/"
