@@ -290,11 +290,11 @@
           }
         },
         "example" : {
-          "E/99/998" : {
-            "url" : "https://api.ce.pdn.ac.lk/people/v1/students/E99/998"
+          "XX999" : {
+            "url" : "https://api.ce.pdn.ac.lk/courses/v1/xx999"
           },
-          "E/99/999" : {
-            "url" : "https://api.ce.pdn.ac.lk/people/v1/students/E99/999"
+          "YY888" : {
+            "url" : "https://api.ce.pdn.ac.lk/courses/v1/yy888"
           }
         }
       }
@@ -302,6 +302,6 @@
 
      "host":"api.ce.pdn.ac.lk/",
      "schemes" : [ "https" ],
-     "basePath":"people/v1/students/"
+     "basePath":"courses/v1/"
   }
   
