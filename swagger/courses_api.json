@@ -3,10 +3,7 @@
     "info" : {
       "description" : "This API can be used to obtain the information of the courses in the Department of Computer Engineering, University of Peradeniya",
       "version" : "v1",
-      "title" : "Courses API",
-      "contact" : {
-        "email" : ""
-      }
+      "title" : "Courses API"
     },
     "tags" : [ ],
     "paths" : {
@@ -300,8 +297,7 @@
       }
     },
 
-     "host":"api.ce.pdn.ac.lk/",
-     "schemes" : [ "https" ],
-     "basePath":"courses/v1/"
+     "schemes" : [ "https" ]
+
   }
   
