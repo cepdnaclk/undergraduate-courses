@@ -1,0 +1,225 @@
+swagger: '2.0'
+info:
+  description: This API can be used to obtain the information of the courses in the Department of Computer Engineering, University of Peradeniya
+  version: v1
+  title: Courses API
+tags: []
+paths:
+  /:
+    get:
+      description: Retuns the list of all available courses
+      operationId: getCourses
+      produces:
+        - application/json
+      parameters: []
+      responses:
+        '200':
+          description: successful request
+          schema:
+            $ref: '#/definitions/CourseList'
+  /{semester}/:
+    get:
+      description: Retuns the list of available courses the specified semester
+      operationId: getCourseDetailsBySemester
+      produces:
+        - application/json
+      parameters:
+        - name: semester
+          in: path
+          description: Available Semesters (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)
+          required: true
+          type: string
+      responses:
+        '200':
+          description: successful request
+          schema:
+            $ref: '#/definitions/CourseList'
+        '404':
+          description: Invalid Semester
+  /{semester}/{courseCode}/:
+    get:
+      summary: Course details
+      description: Returns the details of the specified course
+      operationId: getCourseByCode
+      produces:
+        - application/json
+      parameters:
+        - name: semester
+          in: path
+          description: Available Semesters (1, 2, 3, 4, 5, 6, 7, 8, general, technical, short-semester)
+          required: true
+          type: string
+        - name: courseCode
+          in: path
+          description: Course Code
+          required: true
+          type: string
+      responses:
+        '200':
+          description: successful request
+          schema:
+            $ref: '#/definitions/Course'
+        '404':
+          description: Invalid Course Code
+definitions:
+  Course:
+    type: object
+    properties:
+      code:
+        type: string
+        pattern: ^[a-z]{2}d{3}$
+        description: Course Code
+      name:
+        type: string
+        description: Course Name
+      credits:
+        type: integer
+        description: Credits
+      core_or_elective:
+        type: string
+        description: Core or Elective
+      prerequisites:
+        type: array
+        items:
+          type: string
+        description: Prerequisites
+      course_content:
+        type: string
+        description: Course Contents
+      objectives:
+        type: string
+        description: Objectives of the course
+      ILOs:
+        type: object
+        properties:
+          Knowledge:
+            type: array
+            items:
+              type: string
+            description: Knowledge gained from the course
+          Skill:
+            type: array
+            items:
+              type: string
+            description: Skills gained from the course
+          Attitude:
+            type: array
+            items:
+              type: string
+            description: Attitudes gained from the course
+      allocation:
+        type: string
+        description: Total time allocations for different sessions of the given course
+      modules:
+        type: array
+        items:
+          type: object
+          properties:
+            topic:
+              type: string
+              description: Topic of the module
+            description:
+              type: string
+              description: Description of the module
+            allocation:
+              type: object
+              properties:
+                L:
+                  type: string
+                  description: Lecture hours of the given module
+                T:
+                  type: string
+                  description: Tutorial Class hours of the given module
+                P:
+                  type: string
+                  description: Practical Class hours of the given module
+                A:
+                  type: string
+                  description: Assignments of the given module (in hours)
+        description: Modules of a given course
+      references:
+        type: array
+        items:
+          type: string
+        description: Useful reference materials of the given course
+      marks:
+        type: object
+        properties:
+          description:
+            type: string
+          allocation:
+            type: string
+        description: Marks allocated for different sessions of the given course
+      lecturers:
+        type: array
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: Name of the lecturer
+            title:
+              type: string
+              description: Designation of the lecturer
+            email:
+              type: string
+              description: Email address of the lecturer
+            teleOffice:
+              type: string
+              description: Office telephone number of the lecturer
+            teleMobile:
+              type: string
+              description: Mobile telephone number of the lecturer
+        description: Lecturers of the given course
+      url:
+        type: string
+        description: URL for the course details
+    example:
+      code: XX999
+      name: Course Name
+      credits: 3
+      core_or_elective: Core
+      prerequisites:
+        - YY888
+      course_content: Course Content
+      objectives: Objectives of the course
+      ILOs:
+        Knowledge:
+          - Knowledge gained from the course
+        Skill:
+          - Skills gained from the course
+        Attitude:
+          - Attitudes gained from the course
+      allocation: Total time allocations for different sessions of the given course
+      modules:
+        - topic: Topic of the module
+          description: Description of the module
+          allocation:
+            L: Lecture hours of the given module
+            T: Tutorial Class hours of the given module
+            P: Practical Class hours of the given module
+            A: Assignments of the given module (in hours)
+      references:
+        - Useful reference materials of the given course
+      marks:
+        description: Marks allocated for different sessions of the given course
+      lecturers:
+        - name: Name of the lecturer
+          title: Designation of the lecturer
+          email: Email address of the lecturer
+          teleOffice: Office telephone number of the lecturer
+          teleMobile: Mobile telephone number of the lecturer
+      url: URL for the course details
+  CourseList:
+    type: object
+    properties:
+      url:
+        type: string
+        format: uri
+    example:
+      XX999:
+        url: https://api.ce.pdn.ac.lk/courses/v1/xx999
+      YY888:
+        url: https://api.ce.pdn.ac.lk/courses/v1/yy888
+schemes:
+  - https
