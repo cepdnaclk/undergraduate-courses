@@ -72,8 +72,8 @@ title: {thisCourse["name"]}
 course_number : {thisCourse["code"].upper()} 
 course_title : {thisCourse["name"]}
 credits : {thisCourse["credits"]}
-core_or_elective : {thisCourse["type"]} 
-prerequisites : {thisCourse["prerequisites"]}
+core_or_elective : {thisCourse["core_or_elective"]} 
+prerequisites : {thisCourse["prerequisite"]}
 
 aims_and_objectives: {thisCourse["objectives"]}
 
