@@ -82,7 +82,7 @@ title: Undergraduate Courses
 				{%- for course in site.data.courses.semester3 -%}
 					<h5><strong>{{ course.code | upcase }} {{ course.name }} ({{ course.credits }} credits)</strong></h5>
 					<h6><strong>Course Content:</strong></h6> 
-					<h6>{{ course.content }}</h6>
+					<h6>{{ course.course_content }}</h6>
 					<h6>({{ course.allocation }})</h6>
 					<a href="{{ course.url| relative_url }}">More details</a> 
 					<h6>&nbsp;</h6> <hr> 
