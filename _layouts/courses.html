@@ -19,300 +19,210 @@ layout: default
     </div>
 </main>
 
-
 <div class="container pt-4">
-	<div class="card mb-3">
-		<div class="card-body">
-			<!-- course number -->
-			{% if page.course_number %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Course Number</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.course_number}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}
-
-			<!-- course title -->
-			{% if page.course_title %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Course Title</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.course_title}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}
-			
-			<!-- credits -->
-			{% if page.credits %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Credits</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.credits}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}
-
-			<!-- core/elective -->
-			{% if page.core_elective %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Core/Elective</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.core_elective}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}
-
-			<!-- prerequisites -->
-			{% if page.prerequisites %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Prerequisites</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.prerequisites}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}
-			
-			<!-- aims/objectives -->
-			{% if page.aims_objectives %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					{{page.aims_objectives}}
-				</div>
-			</div>
-			<hr>
-			{% endif %}	
-
-			<!-- ilos -->
-			{% if page.ilos_knowledge %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
-				</div>
-				
-				<div class="col-sm-9">
-					<div>
-						<span class="mb-0" style="font-weight: 500">Knowledge:</span>
-					</div>
-					
-					<div class="text-secondary">
-						At the end of this course, a student will be able to; 
-						<ul>
-							{%- for item in page.ilos_knowledge -%}
-							<li>{{item}}</li>
-							{%- endfor -%}
-						</ul>
-					</div>
-					
-					<div>
-						<span class="mb-0" style="font-weight: 500">Skill:</span>
-					</div>
-					
-					<div class="text-secondary">
-						At the end of this course, a student will be able to; 
-						<ul>
-							{%- for item in page.ilos_skill -%}
-							<li>{{item}}</li>
-							{%- endfor -%}
-						</ul>
-					</div>	
-
-					<div>
-						<span class="mb-0" style="font-weight: 500">Attitude:</span>
-					</div>
-					
-					<div class="text-secondary">
-						<ul>
-							{%- for item in page.ilos_attitude -%}
-							<li>{{item}}</li>
-							{%- endfor -%}
-						</ul>
-					</div>	
-				</div>
-			</div>
-			<hr>
-			{% endif %}	
-
-			<!-- Textbooks and References -->
-			{% if page.textbooks_references %}
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="mb-0" style="font-weight: 500">Textbooks and References</span>
-				</div>
-				<div class="col-sm-9 text-secondary">
-					<ul>
-						{%- for item in page.textbooks_references -%}
-						<li>{{item}}</li>
-						{%- endfor -%}
-					</ul>
-				</div>
-			</div>
-			{% endif %}	
-        </div>
-    </div>
+	<nav>
+		<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			<button class="nav-link active" id="description" data-bs-toggle="tab" data-bs-target="#description-tab" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+			<button class="nav-link" id="timeAllocation" data-bs-toggle="tab" data-bs-target="#timeAllocation-tab" type="button" role="tab" aria-controls="timeAllocation" aria-selected="false">Time Allocation</button>
+			<button class="nav-link" id="marksAllocation" data-bs-toggle="tab" data-bs-target="#marksAllocation-tab" type="button" role="tab" aria-controls="marksAllocation" aria-selected="false">Marks Allocation</button>
+			<button class="nav-link" id="statistics" data-bs-toggle="tab" data-bs-target="#statistics-tab" type="button" role="tab" aria-controls="statistics" aria-selected="false">Statistics</button>
+		</div>
+	</nav>
 </div>
 
 <div class="container pt-4">
-	<table class="table table-sm table-bordered border-dark">	
-		<tr>
-			<th rowspan="2" style="text-align:center; vertical-align:middle">Topic</th>
-			<th colspan="4" style="text-align:center; vertical-align:middle">Time Allocated / hours</th>								
-		</tr>
-	
-		<tr>
-			<th style="text-align:center; vertical-align:middle">L</th>
-			<th style="text-align:center; vertical-align:middle">T</th>
-			<th style="text-align:center; vertical-align:middle">P</th>
-			<th style="text-align:center; vertical-align:middle">A</th>
-		</tr>						
-	
-		<tr>
-			<td><b>Problem solving:</b> <br> From problem statements to algorithms to programs</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+	<div class="tab-content" id="nav-tabContent" style="min-height: 50vh;">
+		<div class="tab-pane fade active show" id="description-tab" role="tabpanel" aria-labelledby="description">
+			<div class="card mb-3">
+				<div class="card-body">
+					<!-- course number -->
+					{% if page.course_number %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Course Number</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.course_number}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}
 
-		<tr>
-			<td><b>Storing and naming data and operators:</b><br>Variables, data types, operators and expressions</td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+					<!-- course title -->
+					{% if page.course_title %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Course Title</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.course_title}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}
+					
+					<!-- credits -->
+					{% if page.credits %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Credits</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.credits}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}
 
-		<tr>
-			<td><b>Control flow:</b><br> Simple and nested conditions and iterations</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+					<!-- core/elective -->
+					{% if page.core_or_elective %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Core/Elective</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.core_or_elective}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}
 
-		<tr>
-			<td><b>Using standard library functions:</b><br>Basic input/output functions</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+					<!-- prerequisites -->
+					{% if page.prerequisites %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Prerequisites</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.prerequisites}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}
+					
+					<!-- aims/objectives -->
+					{% if page.aims_and_objectives %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							{{page.aims_and_objectives}}
+						</div>
+					</div>
+					<hr>
+					{% endif %}	
 
-		<tr>
-			<td><b>Structured programming: </b><br> Defining functions, parameter passing by value</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+					<!-- ilos -->
+					{% if page.ilos_knowledge %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
+						</div>
+						
+						<div class="col-sm-9">
+							<div>
+								<span class="mb-0" style="font-weight: 500">Knowledge:</span>
+							</div>
+							
+							<div class="text-secondary">
+								At the end of this course, a student will be able to; 
+								<ul>
+									{%- for item in page.ilos_knowledge -%}
+									<li>{{item}}</li>
+									{%- endfor -%}
+								</ul>
+							</div>
+							
+							<div>
+								<span class="mb-0" style="font-weight: 500">Skill:</span>
+							</div>
+							
+							<div class="text-secondary">
+								At the end of this course, a student will be able to; 
+								<ul>
+									{%- for item in page.ilos_skill -%}
+									<li>{{item}}</li>
+									{%- endfor -%}
+								</ul>
+							</div>	
 
-		<tr>
-			<td><b>Static allocation: </b><br> Arrays (single and multidimensional), strings, and structures (records) </td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">4</td>
-		</tr>
-		
-		<tr>
-			<td><b>References (pointers):</b><br> Dynamic allocation and type casts</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">6</td>
-		</tr>
+							<div>
+								<span class="mb-0" style="font-weight: 500">Attitude:</span>
+							</div>
+							
+							<div class="text-secondary">
+								<ul>
+									{%- for item in page.ilos_attitude -%}
+									<li>{{item}}</li>
+									{%- endfor -%}
+								</ul>
+							</div>	
+						</div>
+					</div>
+					<hr>
+					{% endif %}	
 
-		<tr>
-			<td>Linked structures, box and pointer diagrams</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+					<!-- Textbooks and References -->
+					{% if page.textbooks_references %}
+					<div class="row">
+						<div class="col-sm-3">
+							<span class="mb-0" style="font-weight: 500">Textbooks and References</span>
+						</div>
+						<div class="col-sm-9 text-secondary">
+							<ul>
+								{%- for item in page.textbooks_references -%}
+								<li>{{item}}</li>
+								{%- endfor -%}
+							</ul>
+						</div>
+					</div>
+					{% endif %}	
+				</div>
+			</div>
+		</div>
 
-		<tr>
-			<td><b>Memory layout: </b><br> Stack and heap</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
+		<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
+			<table class="table table-sm table-bordered border-dark">	
+				<tr>
+					<th style="text-align:center; vertical-align:middle">Assessment</th>
+					<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
+				</tr>						
+			
+				{%- for item in page.marks -%}
+				<tr>
+					<td style="vertical-align:middle">{{item[0]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[1]}}</td>
+				</tr>
+				{%- endfor -%}							
+			</table>	
+		</div>
 
-		<tr>
-			<td>Error checking, assertions and testing </td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-		</tr>
-
-		<tr>
-			<td><b>Language tool-chains:</b><br>Compilation, linking and loading</td>
-			<td style="text-align:center; vertical-align:middle">3</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-
-		<tr>
-			<td><b>Support tools:</b><br>Debuggers, commonly used static-code checkers </td>
-			<td style="text-align:center; vertical-align:middle">1</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-			<td style="text-align:center; vertical-align:middle">2</td>
-			<td style="text-align:center; vertical-align:middle"></td>
-		</tr>
-		
-		<tr>
-			<td><b>Total (hours)</b></td>
-			<td style="text-align:center; vertical-align:middle"><b>24<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>8<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>14<b/></td>
-			<td style="text-align:center; vertical-align:middle"><b>12<b/></td>
-		</tr>		
-	</table>
-	<p>L = Lectures, T = Tutorial classes, P = Practical classes, A – Homework assignments </p>
-</div>
-
-
-<div class="container pt-4">
-	<table class="table table-sm table-bordered border-dark">	
-		<tr>
-			<th style="text-align:center; vertical-align:middle">Assessment</th>
-			<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
-		</tr>						
-	
-		<tr>
-			<td><b>Continuous Assessments</b>
-				<ul>
-					<li>Practical</li>
-					<li>Assignments</li>
-					<li>Mid-semester Examination</li>
-				</ul>
-			</td>
-			<td style="text-align:center; vertical-align:middle"><b>60</b><br>20<br>20<br>20</td>
-		</tr>
-
-		<tr>
-			<td><b>End of Semester Evaluation</b></td>
-			<td style="text-align:center; vertical-align:middle"><b>40</b></td>
-		</tr>							
-	</table>
+		<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
+			<table class="table table-sm table-bordered border-dark">	
+				<tr>
+					<th rowspan="2" style="text-align:center; vertical-align:middle">Topic</th>
+					<th colspan="4" style="text-align:center; vertical-align:middle">Time Allocated / hours</th>								
+				</tr>
+			
+				<tr>
+					<th style="text-align:center; vertical-align:middle">L</th>
+					<th style="text-align:center; vertical-align:middle">T</th>
+					<th style="text-align:center; vertical-align:middle">P</th>
+					<th style="text-align:center; vertical-align:middle">A</th>
+				</tr>						
+			
+				{%- for item in page.modules -%}
+				<tr>
+					<td><b>{{item[0]}}</b> <br>{{item[1]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[2]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[3]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[4]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[5]}}</td>
+				</tr>
+				{%- endfor -%}
+			</table>
+			<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework assignments</p>		
+		</div>
+	</div>
 </div>
