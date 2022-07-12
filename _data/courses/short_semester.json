@@ -1,0 +1,59 @@
+{
+    "semester" : 4.5,
+    "subjects" : {
+        "CO227" : {
+            "name" : "Computer Engineering Project",
+            "credits" : 2,
+            "Core/Elective" : "Core",
+            "prerequisite" : {
+                "0" : "CO225",
+                "1" : "CO226"
+            },
+            "content" : "NULL",
+            "objectives" : "The objective of this course is to let the students work with limited guidance on a project designed to consolidate theory and practice, and inculcate an attitude of self-learning and team work",
+            "ILOs" : {
+                "Knowledge" : "Construct relatively complex software solutions for real world problem using the knowledge they gained during their specialization (in particular CO225 and CO226).",
+                "Skill" : "Model a real-world problem using suitable techniques.\\nBreak a project into manageable tasks.\\nUse appropriate programming techniques, tools for the task at hand.\\nWork effectively as a team and manage time to meet deadlines.\\nCollect and analyze project outcomes.\\nWrite technical report.",
+                "Attitude" : "Able to work independently on a project.\\nHave the confidence to undertake a nontrivial project.\\nSelf-directed learning of skills required for a project."
+            },
+            "allocation" : {
+                "Lectures" : "5h",
+                "Tutorial Classes" : "NULL",
+                "Practical Classes" : "NULL",
+                "Assignments" : "50h"
+            }, 
+            "modules": {
+                "seminar" : {
+                    "Description" : "Report writing, technical presentation skills",
+                    "Allocation" : {
+                        "L" : "5h",
+                        "T" : "",
+                        "P" : "",
+                        "A" : ""
+                    }
+                },
+                "Project" : {
+                    "Description" : "Software project in a group",
+                    "Allocation" : {
+                        "L" : "",
+                        "T" : "",
+                        "P" : "",
+                        "A" : "50h"
+                    }
+
+                }
+            },
+            "references": {
+                "0" : "Damith C. Rajapakse, Practical tips for software intensive student projects "
+            },
+            "marks": {
+                "Mid project Evaluation" : "40",
+                "Project presentation & viva" : "30",
+                "Project report" : "30"
+            },
+            "lecturers":{
+                "0" : "NULL"
+            }
+        }
+    }
+}
