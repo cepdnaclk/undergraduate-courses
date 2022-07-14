@@ -1,145 +1,107 @@
-{
-    "semester" : 7,
-    "subjects" : {
-        "CO421" : {
-            "name" : "Final Year Project I",
-            "credits" : 3,
-            "Core/Elective" : "Core",
-            "prerequisite" : "NULL",
-            "content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-            "objectives" : "NULL",
-            "ILOs" : {
-                "Knowledge" : "NULL",
-                "Skill" : "NULL",
-                "Attitude" : "NULL"
-            },
-            "allocation" : {
-                "Lectures" : "NULL",
-                "Tutorial Classes" : "NULL",
-                "Practical Classes" : "NULL",
-                "Assignments" : "90h"
-            }, 
-            "modules": {
-               "0" : "NULL"
-            },
-            "references": {
-                "0" : "NULL"
-            },
-            "marks": {
-                "Practicals" : 0,
-                "Assignments" : 0,
-                "Mid-Exam" : 0,
-                "End-Exam" : 0
-            },
-            "lecturers":{
-                "0" : "NULL"
-            }
+[
+    {
+        "code" : "co421",
+        "name" : "Final Year Project I",
+        "credits" : 3,
+        "core_or_elective" : "Core",
+        "prerequisite" : "NULL",
+        "course_content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
+        "objectives" : "NULL",
+        "ILOs" : {
+            "Knowledge" : "NULL",
+            "Skill" : "NULL",
+            "Attitude" : "NULL"
         },
-        "CO422" : {
-            "name" : "Professional Practices",
-            "credits" : 2,
-            "Core/Elective" : "Core",
-            "prerequisite" : "NULL",
-            "content" : "Professionalism, Group Dynamics and Psychology, Communication Skills.",
-            "objectives" : "NULL",
-            "ILOs" : {
-                "Knowledge" : "NULL",
-                "Skill" : "NULL",
-                "Attitude" : "NULL"
-            },
-            "allocation" : {
-                "Lectures" : "25h",
-                "Tutorial Classes" : "NULL",
-                "Practical Classes" : "NULL",
-                "Assignments" : "10h"
-            }, 
-            "modules": {
-               "0" : "NULL"
-            },
-            "references": {
-                "0" : "NULL"
-            },
-            "marks": {
-                "Practicals" : 0,
-                "Assignments" : 0,
-                "Mid-Exam" : 0,
-                "End-Exam" : 0
-            },
-            "lecturers":{
-                "0" : "NULL"
-            }
+        "allocation" : "NULL",
+        "modules" : "NULL",
+        "references" : "NULL",
+        "marks" : "NULL",
+        "lecturers" : "NULL",
+        "url" : "/courses/semester7/co421"
+    },
+    {
+        "code" : "co422",
+        "name" : "Professional Practices",
+        "credits" : 2,
+        "core_or_elective" : "Core",
+        "prerequisite" : "NULL",
+        "course_content" : "Professionalism, Group Dynamics and Psychology, Communication Skills.",
+        "objectives" : "NULL",
+        "ILOs" : {
+            "Knowledge" : "NULL",
+            "Skill" : "NULL",
+            "Attitude" : "NULL"
         },
-        "CO423" : {
-            "name" : "Software Project Management",
-            "credits" : 2,
-            "Core/Elective" : "Core",
-            "prerequisite" : {
-                "0" : "CO328"
-            },
-            "content" : "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
-            "objectives" : "NULL",
-            "ILOs" : {
-                "Knowledge" : "NULL",
-                "Skill" : "NULL",
-                "Attitude" : "NULL"
-            },
-            "allocation" : {
-                "Lectures" : "22h",
-                "Tutorial Classes" : "NULL",
-                "Practical Classes" : "6h",
-                "Assignments" : "10h"
-            }, 
-            "modules": {
-               "0" : "NULL"
-            },
-            "references": {
-                "0" : "NULL"
-            },
-            "marks": {
-                "Practicals" : 0,
-                "Assignments" : 0,
-                "Mid-Exam" : 0,
-                "End-Exam" : 0
-            },
-            "lecturers":{
-                "0" : "NULL"
-            }
+        "allocation" : "Lectures : 25h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 10h",
+        "modules" : "NULL",
+        "references" : "NULL",
+        "marks" : "NULL",
+        "lecturers" : "NULL",
+        "url" : "/courses/semester7/co422"
+    },
+    {
+        "code" : "co423",
+        "name" : "Software Project Management",
+        "credits" : 2,
+        "core_or_elective" : "Core",
+        "prerequisite" : [
+            "co328"
+        ],
+        "course_content" : "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
+        "objectives" : "NULL",
+        "ILOs" : {
+            "Knowledge" : "NULL",
+            "Skill" : "NULL",
+            "Attitude" : "NULL"
         },
-        "CO424" : {
-            "name" : "Information Systems Management",
-            "credits" : 2,
-            "Core/Elective" : "Core",
-            "prerequisite" : {
-                "0" : "CO328"
+        "allocation" : "Lectures : 22h, Tutorial-Classes : NULL, Practical-Classes : 6h, Assignments : 10h",
+        "modules" : "NULL",
+        "references" : "NULL",
+        "marks" : "NULL",
+        "lecturers" : "NULL",
+        "url" : "/courses/semester7/co423"
+    },
+    {
+        "code" : "co424",
+        "name" : "Information Systems Management",
+        "credits" : 2,
+        "core_or_elective" : "Core",
+        "prerequisite" : [
+            "co328"
+        ],
+        "course_content" : "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
+        "objectives" : "NULL",
+        "ILOs" : {
+            "Knowledge" : "NULL",
+            "Skill" : "NULL",
+            "Attitude" : "NULL"
+        },
+        "allocation" : "Lectures : 20h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 20h",
+        "modules" : "NULL",
+        "references" : "NULL",
+        "marks" : [
+            {
+                "description" : "Practicals",
+                "allocation" : "0"
             },
-            "content" : "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
-            "objectives" : "NULL",
-            "ILOs" : {
-                "Knowledge" : "NULL",
-                "Skill" : "NULL",
-                "Attitude" : "NULL"
+            {
+                "description" : "Assignments",
+                "allocation" : "0"
             },
-            "allocation" : {
-                "Lectures" : "20h",
-                "Tutorial Classes" : "NULL",
-                "Practical Classes" : "NULL",
-                "Assignments" : "20h"
-            }, 
-            "modules": {
-               "0" : "NULL"
+            {
+                "description" : "Projects",
+                "allocation" : "50"
             },
-            "references": {
-                "0" : "NULL"
+            {
+                "description" : "Mid-Exam",
+                "allocation" : "0"
             },
-            "marks": {
-                "Practicals" : 0,
-                "Assignments" : 50,
-                "Mid-Exam" : 0,
-                "End-Exam" : 50
-            },
-            "lecturers":{
-                "0" : "NULL"
+            {
+                "description" : "End-Exam",
+                "allocation" : "50"
             }
-        }
+        ],
+        "lecturers" : "NULL",
+        "url" : "/courses/semester7/co424"
     }
-}
+]
