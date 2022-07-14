@@ -161,7 +161,7 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisite" : [
-            "CO225"
+            "co225"
         ],
         "course_content" : "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
         "objectives" : "NULL",
@@ -354,8 +354,8 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisite" : [
-            "CO223",
-            "CO225"
+            "co223",
+            "co225"
         ],
         "course_content" : "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
         "objectives" : "NULL",
@@ -522,7 +522,7 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisite" : [
-            "CO223"
+            "co223"
         ],
         "course_content" : "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
         "objectives" : "NULL",
@@ -697,7 +697,7 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisite" : [
-            "EE285"
+            "ee285"
         ],
         "course_content" : "Data conversion circuits, Diode Logic Circuits, BJT Logic families, MOS Logic Families, Storage Elements, Design Parameter and issues, Interfacing logic families, Active Filters, Oscillators, Circuit modeling and simulation, Electronic Laboratory.",
         "objectives" : "NULL",
