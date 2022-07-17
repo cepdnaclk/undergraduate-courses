@@ -182,22 +182,6 @@ layout: default
 			</div>
 		</div>
 
-		<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
-			<table class="table table-sm table-bordered border-dark">	
-				<tr>
-					<th style="text-align:center; vertical-align:middle">Assessment</th>
-					<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
-				</tr>						
-			
-				{%- for item in page.marks -%}
-				<tr>
-					<td style="vertical-align:middle">{{item[0]}}</td>
-					<td style="text-align:center; vertical-align:middle">{{item[1]}}</td>
-				</tr>
-				{%- endfor -%}							
-			</table>	
-		</div>
-
 		<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
 			<table class="table table-sm table-bordered border-dark">	
 				<tr>
@@ -224,5 +208,49 @@ layout: default
 			</table>
 			<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework assignments</p>		
 		</div>
+		
+		<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
+			<table class="table table-sm table-bordered border-dark">	
+				<tr>
+					<th style="text-align:center; vertical-align:middle">Assessment</th>
+					<th style="text-align:center; vertical-align:middle">Percentage Marks</th>								
+				</tr>						
+			
+				{%- for item in page.marks -%}
+				<tr>
+					<td style="vertical-align:middle">{{item[0]}}</td>
+					<td style="text-align:center; vertical-align:middle">{{item[1]}}</td>
+				</tr>
+				{%- endfor -%}							
+			</table>	
+		</div>
 	</div>
 </div>
+
+
+<style>
+    p {
+        text-align: justify;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Switch to the right tab, absed on the location hash
+        const locHash = window.location.hash;
+        if (locHash != '') {
+            var tabTrigger = new bootstrap.Tab($(locHash)).show();
+        }
+
+        // Update the URL hash with tab selection
+        var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]')
+        tabsList.forEach((triggerEl) => {
+            triggerEl.addEventListener('shown.bs.tab', function (event) {
+                const tabID = (event.target.getAttribute('id'));
+                console.log(tabID);
+                event.preventDefault();
+                window.location.hash = tabID;
+            })
+        });
+    });
+</script>

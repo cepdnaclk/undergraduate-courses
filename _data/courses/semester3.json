@@ -6,7 +6,7 @@
         "core_or_elective" : "Core",
         "prerequisite" : "NULL",
         "course_content" : "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
-        "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation: its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
+        "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation, its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
         "ILOs" : {
             "Knowledge" : ["Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.", "Analyse static and dynamic behaviour of digital circuits."],
             "Skill" : ["Draw up the formal requirement specification starting from an informal requirement.", "Design and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.", "Demonstrate the conformance of a design to its specifications including temporal behaviour."],
@@ -132,7 +132,7 @@
             }
         ],
         "lecturers": "NULL",
-        "url" : "/courses/semester3/co221"
+        "url" : "/courses/semester3/co221/"
     },
     {
         "code": "co222",
