@@ -30,7 +30,6 @@ title: Undergraduate Courses
 	</div>		
 </div>
 
-
 <div class="container pt-4">	
 	<div class="d-flex align-items-start">
 		<div class="col-sm-3">
@@ -79,25 +78,14 @@ title: Undergraduate Courses
 			<div class="tab-pane fade" id="v-pills-semester3" role="tabpanel" aria-labelledby="v-pills-semester3-tab">
 				<h4>Semester 3 Courses</h4>
 				<h6>The following compulsory courses are offered to Computer Engineering students in their 3<sup>rd</sup> semester.</h6> <h6> </h6> <hr /> 
-				
-				<h6 id="subject_CO221"><strong>CO221 : Digital Design (3 credits)</strong></h6> <h6><strong>Course contents: </strong></h6> <h6>Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation</h6> <h6>(Lectures - 30h ,  Practical classes - 16h,  Assignments - 14h)</h6> <h6><b>Textbooks and References:</b></h6> <ul> <li> <h6><b> </b>Morris Mano, Digital Design, 3<sup>rd</sup> Edition</h6> </li> <li> <h6>William James Dally and R. Curtis Harting, Digital Design - A Systems Approach</h6> </li> </ul> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
-				<h6 id="subject_CO222"><strong>CO222 : Programming Methodology (3 credits)</strong></h6> <h6><strong>Course Content:</strong></h6> <h6>Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools.</h6> <h6>(Lectures - 24h , Tutorial classes - 8h,  Practical classes - 14h,  Assignments - 12h)</h6> <h6><b>Textbooks and References:</b></h6> <ul> <li> <h6> J.D. Ulman, Foundations of Computer Science C edition</h6> </li> </ul> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
-				<h6 id="subject_CO223"><strong>CO223 : Computer Communication Networks I (3 credits)</strong></h6> <h6><strong>Course Content:</strong></h6> <h6>Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks.</h6> <h6>(Lectures - 30h,  Tutorial classes - 2h,  Practical classes - 22h,  Assignments - 4h)</h6> <h6><b>Textbooks and References:</b></h6> <ul> <li> <h6>J. F. Kurose and K. W. Ross. Computer Networking: A Top Down Approach.</h6> </li> </ul> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
-				<h6 id="subject_EM201"><strong>EM201: Mathematics III (3 credits)</strong></h6> <h6><strong>Course Content:</strong></h6> <h6>Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.</h6> <h6>(Lectures - 36h ,  Tutorial classes - 9h)</h6> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
-				<h6 id="subject_EM313"><strong> EM313: Discrete Mathematics (3 credits)</strong></h6> <h6><strong>Course content:</strong></h6> <h6>Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.</h6> <h6>(Lectures - 36h , Tutorial Classes - 9h )</h6> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
-				<h6 id="subject_EE282"><strong>EE282: Network Analysis for Computer Engineering (3 credits)</strong></h6> <h6><strong>Course Content:</strong></h6> <h6>Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks</h6> <h6>(Lectures -  45h)</h6> 
-				<a href="{{ '/courses/semester3/co222/' | relative_url }}">More details</a>
-				<h6>&nbsp;</h6> <hr>
+				{%- for course in site.data.courses.semester3 -%}
+					<h5><strong>{{ course.code | upcase }} {{ course.name }} ({{ course.credits }} credits)</strong></h5>
+					<h6><strong>Course Content:</strong></h6> 
+					<h6>{{ course.course_content }}</h6>
+					<h6>({{ course.allocation }})</h6>
+					<a href="{{ course.url| relative_url }}">More details</a> 
+					<h6>&nbsp;</h6> <hr> 
+				{%- endfor -%}	
 			</div>
 			
 			
@@ -329,27 +317,3 @@ title: Undergraduate Courses
 	</div>
 </div>
 
-
-
-<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">	
-	<div class="wpb_text_column wpb_content_element " >
-	
-		<div class="wpb_text_column wpb_content_element " >
-			<div class="wpb_wrapper">
-				<h2>Programme Outcomes</h2>
-				<p><center><img class="wp-image-391726 aligncenter" src="assets/img/PO-2.jpg" alt="" width="1000" /></center></p>
-			</div>
-		</div>
-	
-		<div class="wpb_wrapper">
-			<h2>Program Education Objective (PEO)s</h2>
-			<ul>
-			<li>Apply their computer engineering education to devise creative solutions to technical and societal problems with confidence and responsibility;</li>
-			<li>Passionately engage in further endeavors, be it in engineering graduate study, in engineering professional practice, or in the pursuit of other fields such as science, law, medicine, business or public policy;</li>
-			<li>Actively seek out roles of leadership within their profession and the larger community;</li>
-			<li>Exemplify as role models for the highest ethical and professional standards;</li>
-			<li>Retain the intellectual curiosity that motivates lifelong learning.</li>
-			</ul>
-		</div>
-	</div>
-</div>

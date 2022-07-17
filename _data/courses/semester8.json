@@ -1,41 +1,24 @@
-{
-    "semester" : 8,
-    "subjects" : {
-        "CO425" : {
-            "name" : "Final Year Project II",
-            "credits" : 3,
-            "Core/Elective" : "Core",
-            "prerequisite" : {
-                "0" : "CO421"
-            },
-            "content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-            "objectives" : "NULL",
-            "ILOs" : {
-                "Knowledge" : "NULL",
-                "Skill" : "NULL",
-                "Attitude" : "NULL"
-            },
-            "allocation" : {
-                "Lectures" : "NULL",
-                "Tutorial Classes" : "NULL",
-                "Practical Classes" : "NULL",
-                "Assignments" : "90h"
-            }, 
-            "modules": {
-               "0" : "NULL"
-            },
-            "references": {
-                "0" : "NULL"
-            },
-            "marks": {
-                "Practicals" : 0,
-                "Assignments" : 0,
-                "Mid-Exam" : 0,
-                "End-Exam" : 0
-            },
-            "lecturers":{
-                "0" : "NULL"
-            }
-        }
+[
+    {
+        "code" : "co425",
+        "name" : "Final Year Project II",
+        "credits" : 3,
+        "Core/Elective" : "Core",
+        "prerequisite" : [
+            "co421"
+        ],
+        "content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
+        "objectives" : "NULL",
+        "ILOs" : {
+            "Knowledge" : "NULL",
+            "Skill" : "NULL",
+            "Attitude" : "NULL"
+        },
+        "allocation" : "Lectures : NULL, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 90h",
+        "modules" : "NULL",
+        "references" : "NULL",
+        "marks" : "NULL",
+        "lecturers" : "NULL",
+        "url" : "/courses/semester8/co425"
     }
-}
+]
