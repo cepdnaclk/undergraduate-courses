@@ -12,7 +12,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 20h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 50h",
+        "allocation" : "Lectures : 20h, Assignments : 50h",
         "modules": "NULL",
         "references": "NULL",
         "marks": [
@@ -53,7 +53,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 25h, Tutorial-Classes : 10h, Practical-Classes : 20h, Assignments : NULL", 
+        "allocation" : "Lectures : 25h, Tutorial-Classes : 10h, Practical-Classes : 20h", 
         "modules": "NULL",
         "references": [
             "Allen Downey, Jeff Elkneer and Chris Meyers, How to Think Like a Computer Scientist, https://greenteapress.com/wp/learning-with-python/",
@@ -68,10 +68,6 @@
             {
                 "description" : "assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "projects",
-                "allocation" : "0"
             },
             {
                 "description" : "mid-exam",
@@ -154,7 +150,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 20h, Tutorial-Classes : 7h, Practical-Classes : 36h, Assignments : NULL", 
+        "allocation" : "Lectures : 20h, Tutorial-Classes : 7h, Practical-Classes : 36h", 
         "modules": [
             {
                 "topic": "Introduction to Manufacturing Industry",
@@ -189,7 +185,7 @@
             },
             {
                 "topic": "Casting",
-                "description" : "Introduction, Sand casting, Centrifugal casting, Other Metal Removal Processes: Grinding, Shaping and planing Carpentry and Fitting: Introduction",
+                "description" : "Introduction, Sand casting, Centrifugal casting, Other Metal Removal Processes; Grinding, Shaping and planing Carpentry and Fitting; Introduction",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -199,7 +195,7 @@
             },
             {
                 "topic": "Welding",
-                "description" : "Introduction, Arc and Gas welding, Welding equipment, Metrology: Use of precision measuring instruments",
+                "description" : "Introduction, Arc and Gas welding, Welding equipment, Metrology; Use of precision measuring instruments",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -262,10 +258,6 @@
                 "allocation" : "10"
             },
             {
-                "description" : "projects",
-                "allocation" : "-"
-            },
-            {
                 "description" : "mid-exam",
                 "allocation" : "30"
             },
@@ -284,13 +276,13 @@
         "core_or_elective" : "Core",
         "prerequisites" : "NULL",
         "course_content" : "Vectors, Matrix theory, Determinants, Transformations, Solution of simultaneous equations, Vector space, Characteristic value problems, Quadratic forms",
-        "objectives" : "To encourage students to develop a working knowledge of the central ideas of linear algebra: vector spaces, linear transformations, orthogonality, eigenvalues, eigenvectors and canonical forms and the applications of these ideas in science and engineering",
+        "objectives" : "To encourage students to develop a working knowledge of the central ideas of linear algebra; vector spaces, linear transformations, orthogonality, eigenvalues, eigenvectors and canonical forms and the applications of these ideas in science and engineering",
         "ILOs" : {
             "Knowledge" : ["Apply the knowledge of matrices, Gaussian reduction and determinants to solve systems of linear equations", "Apply the properties of   vector spaces and to generalize the concepts of Euclidean geometry to arbitrary vector spaces"],
             "Skill" : ["Identify linear transformations, represent them in terms of matrices, and interpret their geometric aspects", "Calculate eigenvalues and eigenvectors of matrices and linear transformations and apply the concepts in physical situations", "Prove eigenvalue properties of real symmetric matrices and apply them in quadratic forms"],
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 36h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 18h",
+        "allocation" : "Lectures : 36h, Assignments : 18h",
         "modules": [
             {
                 "topic": "Matrix Algebra",
@@ -395,16 +387,8 @@
         ],
         "marks": [
             {
-                "description" : "practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "projects",
-                "allocation" : "0"
             },
             {
                 "description" : "mid-exam",
@@ -446,7 +430,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 27h, Tutorial-Classes : 6h, Practical-Classes : 24h, Assignments : NULL",
+        "allocation" : "Lectures : 27h, Tutorial-Classes : 6h, Practical-Classes : 24h",
         "modules": "NULL",
         "references": "NULL",
         "marks": [
