@@ -780,10 +780,6 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "20"
             },
