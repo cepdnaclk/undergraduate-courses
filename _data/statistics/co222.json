@@ -1,0 +1,23 @@
+[        
+	{
+		"year" : "2021",
+		"batch" : "E18",
+		"lecturers" : ["swarnar@eng.pdn.ac.lk", "manjula.sandirigama@eng.pdn.ac.lk"],
+		"instructors" : ["anj.wanigarathne@eng.pdn.ac.lk"],
+		"marks" : "NULL"
+	},
+	{
+		"year" : "2020",
+		"batch" : "E17",
+		"lecturers" : ["swarnar@eng.pdn.ac.lk", "manjula.sandirigama@eng.pdn.ac.lk"],
+		"instructors" : ["anj.wanigarathne@eng.pdn.ac.lk"],
+		"marks" : "NULL"
+	},
+	{
+		"year" : "2019",
+		"batch" : "E16",
+		"lecturers" : "NULL",
+		"instructors" : "NULL",
+		"marks" : "NULL"
+	}
+]      
