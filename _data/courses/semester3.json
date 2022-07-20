@@ -6,13 +6,13 @@
         "core_or_elective" : "Core",
         "prerequisite" : "NULL",
         "course_content" : "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
-        "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation: its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
+        "objectives" : "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation; its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
         "ILOs" : {
             "Knowledge" : ["Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.", "Analyse static and dynamic behaviour of digital circuits."],
             "Skill" : ["Draw up the formal requirement specification starting from an informal requirement.", "Design and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.", "Demonstrate the conformance of a design to its specifications including temporal behaviour."],
             "Attitude" : ["The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.", "Discourage trial and error implementation of the circuits."]
         },
-        "allocation" : "Lectures : 30h, Tutorial-Classes : NULL, Practical-Classes : 16h, Assignments : 14h", 
+        "allocation" : "Lectures : 30h, Practical-Classes : 16h, Assignments : 14h", 
         "modules": [
             {
                 "topic": "Introduction to digital logic",
@@ -117,10 +117,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -289,12 +285,8 @@
                 "allocation" : "20"
             },
             {
-                "description" : "Assignments",
-                "allocation" : "20"
-            },
-            {
                 "description" : "Projects",
-                "allocation" : "0"
+                "allocation" : "20"
             },
             {
                 "description" : "Mid-Exam",
@@ -314,7 +306,7 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisite" : "NULL",
-        "course_content" : "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
+        "course_content" : "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
         "objectives" : "NULL",
         "ILOs" : {
             "Knowledge" : "NULL",
@@ -324,20 +316,12 @@
         "allocation" : "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 22h, Assignments : 4h",
         "modules": "NULL",
         "references": [
-            "J. F. Kurose and K. W. Ross. Computer Networking: A Top Down Approach."
+            "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."
         ],
         "marks": [
             {
                 "description" : "Practicals",
                 "allocation" : "30"
-            },
-            {
-                "description" : "Assignments",
-                "allocation" : "0"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -372,21 +356,13 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h, Practical-Classes : NULL, Assignments : NULL",
+        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h",
         "modules": "NULL",
         "references": "NULL",
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -421,7 +397,7 @@
             "Skill" : ["Model and analyze real world problems dealing with uncertainty using the discrete and the continuous random variables"],
             "Attitude" : ["Apply concepts of sampling distributions and point estimation for statistical inference and testing hypothesis related to decision making"]
         },
-        "allocation" : "Lectures : 24h, Tutorial-Classes : 4h, Practical-Classes : NULL, Assignments : 4h", 
+        "allocation" : "Lectures : 24h, Tutorial-Classes : 4h, Assignments : 4h", 
         "modules": [
             {
                 "topic": "Random variables",
@@ -501,16 +477,8 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -537,7 +505,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h, Practical-Classes : NULL, Assignments : NULL", 
+        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h", 
         "modules": [
             {
                 "topic": "Logic and Proof",
@@ -626,16 +594,8 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -677,7 +637,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 45h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : NULL", 
+        "allocation" : "Lectures : 45h", 
         "modules": [
             {
                 "topic" : "Review of DC Circuits",
@@ -756,16 +716,8 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
