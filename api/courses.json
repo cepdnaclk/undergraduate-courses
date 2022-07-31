@@ -8,13 +8,5 @@ sitemap: false
 Wrap all json files in data/courses to a single json file
 {%- endcomment -%}
 
-{
-    {%- assign sem3 = site.data.courses | semester3 -%}
-    {
-        "semester3": [
-            {%- for course in sem3 -%}
-            {%- course -%}{% if forloop.last %}{% else %},{% endif %}
-            {% endfor -%}
-        ]
-    }
-}
+{%- assign all = site.data.courses -%}
+{{ all | jsonify }}
