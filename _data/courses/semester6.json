@@ -15,7 +15,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 34h, Tutorial-Classes : NULL, Practical-Classes : 12h, Assignments : 10h",
+        "allocation" : "Lectures : 34h, Practical-Classes : 12h, Assignments : 10h",
         "modules" : "NULL",
         "references" : "NULL",
         "marks" : [
@@ -26,10 +26,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -59,11 +55,11 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 31h, Tutorial-Classes : NULL, Practical-Classes : 12h, Assignments : 16h",
+        "allocation" : "Lectures : 31h, Practical-Classes : 12h, Assignments : 16h",
         "modules" : "NULL",
         "references" : [
             "A. Tanenbaum, Modern Operating Systems",
-            "Vahalia, Unix Internals: The new frontiers"
+            "Vahalia, Unix Internals; The new frontiers"
         ],
         "marks" : [
             {
@@ -73,10 +69,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "25"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -110,7 +102,7 @@
         "allocation" : "Lectures : 28h, Tutorial-Classes : 3h, Practical-Classes : 8h, Assignments : 20h",
         "modules" : "NULL",
         "references" : [
-            "Eric Evans, Domain-Driven Design: Tackling Complexity in the Heart of Software",
+            "Eric Evans, Domain-Driven Design; Tackling Complexity in the Heart of Software",
             "James O. Coplien, Gertrud BjÃƒÂ¸rnvig, Lean Architecture for Agile Software Development",
             "Serge Demeyer, StÃƒÂ©phane Ducasse, Oscar Nierstrasz,  Object-Oriented Reengineering Patterns"
         ],
@@ -122,10 +114,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "30"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -169,11 +157,7 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
-            },
+            }, 
             {
                 "description" : "Mid-Exam",
                 "allocation" : "25"
