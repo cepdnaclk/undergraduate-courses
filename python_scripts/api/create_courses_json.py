@@ -57,14 +57,25 @@ r = requests.get(apiSource)
 # Fetch the data from 'apiSource'
 if r.status_code == 200:
     dataInJSON = json.loads(r.text)
-    print(dataInJSON)
+    # print(dataInJSON)
+    # print(dataInJSON['short_semester'])
 
-    # for thisSemester in dataInJSON:
+    for thisSemester in dataInJSON:
         # print(thisSemester) 
+        print("")
         # print("-------")
-        # for thisCourse in thisSemester:
-        #     print(thisCourse)
-        #     print("########")
+        # print("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+        try:
+            # if (dataInJSON[thisSemester] != 'NULL') or (dataInJSON[thisSemester] != False):
+            if dataInJSON[thisSemester] != False:
+                for thisCourse in dataInJSON[thisSemester]:
+                    if (thisCourse != 'NULL'):
+                        print(thisCourse)
+                        print("")
+                        # print("########")
+                        # print("####################################################################################################################################################################################")
+        except Exception as e:
+            raise e
 
             # course_code = thisCourse["code"]
             # print(course_code)
