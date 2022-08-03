@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: "/api/courses/"
+sitemap: false
+---
+
+{%- comment -%}
+Wrap all json files in data/courses to a single json file
+{%- endcomment -%}
+
+{%- assign all = site.data.courses -%}
+{{ all | jsonify }}
