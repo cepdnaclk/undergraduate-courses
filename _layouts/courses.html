@@ -233,7 +233,8 @@ layout: default
 			
 			<script>
 			var xValues = ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "E"];
-			var yValues = [55, 49, 44, 24, 15];
+			var yValues = [10, 24, 10, 9, 7];
+			var y1Values = [2, 20, 26, 7, 5];
 			var barColors = ["red", "green","blue","orange","brown", "red"];
 
 			new Chart("myChart", {
@@ -260,7 +261,7 @@ layout: default
 				labels: xValues,
 				datasets: [{
 				  backgroundColor: barColors,
-				  data: yValues
+				  data: y1Values
 				}]
 			  },
 			  options: {

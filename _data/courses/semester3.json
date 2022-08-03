@@ -216,7 +216,7 @@
                 }
             },
             {
-                "topic": "-",
+                "topic": "",
                 "description" : "Linked structures, box and pointer diagrams",
                 "allocation" : {
                     "L" : "1",
@@ -236,7 +236,7 @@
                 }
             },
             {
-                "topic": "-",
+                "topic": "",
                 "description" : "Error checking, assertions and testing",
                 "allocation" : {
                     "L" : "1",
