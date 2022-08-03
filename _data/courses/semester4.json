@@ -39,7 +39,7 @@
             },
             {
                 "topic": "Computer arithmetic",
-                "description" : "Integer arithmetic: Multiplication, Division, Significance of range,precision and accuracy; Floating-point arithmetic: Standard methods of representation, Addition, Subtraction, Multiplication, Division;Conversion between integer and floating-point numbers",
+                "description" : "Integer arithmetic; Multiplication, Division, Significance of range,precision and accuracy; Floating-point arithmetic; Standard methods of representation, Addition, Subtraction, Multiplication, Division;Conversion between integer and floating-point numbers",
                 "allocation" : {
                     "L" : "3",
                     "T" : "1",
@@ -49,7 +49,7 @@
             },
             {
                 "topic": "CPU organization",
-                "description" : "Implementation of the von Neumann machine; Control and data paths,single vs. Multiple bus datapaths; Instruction set architecture,Implementing instructions; Register transfer notation, Conditional and unconditional transfers, ALU control; Control unit: hardwired vs. Microprogrammed realizations; Arithmetic units for multiplication and division",
+                "description" : "Implementation of the von Neumann machine; Control and data paths,single vs. Multiple bus datapaths; Instruction set architecture,Implementing instructions; Register transfer notation, Conditional and unconditional transfers, ALU control; Control unit; hardwired vs. Microprogrammed realizations; Arithmetic units for multiplication and division",
                 "allocation" : {
                     "L" : "5",
                     "T" : "1",
@@ -59,7 +59,7 @@
             },
             {
                 "topic": "Pipelining",
-                "description" : "Introduction to instruction level parallelism, Overview of pipelining, Pipelined data paths and control, Pipeline hazards: structural, data and control hazards, forwarding, stalls; Reducing the effect of hazards",
+                "description" : "Introduction to instruction level parallelism, Overview of pipelining, Pipelined data paths and control, Pipeline hazards; structural, data and control hazards, forwarding, stalls; Reducing the effect of hazards",
                 "allocation" : {
                     "L" : "4",
                     "T" : "-",
@@ -69,7 +69,7 @@
             },
             {
                 "topic": "Memory hierarchies",
-                "description" : "Memory systems hierarchy, Electronic, magnetic and optical technologies; Main memory organization, latency, cycle-time, bandwidth and interleaving; Cache memories: Address mapping, line size, replacement and write-back policies; Virtual memory, page faults, TLBs, protection",
+                "description" : "Memory systems hierarchy, Electronic, magnetic and optical technologies; Main memory organization, latency, cycle-time, bandwidth and interleaving; Cache memories; Address mapping, line size, replacement and write-back policies; Virtual memory, page faults, TLBs, protection",
                 "allocation" : {
                     "L" : "5",
                     "T" : "1",
@@ -79,7 +79,7 @@
             },
             {
                 "topic": "Interfacing and communication",
-                "description" : "I/O fundamentals: Types and characteristics of I/O devices, handshaking, buffering; Buses: types of buses, synchronous and asynchronous buses, bus masters and slaves, bus arbitration, bus standards; programmed I/O, interrupt driven I/O, Interrupt structures: vectored and prioritized, interrupt overhead; Direct memory access",
+                "description" : "I/O fundamentals; Types and characteristics of I/O devices, handshaking, buffering; Buses; types of buses, synchronous and asynchronous buses, bus masters and slaves, bus arbitration, bus standards; programmed I/O, interrupt driven I/O, Interrupt structures; vectored and prioritized, interrupt overhead; Direct memory access",
                 "allocation" : {
                     "L" : "4",
                     "T" : "-",
@@ -119,7 +119,7 @@
             } 
         ],
         "references": [
-            "David Patterson, John L. Hennessy, Computer Organization and Design: The Hardware/Software Interface, 4th Edition"
+            "David Patterson, John L. Hennessy, Computer Organization and Design; The Hardware/Software Interface, 4th Edition"
         ],
         "marks": [
             {
@@ -129,10 +129,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -195,7 +191,7 @@
             },
             {
                 "topic": "Declarative programming",
-                "description" : "Functions as first-class values, closures, collection-oriented programming: map, filter and reduce (accumulate)",
+                "description" : "Functions as first-class values, closures, collection-oriented programming; map, filter and reduce (accumulate)",
                 "allocation" : {
                     "L" : "3",
                     "T" : "1",
@@ -255,9 +251,9 @@
             }
         ],
         "references" : [
-            "Mark Pilgrim, Dive into Python 3: http://www.diveinto.org/python3/",
-            "Software Carpentry Lessons: http://software-carpentry.org/v4/",
-            "Brad Miller and David Ranum, Problem Solving with Algorithms and Data Structures: http://interactivepython.org/runestone/static/pythonds/index.html"
+            "Mark Pilgrim, Dive into Python 3; http://www.diveinto.org/python3/",
+            "Software Carpentry Lessons; http://software-carpentry.org/v4/",
+            "Brad Miller and David Ranum, Problem Solving with Algorithms and Data Structures; http://interactivepython.org/runestone/static/pythonds/index.html"
         ],
         "marks": [
             {
@@ -265,16 +261,8 @@
                 "allocation" : "30"
             },
             {
-                "description" : "Assignments",
-                "allocation" : "30"
-            },
-            {
                 "description" : "Projects",
-                "allocation" : "0"
-            },
-            {
-                "description" : "Mid-Exam",
-                "allocation" : "0"
+                "allocation" : "30"
             },
             {
                 "description" : "End-Exam",
@@ -315,7 +303,7 @@
             },
             {
                 "topic": "Data modelling",
-                "description" : "Importance of data modelling in system development; Levels of abstraction and practice; Conceptual models: ER/EER and UML; Logical models: Relational and OO Models, Relational mapping",
+                "description" : "Importance of data modelling in system development; Levels of abstraction and practice; Conceptual models; ER/EER and UML; Logical models; Relational and OO Models, Relational mapping",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -325,7 +313,7 @@
             },
             {
                 "topic": "RDBMS concepts",
-                "description" : "Relational algebra and relational calculus; Relational integrity, Normalization: 1NF, 2NF, 3NF and BCNF; Object oriented extensions",
+                "description" : "Relational algebra and relational calculus; Relational integrity, Normalization; 1NF, 2NF, 3NF and BCNF; Object oriented extensions",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -335,7 +323,7 @@
             },
             {
                 "topic": "Database query languages",
-                "description" : "4GL environments; SQL: DDL, DML and DCL; Triggers; Views",
+                "description" : "4GL environments; SQL; DDL, DML and DCL; Triggers; Views",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -345,7 +333,7 @@
             },
             {
                 "topic": "Database programming techniques",
-                "description" : "Embedded SQL; Database programming with function/procedure calls: ODBC, JDBC; Stored procedures",
+                "description" : "Embedded SQL; Database programming with function/procedure calls; ODBC, JDBC; Stored procedures",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -355,7 +343,7 @@
             },
             {
                 "topic": "Introduction to indexes and query optimization",
-                "description" : "Types of indexes: primary and secondary indexes, Query optimization: rule based and cost based approaches",
+                "description" : "Types of indexes; primary and secondary indexes, Query optimization; rule based and cost based approaches",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -401,11 +389,7 @@
         "marks" : [
             {
                 "description" : "Practicals",
-                "allocation" : "20"
-            },
-            {
-                "description" : "Assignments",
-                "allocation" : "0"
+                "allocation" : "10"
             },
             {
                 "description" : "Projects",
@@ -417,7 +401,7 @@
             },
             {
                 "description" : "End-Exam",
-                "allocation" : "60"
+                "allocation" : "50"
             }
         ],
         "lecturers" : [
@@ -451,7 +435,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h, Practical-Classes : NULL, Assignments : NULL",
+        "allocation" : "Lectures : 36h, Tutorial-Classes : 9h",
         "modules" : [
             {
                 "topic": "Surfaces and Space curves in R3",
@@ -518,16 +502,8 @@
         "references" : "NULL",
         "marks" : [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -562,7 +538,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 31h, Tutorial-Classes : 4h, Practical-Classes : NULL, Assignments : 20h",
+        "allocation" : "Lectures : 31h, Tutorial-Classes : 4h, Assignments : 20h",
         "modules" : [
             {
                 "topic": "Introduction to Numerical methods",
@@ -577,7 +553,7 @@
             },
             {
                 "topic": "Solutions to nonlinear equations",
-                "description" : "Root finding methods, Bracketing methods:Graphical methods, Bisection method, Rate of convergence, Open methods:Fixed point iteration, Newton-Raphson method, Systems of nonlinear equations",
+                "description" : "Root finding methods, Bracketing methods; Graphical methods, Bisection method, Rate of convergence, Open methods; Fixed point iteration, Newton-Raphson method, Systems of nonlinear equations",
                 "allocation" : {
                     "L" : "-",
                     "T" : "-",
@@ -611,16 +587,8 @@
         ],
         "marks" : [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -634,7 +602,7 @@
         "lecturers" : [
             {
                 "name": "Dr. Janitha Gunatilake",
-                "title": "MSc/PhD: Texas Tech University",
+                "title": "MSc/PhD- Texas Tech University",
                 "email": "janithag@pdn.ac.lk",
                 "teleOffice": "0812393348",
                 "teleMobile": ""
@@ -697,7 +665,7 @@
             },
             {
                 "topic": "Operational Amplifiers(OPAMP)",
-                "description" : "The ideal Op-Amp, open-loop gain, input resistance, and output resistance. Characteristics of Real Op-Amps: open- loop transfer function, voltage gains, bandwidth, slew rate, power bandwidth, clipping, offset voltages and currents, rejection ratios",
+                "description" : "The ideal Op-Amp, open-loop gain, input resistance, and output resistance. Characteristics of Real Op-Amps; open- loop transfer function, voltage gains, bandwidth, slew rate, power bandwidth, clipping, offset voltages and currents, rejection ratios",
                 "allocation" : {
                     "L" : "5",
                     "T" : "-",
@@ -706,7 +674,7 @@
                 }
             },
             {
-                "topic": "OPAMP Applications: Linear Applications",
+                "topic": "OPAMP Applications; Linear Applications",
                 "description" : "(Inverting and noninverting amplifiers. Differential and summing amplifiers. Integrators and differentiators.), Non-linear Applications ( precision rectifiers, peak detectors, Schmitt-trigger comparator and logarithmic amplifiers)",
                 "allocation" : {
                     "L" : "6",
@@ -717,7 +685,7 @@
             },
             {
                 "topic": "Junction Field Effect Transistors(JFET)",
-                "description" : "JFET Terminal Characteristics , Circuit Models, Applications: Amplifier Configurations, , DC/AC load line analysis",
+                "description" : "JFET Terminal Characteristics, Circuit Models, Applications; Amplifier Configurations, DC/AC load line analysis",
                 "allocation" : {
                     "L" : "2",
                     "T" : "-",
@@ -727,7 +695,7 @@
             },
             {
                 "topic": "Metal Oxide Semiconductor(MOS) Field Effect Transistors",
-                "description" : "MOS Terminal Characteristics , Circuit Models, Applications: Amplifier Configurations, DC/AC load line analysis",
+                "description" : "MOS Terminal Characteristics , Circuit Models, Applications; Amplifier Configurations, DC/AC load line analysis",
                 "allocation" : {
                     "L" : "2",
                     "T" : "-",
@@ -767,10 +735,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
