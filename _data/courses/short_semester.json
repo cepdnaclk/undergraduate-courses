@@ -15,7 +15,7 @@
             "Skill" : ["Model a real-world problem using suitable techniques.", "Break a project into manageable tasks.", "Use appropriate programming techniques, tools for the task at hand.", "Work effectively as a team and manage time to meet deadlines.", "Collect and analyze project outcomes.", "Write technical report."],
             "Attitude" : ["Able to work independently on a project.", "Have the confidence to undertake a nontrivial project.", "Self-directed learning of skills required for a project."]
         },
-        "allocation" : "Lectures : 5h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 50h",
+        "allocation" : "Lectures : 5h, Assignments : 50h",
         "modules" : [
             {
                 "topic": "seminar",
@@ -53,24 +53,8 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
-                "description" : "Assignments",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Projects",
                 "allocation" : "100"
-            },
-            {
-                "description" : "Mid-Exam",
-                "allocation" : "0"
-            },
-            {
-                "description" : "End-Exam",
-                "allocation" : "0"
             }
         ],
         "lecturers": "NULL",
