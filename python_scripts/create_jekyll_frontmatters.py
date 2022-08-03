@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     # jsonPath = f"../_data/courses/semester3.json"
     # dataInJSON = json.load(open(jsonPath))
-    dataInJSON = json.load(open("_data/courses/semester3.json"))
+    dataInJSON = json.load(open("_data/courses/semester4.json"))
 
     for thisCourse in dataInJSON:
         # print(thisCourse)
@@ -31,7 +31,7 @@ if __name__ == "__main__":
         if modules=='NULL':
             outputString = f"""---
 layout: courses
-permalink: "/courses/semester3/{thisCourse["code"].lower()}/"
+permalink: "/courses/semester4/{thisCourse["code"].lower()}/"
 title: {thisCourse["name"]}
 course_number : {thisCourse["code"].upper()} 
 course_title : {thisCourse["name"]}
@@ -80,7 +80,7 @@ marks: {marksList}
             
             outputString = f"""---
 layout: courses
-permalink: "/courses/semester3/{thisCourse["code"].lower()}/"
+permalink: "/courses/semester4/{thisCourse["code"].lower()}/"
 title: {thisCourse["name"]}
 course_number : {thisCourse["code"].upper()} 
 course_title : {thisCourse["name"]}
@@ -103,7 +103,7 @@ marks: {marksList}
         # print(outputString)
         # write to html file (jekyll frontmatter)
         # file_url = "../"+f"pages/courses/semester3/{course_code.lower()}.html"
-        file_url = f"pages/courses/semester3/{course_code.lower()}.html"
+        file_url = f"pages/courses/semester4/{course_code.lower()}.html"
         os.makedirs(os.path.dirname(file_url), exist_ok=True)
         htmlFile = open(file_url, "w")
         htmlFile.write(outputString)
