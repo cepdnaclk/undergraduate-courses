@@ -12,7 +12,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 20h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 50h",
+        "allocation" : "Lectures : 20h, Assignments : 50h",
         "modules": "NULL",
         "references": "NULL",
         "marks": [
@@ -53,7 +53,7 @@
             "Skill" : ["Use Equilibrium Phase diagrams of Binary alloys to obtain the constitution at a given state", "Perform different testing methods to evaluate properties of different materials"],
             "Attitude" : ["Appreciate structure, property, process relationships and applications of each class of materials"]
         },
-        "allocation" : "Lectures : 38h, Tutorial-Classes : 1h, Practical-Classes : 12h, Assignments : NULL",
+        "allocation" : "Lectures : 38h, Tutorial-Classes : 1h, Practical-Classes : 12h",
         "modules": [
             {
                 "topic": "Introduction to the course and course policies",
@@ -209,8 +209,8 @@
         ],
         "references": [
             "Engineering Materials 1, An lntroduction to their Properties and Applications",
-            "Engineering Materials 2: An Introduction to Microstructures, Processing and Design, Michael F. Ashby and David R. H. Jones, Butterworth-Heinemann, 1999",
-            ". The Science and Engineering of Materials, Donald R. Askeland, Pradeep P. Fulay and Wendelin J. Wright, Sixth Edition, Cengage Learning, Inc., 2010",
+            "Engineering Materials 2, An Introduction to Microstructures, Processing and Design, Michael F. Ashby and David R. H. Jones, Butterworth-Heinemann, 1999",
+            "The Science and Engineering of Materials, Donald R. Askeland, Pradeep P. Fulay and Wendelin J. Wright, Sixth Edition, Cengage Learning, Inc., 2010",
             "The Science and Engineering of Materials, Donald R. Askeland, SI Edition, Nelson Thomas Ltd, 1998"
 
         ],
@@ -222,10 +222,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -357,7 +353,7 @@
             }
         ],
         "references": [
-            "Hibbeler, R.C., (2013). Engineering Mechanics: Statics and Dynamics, 13th edition, Pearson (or any edition from 9th).",
+            "Hibbeler, R.C., (2013). Engineering Mechanics Statics and Dynamics, 13th edition, Pearson (or any edition from 9th).",
             "Douglas, J. F., Gasiorek, G. M., Swaffield, J. A., Jack, L. B., (2005), Fluid Mechanics, 5th edition, Pearson (or any later Editions)."
         ],
         "marks": [
@@ -368,10 +364,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -434,7 +426,7 @@
             "Skill" : ["Identify different types of errors in measurements, considering the basic components and performance indicators of measuring instruments, and apply procedures to minimize the impact of errors in measurements", "Analyze time dependent output of an instrument through rigorous or numerical methods to obtain errors and input characteristics"],
             "Attitude" : ["Apply dimensional analysis and analogies to solve engineering problems through experimentation and Construct experiments to test hypothesis using statistical techniques where required"]
         },
-        "allocation" : "Lectures : 21h, Tutorial-Classes : 4h, Practical-Classes : 40h, Assignments : NULL",
+        "allocation" : "Lectures : 21h, Tutorial-Classes : 4h, Practical-Classes : 40h",
         "modules": [
             {
                 "topic": "Course Introduction",
@@ -585,14 +577,6 @@
                 "allocation" : "20"
             },
             {
-                "description" : "Projects",
-                "allocation" : "0"
-            },
-            {
-                "description" : "Mid-Exam",
-                "allocation" : "0"
-            },
-            {
                 "description" : "End-Exam",
                 "allocation" : "40"
             }
@@ -606,14 +590,14 @@
         "credits" : 3,
         "core_or_elective" : "Core",
         "prerequisites" : "NULL",
-        "course_content" : "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other: speed tests",
+        "course_content" : "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other speed tests",
         "objectives" : "NULL",
         "ILOs" : {
             "Knowledge" : "NULL",
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 18h, Tutorial-Classes : NULL, Practical-Classes : 45h, Assignments : 9h",
+        "allocation" : "Lectures : 18h, Practical-Classes : 45h, Assignments : 9h",
         "modules": "NULL",
         "references": "NULL",
         "marks":[
@@ -654,7 +638,7 @@
             "Skill" : ["Compute the roots of unity, the derivatives of complex functions, and identify Holomorphic functions", "Identify and sketch conic sections, use polar and other coordinates to represent points in 2-D", "Compute the vector and cartesian equations of lines and planes, the derivatives of vector valued functions, and solve related problems"],
             "Attitude" : ["Determine the convergence of sequences and infinite series, calculate the radius of convergence and interval of convergence of power series and find the power series expansion of analytic functions"]
         },
-        "allocation" : "Lectures : 36h, Tutorial-Classes : NULL, Practical-Classes : NULL, Assignments : 18h",
+        "allocation" : "Lectures : 36h, Assignments : 18h",
         "modules": [
             {
                 "topic": "Review",
@@ -796,16 +780,8 @@
         ],
         "marks": [
             {
-                "description" : "Practicals",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
