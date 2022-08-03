@@ -119,10 +119,6 @@
                 "allocation" : "10"
             },
             {
-                "description" : "Projects",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Mid-Exam",
                 "allocation" : "20"
             },
@@ -291,10 +287,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
