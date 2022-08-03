@@ -14,7 +14,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 31h, Tutorial-Classes : NULL, Practical-Classes : 20h, Assignments : 8h",
+        "allocation" : "Lectures : 31h, Practical-Classes : 20h, Assignments : 8h",
         "modules" : [
             {
                 "topic": "Introduction to microcontrollers",
@@ -118,18 +118,14 @@
             }
         ],
         "references" : [
-            "Book - AVR Microcontroller and Embedded Systems File: https://feels.pdn.ac.lk/pluginfile.php/39720/mod_resource/content/1/Book%20-%20AVR%20Microcontroller%20and%20Embedded%20Systems.pdf",
-            "Fredrick M. Cady: Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.",
-            "Mano, M.M. & Kime, C.R.: Logic and Computer Design Fundamentals"
+            "Book - AVR Microcontroller and Embedded Systems File; https://feels.pdn.ac.lk/pluginfile.php/39720/mod_resource/content/1/Book%20-%20AVR%20Microcontroller%20and%20Embedded%20Systems.pdf",
+            "Fredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.",
+            "Mano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals"
         ],
         "marks" : [
             {
                 "description" : "Practicals",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Assignments",
-                "allocation" : "0"
             },
             {
                 "description" : "Projects",
@@ -170,7 +166,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 30h, Tutorial-Classes : NULL, Practical-Classes : 18h, Assignments : 12h", 
+        "allocation" : "Lectures : 30h, Practical-Classes : 18h, Assignments : 12h", 
         "modules" : [
             {
                 "topic": "Running time and time complexity",
@@ -267,7 +263,7 @@
             "Cormen, Rivest, Introduction to Algorithms",
             "Aho, Hopcroft and Ullman, Data structures and algorithms",
             "Sedgewick and Wayne, Algorithms",
-            "CO322 Syllabus : https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi"
+            "CO322 Syllabus; https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi"
         ],
         "marks" : [
             {
@@ -277,10 +273,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "20"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -312,8 +304,8 @@
         "allocation" : "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 23h, Assignments : 3h",
         "modules" : "NULL",
         "references" : [
-            "J. F. Kurose and K. W. Ross. Computer Networking: A Top Down Approach. 6th edition.",
-            "L. Garcia and I. Widjaja, Communication Networks: Fundamental Concepts and Key Architectures. 2nd edition."
+            "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach. 6th edition.",
+            "L. Garcia and I. Widjaja, Communication Networks; Fundamental Concepts and Key Architectures. 2nd edition."
         ],
         "marks" : [
             {
@@ -323,10 +315,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
@@ -501,14 +489,6 @@
                 "allocation" : "30"
             },
             {
-                "description" : "Projects",
-                "allocation" : "0"
-            },
-            {
-                "description" : "Mid-Exam",
-                "allocation" : "0"
-            },
-            {
                 "description" : "End-Exam",
                 "allocation" : "40"
             }
@@ -668,10 +648,6 @@
                 "allocation" : "10"
             },
             {
-                "description" : "Projects",
-                "allocation" : "0"
-            },
-            {
                 "description" : "Mid-Exam",
                 "allocation" : "20"
             },
@@ -706,7 +682,7 @@
             "Skill" : "NULL",
             "Attitude" : "NULL"
         },
-        "allocation" : "Lectures : 33h, Tutorial-Classes : NULL, Practical-Classes : 24h, Assignments : NULL",
+        "allocation" : "Lectures : 33h, Practical-Classes : 24h",
         "modules" : [
             {
                 "topic": "Logic Circuits",
@@ -781,10 +757,6 @@
             {
                 "description" : "Assignments",
                 "allocation" : "10"
-            },
-            {
-                "description" : "Projects",
-                "allocation" : "0"
             },
             {
                 "description" : "Mid-Exam",
