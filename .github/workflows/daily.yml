@@ -1,10 +1,6 @@
-name: Daily Build
+name: Daily Run
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
     # # At 18:50 UTC on everyday (12.20 mid night in Sri Lanka)
     - cron: "50 18 * * *"
@@ -38,7 +34,6 @@ jobs:
           cd ./python_scripts/unitTests
           python3 test_api.py
           cd ../
-
 
 
       - name: Commit and push into the main branch
