@@ -1,0 +1,42 @@
+{
+  "semester1": {
+    "title": "Semester 1",
+    "url": ""
+  },
+  "semester2": {
+    "title": "Semester 2",
+    "url": ""
+  },
+  "semester3": {
+    "title": "Semester 3",
+    "url": ""
+  },
+  "semester4": {
+    "title": "Semester 4",
+    "url": ""
+  },
+  "semester5": {
+    "title": "Semester 5",
+    "url": ""
+  },
+  "semester6": {
+    "title": "Semester 6",
+    "url": ""
+  },
+  "semester7": {
+    "title": "Semester 7",
+    "url": ""
+  },
+  "semester8": {
+    "title": "Semester 8",
+    "url": ""
+  },
+  "short-semester": {
+    "title": "Short Semester",
+    "url": ""
+  },
+  "general-electives": {
+    "title": "General Electives",
+    "url": ""
+  }
+}

@@ -77,7 +77,7 @@ definitions:
       credits:
         type: integer
         description: Credits
-      core_or_elective:
+      type:
         type: string
         description: Core or Elective
       prerequisites:
@@ -180,7 +180,7 @@ definitions:
       code: XX999
       name: Course Name
       credits: 3
-      core_or_elective: Core
+      type: Core
       prerequisites:
         - YY888
       course_content: Course Content

@@ -1,24 +1,22 @@
 [
-    {
-        "code" : "co425",
-        "name" : "Final Year Project II",
-        "credits" : 3,
-        "Core/Elective" : "Core",
-        "prerequisite" : [
-            "co421"
-        ],
-        "content" : "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-        "objectives" : "NULL",
-        "ILOs" : {
-            "Knowledge" : "NULL",
-            "Skill" : "NULL",
-            "Attitude" : "NULL"
-        },
-        "allocation" : "Assignments : 90h",
-        "modules" : "NULL",
-        "references" : "NULL",
-        "marks" : "NULL",
-        "lecturers" : "NULL",
-        "url" : "/courses/semester8/co425"
-    }
+  {
+    "code": "CO425",
+    "name": "Final Year Project II",
+    "credits": 3,
+    "type": "Core",
+    "prerequisite": ["CO421"],
+    "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
+    "objectives": "NULL",
+    "ILOs": {
+      "Knowledge": "NULL",
+      "Skill": "NULL",
+      "Attitude": "NULL"
+    },
+    "allocation": "Assignments : 90h",
+    "modules": "NULL",
+    "references": "NULL",
+    "marks": "NULL",
+    "lecturers": "NULL",
+    "url": "/courses/semester8/CO425"
+  }
 ]
