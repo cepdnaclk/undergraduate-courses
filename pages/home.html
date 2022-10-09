@@ -19,6 +19,44 @@ title: Undergraduate Courses
 
 
 <div class="page-entry">
+	<div class="container pt-4">
+
+
+		<div class="d-flex align-items-start">
+			<div class="col-sm-3">
+				<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					{%- for sem in site.data.semesters -%}
+					<button class="nav-link {%- if forloop.first -%} {{' active '}} {%- endif -%}"
+						id="v-pills-{{sem[0]}}-tab" data-bs-toggle="pill" data-bs-target="#v-pills-{{sem[0]}}"
+						type="button" role="tab" aria-controls="v-pills-{{sem[0]}}"
+						aria-selected="{%- if forloop.first -%} true {%- endif -%}">{{ sem[1]["title"] }}</button>
+					{%- endfor -%}
+				</div>
+			</div>
+
+			<div class="tab-content" id="v-pills-tabContent">
+				{%- for sem in site.data.courses -%}
+				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}"
+					id="v-pills-{{ sem[0] }}" role="tabpanel" aria-labelledby="v-pills-{{ sem[0] }}-tab">
+					<h3>{{ sem[1]["title"] }} Courses</h3>
+					<h6>{{ sem[1]["description"] }}</h6>
+					<hr>
+					{%- for course in sem[1]["courses"] -%}
+					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
+					<h6><strong>Course Content:</strong></h6>
+					<h6>{{ course.content }}</h6>
+					<h6>({{ course.allocation }})</h6>
+					<a href="{{ course.url.view }}">More Details</a>
+					<h6>&nbsp;</h6>
+					<hr>
+					{%- endfor -%}
+				</div>
+				{%- endfor -%}
+			</div>
+		</div>
+	</div>
+
+
 	<div id="ld_courses_listing">
 		<div class="vc_row wpb_row vc_row-fluid">
 			<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -28,204 +66,12 @@ title: Undergraduate Courses
 							<div class="wpb_wrapper">
 								<p>
 									<center><img class="wp-image-391726 aligncenter"
-											src="assets/img/courses_overview.jpg" alt="" width="1000" /></center>
+											src="assets/img/courses_overview_v2.jpg" alt="" width="1000" /></center>
 								</p>
 								<h2>Courses offered in four-year degree program</h2>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container pt-4">
-		<div class="d-flex align-items-start">
-			<div class="col-sm-3">
-				<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-					<button class="nav-link active" id="v-pills-semester1-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester1" type="button" role="tab" aria-controls="v-pills-semester1"
-						aria-selected="true">Semester 1</button>
-					<button class="nav-link" id="v-pills-semester2-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester2" type="button" role="tab" aria-controls="v-pills-semester2"
-						aria-selected="false">Semester 2</button>
-					<button class="nav-link" id="v-pills-semester3-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester3" type="button" role="tab" aria-controls="v-pills-semester3"
-						aria-selected="false">Semester 3</button>
-					<button class="nav-link" id="v-pills-semester4-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester4" type="button" role="tab" aria-controls="v-pills-semester4"
-						aria-selected="false">Semester 4</button>
-					<button class="nav-link" id="v-pills-semester5-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester5" type="button" role="tab" aria-controls="v-pills-semester5"
-						aria-selected="false">Semester 5</button>
-					<button class="nav-link" id="v-pills-semester6-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester6" type="button" role="tab" aria-controls="v-pills-semester6"
-						aria-selected="false">Semester 6</button>
-					<button class="nav-link" id="v-pills-semester7-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester7" type="button" role="tab" aria-controls="v-pills-semester7"
-						aria-selected="false">Semester 7</button>
-					<button class="nav-link" id="v-pills-semester8-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-semester8" type="button" role="tab" aria-controls="v-pills-semester8"
-						aria-selected="false">Semester 8</button>
-					<button class="nav-link" id="v-pills-technical-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-technical" type="button" role="tab" aria-controls="v-pills-technical"
-						aria-selected="false">Technical Electives</button>
-					<button class="nav-link" id="v-pills-general-tab" data-bs-toggle="pill"
-						data-bs-target="#v-pills-general" type="button" role="tab" aria-controls="v-pills-general"
-						aria-selected="false">General Electives</button>
-				</div>
-			</div>
-
-			<div class="tab-content" id="v-pills-tabContent">
-				<div class="tab-pane fade show active" id="v-pills-semester1" role="tabpanel"
-					aria-labelledby="v-pills-semester1-tab">
-					<h3>Semester 1 Courses</h3>
-					<h6>All Engineering students follow the same first semester. These courses are credited towards
-						their general programme (first year).</h6>
-					<hr>
-					{%- for course in site.data.courses.semester1 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-				<div class="tab-pane fade" id="v-pills-semester2" role="tabpanel"
-					aria-labelledby="v-pills-semester2-tab">
-					<h3>Semester 2 Courses</h3>
-					<h6>All Engineering students follow the same second semester. These courses are credited towards
-						their general programme (first year).</h6>
-					<hr>
-					{%- for course in site.data.courses.semester2 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester3" role="tabpanel"
-					aria-labelledby="v-pills-semester3-tab">
-					<h4>Semester 3 Courses</h4>
-					<h6>The following compulsory courses are offered to Computer Engineering students in their
-						3<sup>rd</sup> semester.</h6>
-					<h6> </h6>
-					<hr />
-					{%- for course in site.data.courses.semester3 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester4" role="tabpanel"
-					aria-labelledby="v-pills-semester4-tab">
-					<h4>Semester 4 Courses</h4>
-					<h6>The following compulsory courses are offered to Computer Engineering students in their 4th
-						semester.</h6>
-					<h6> </h6>
-					<hr />
-					{%- for course in site.data.courses.semester4 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester5" role="tabpanel"
-					aria-labelledby="v-pills-semester5-tab">
-					<h4>Semester 5 Courses</h4>
-					<h6>The following compulsory courses are offered to Computer Engineering students in their 5th
-						semester.</h6>
-					<h6> </h6>
-					<hr />
-					{%- for course in site.data.courses.semester5 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester6" role="tabpanel"
-					aria-labelledby="v-pills-semester6-tab">
-					<h4>Semester 6 Courses</h4>
-					<h6>The following compulsory courses are offered to Computer Engineering students in their 6th
-						semester.</h6>
-					<h6> </h6>
-					<hr />
-					{%- for course in site.data.courses.semester6 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester7" role="tabpanel"
-					aria-labelledby="v-pills-semester7-tab">
-					<h4>Semester 7 Courses</h4>
-					<h6>The following compulsory courses are offered to Computer Engineering students in their 7th
-						semester.</h6>
-					<h6> </h6>
-					<hr />
-					{%- for course in site.data.courses.semester7 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-semester8" role="tabpanel"
-					aria-labelledby="v-pills-semester8-tab">
-					<h4>Semester 8 Courses</h4>
-					{%- for course in site.data.courses.semester8 -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.url }}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
-					{%- endfor -%}
-				</div>
-
-
-				<div class="tab-pane fade" id="v-pills-technical" role="tabpanel"
-					aria-labelledby="v-pills-technical-tab">
-					<h4>Technical Electives</h4>
-
 				</div>
 			</div>
 		</div>

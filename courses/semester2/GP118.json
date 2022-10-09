@@ -1,0 +1,44 @@
+{
+    "code": "GP118",
+    "name": "Basic Electrical and Electronic Engineering",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Measurements, Circuits, Electrostatics, Electromagnetism",
+    "objectives": "NULL",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 27h, Tutorial-Classes : 6h, Practical-Classes : 24h",
+    "modules": [],
+    "references": "NULL",
+    "marks": [
+        {
+            "description": "practicals",
+            "allocation": "-"
+        },
+        {
+            "description": "assignments",
+            "allocation": "-"
+        },
+        {
+            "description": "projects",
+            "allocation": "-"
+        },
+        {
+            "description": "mid-exam",
+            "allocation": "-"
+        },
+        {
+            "description": "end-exam",
+            "allocation": "-"
+        }
+    ],
+    "urls": {
+        "edit": "/courses/semester2/GP118.json",
+        "view": "/semester2/GP118/",
+        "markdown": "/pages/courses/semester2/GP118"
+    }
+}

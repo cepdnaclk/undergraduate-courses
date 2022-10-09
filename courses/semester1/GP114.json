@@ -1,0 +1,44 @@
+{
+    "code": "GP114",
+    "name": "Engineering Drawing",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other speed tests",
+    "objectives": "NULL",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 18h, Practical-Classes : 45h, Assignments : 9h",
+    "modules": [],
+    "references": "NULL",
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "-"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "-"
+        },
+        {
+            "description": "Projects",
+            "allocation": "-"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "-"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "-"
+        }
+    ],
+    "urls": {
+        "edit": "/courses/semester1/GP114.json",
+        "view": "/semester1/GP114/",
+        "markdown": "/pages/courses/semester1/GP114"
+    }
+}

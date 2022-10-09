@@ -1,0 +1,34 @@
+{
+    "code": "EF501",
+    "name": "The Engineer in Society",
+    "credits": 2,
+    "type": "GENERAL",
+    "prerequisites": "[]",
+    "content": "NULL",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "urls": {
+        "edit": "/courses/general-electives/EF501.json",
+        "view": "/general-electives/EF501/",
+        "markdown": "/pages/courses/general-electives/EF501"
+    }
+}

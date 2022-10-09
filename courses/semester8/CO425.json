@@ -1,0 +1,23 @@
+{
+    "code": "CO425",
+    "name": "Final Year Project II",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "[]",
+    "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
+    "objectives": "NULL",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Assignments : 90h",
+    "modules": [],
+    "references": "NULL",
+    "marks": "NULL",
+    "urls": {
+        "edit": "/courses/semester8/CO425.json",
+        "view": "/semester8/CO425/",
+        "markdown": "/pages/courses/semester8/CO425"
+    }
+}

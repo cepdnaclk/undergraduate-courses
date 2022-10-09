@@ -1,0 +1,44 @@
+{
+    "code": "GP111",
+    "name": "Elementary Thermodynamics",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Fundamentals, The Zeroth Law and the First Law, Thermodynamic substances, Application of the First Law to closed systems, Application of the First Law to open systems, Air standard cycles, The Rankine cycle, The Second Law, Laboratory classes",
+    "objectives": "NULL",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 27h, Tutorial-Classes : 9h, Practical-Classes : 12h, Assignments : 6h",
+    "modules": [],
+    "references": "NULL",
+    "marks": [
+        {
+            "description": "practicals",
+            "allocation": "-"
+        },
+        {
+            "description": "assignments",
+            "allocation": "-"
+        },
+        {
+            "description": "projects",
+            "allocation": "-"
+        },
+        {
+            "description": "mid-exam",
+            "allocation": "-"
+        },
+        {
+            "description": "end-exam",
+            "allocation": "-"
+        }
+    ],
+    "urls": {
+        "edit": "/courses/semester2/GP111.json",
+        "view": "/semester2/GP111/",
+        "markdown": "/pages/courses/semester2/GP111"
+    }
+}

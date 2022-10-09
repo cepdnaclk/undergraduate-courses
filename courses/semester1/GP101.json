@@ -1,0 +1,44 @@
+{
+    "code": "GP101",
+    "name": "English I",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
+    "objectives": "NULL",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 20h, Assignments : 50h",
+    "modules": [],
+    "references": "NULL",
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "-"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "-"
+        },
+        {
+            "description": "Projects",
+            "allocation": "-"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "-"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "-"
+        }
+    ],
+    "urls": {
+        "edit": "/courses/semester1/GP101.json",
+        "view": "/semester1/GP101/",
+        "markdown": "/pages/courses/semester1/GP101"
+    }
+}
