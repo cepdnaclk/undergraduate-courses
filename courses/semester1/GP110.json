@@ -144,6 +144,7 @@
             "allocation": "60"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester1/GP110.json",
         "view": "/semester1/GP110/",

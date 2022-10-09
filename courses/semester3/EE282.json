@@ -3,7 +3,7 @@
     "name": "Network Analysis for Computer Engineering",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks.",
     "objectives": "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.",
     "ILOs": {
@@ -102,6 +102,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/EE282.json",
         "view": "/semester3/EE282/",

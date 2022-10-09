@@ -3,7 +3,7 @@
     "name": "Database Systems",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
     "objectives": "NULL",
     "ILOs": {
@@ -126,6 +126,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester4/CO226.json",
         "view": "/semester4/CO226/",

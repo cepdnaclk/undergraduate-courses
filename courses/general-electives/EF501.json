@@ -3,7 +3,7 @@
     "name": "The Engineer in Society",
     "credits": 2,
     "type": "GENERAL",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "NULL",
     "objectives": "",
     "ILOs": {
@@ -26,6 +26,7 @@
     ],
     "references": [],
     "marks": [],
+    "statistics": [],
     "urls": {
         "edit": "/courses/general-electives/EF501.json",
         "view": "/general-electives/EF501/",

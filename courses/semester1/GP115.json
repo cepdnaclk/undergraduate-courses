@@ -172,6 +172,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester1/GP115.json",
         "view": "/semester1/GP115/",

@@ -3,7 +3,7 @@
     "name": "Computer Communication Networks 1",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
     "objectives": "NULL",
     "ILOs": {
@@ -30,6 +30,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/CO223.json",
         "view": "/semester3/CO223/",

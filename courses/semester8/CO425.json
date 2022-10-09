@@ -3,7 +3,7 @@
     "name": "Final Year Project II",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
     "objectives": "NULL",
     "ILOs": {
@@ -15,6 +15,7 @@
     "modules": [],
     "references": "NULL",
     "marks": "NULL",
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester8/CO425.json",
         "view": "/semester8/CO425/",

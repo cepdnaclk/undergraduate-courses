@@ -3,7 +3,7 @@
     "name": "Embedded Systems",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
     "objectives": "NULL",
     "ILOs": {
@@ -137,6 +137,7 @@
             "allocation": "40"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester5/CO321.json",
         "view": "/semester5/CO321/",

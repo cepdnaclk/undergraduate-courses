@@ -35,10 +35,12 @@ for semester in semesters:
 
         modules = thisCourse["modules"]
         marks = thisCourse["marks"]
+        statistics = thisCourse["statistics"]
+        
         pageURL = thisCourse["urls"]["view"]
  
         outputString = f"""---
-layout: courses
+layout: course
 permalink: "{ pageURL }"
 
 title: {thisCourse["name"]}
@@ -56,6 +58,7 @@ ilos_attitude : {thisCourse["ILOs"]["Attitude"]}
 modules: {thisCourse["modules"]}
 textbooks_references : {thisCourse["references"]}
 marks: {marks}
+statistics: {statistics}
 ---"""
 
         # Write into file

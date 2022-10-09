@@ -3,7 +3,7 @@
     "name": "Numerical Methods",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
     "objectives": "NULL",
     "ILOs": {
@@ -71,6 +71,7 @@
             "allocation": "60"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester4/EM215.json",
         "view": "/semester4/EM215/",

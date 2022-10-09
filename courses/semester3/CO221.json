@@ -3,7 +3,7 @@
     "name": "Digital Design",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
     "objectives": "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation; its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
     "ILOs": {
@@ -136,6 +136,7 @@
             "allocation": "40"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/CO221.json",
         "view": "/semester3/CO221/",

@@ -3,7 +3,7 @@
     "name": "Software Engineering",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
     "objectives": "NULL",
     "ILOs": {
@@ -36,6 +36,7 @@
             "allocation": "40"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester6/CO328.json",
         "view": "/semester6/CO328/",

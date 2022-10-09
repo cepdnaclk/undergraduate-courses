@@ -3,7 +3,7 @@
     "name": "Professional Practices",
     "credits": 2,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Professionalism, Group Dynamics and Psychology, Communication Skills.",
     "objectives": "NULL",
     "ILOs": {
@@ -15,6 +15,7 @@
     "modules": [],
     "references": "NULL",
     "marks": "NULL",
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester7/CO422.json",
         "view": "/semester7/CO422/",

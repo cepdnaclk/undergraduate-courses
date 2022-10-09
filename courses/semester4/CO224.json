@@ -3,7 +3,7 @@
     "name": "Computer Architecture",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Overview, Fundamentals of computer architecture, Computer arithmetic, CPU organization, Pipelining, Memory hierarchies, Interfacing and communication, Performance issues, Multiprocessors.",
     "objectives": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
     "ILOs": {
@@ -145,6 +145,44 @@
         {
             "description": "End-Exam",
             "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": 2022,
+            "batch": "E18",
+            "grades": {
+                "A+": 1,
+                "A": 1,
+                "A-": 1,
+                "B+": 1,
+                "B": 1,
+                "B-": 1,
+                "C+": 1,
+                "C": 1,
+                "C-": 1,
+                "D+": 1,
+                "D": 1,
+                "E": 1
+            }
+        },
+        {
+            "year": 2021,
+            "batch": "E17",
+            "grades": {
+                "A+": 1,
+                "A": 1,
+                "A-": 1,
+                "B+": 1,
+                "B": 1,
+                "B-": 1,
+                "C+": 1,
+                "C": 1,
+                "C-": 1,
+                "D+": 1,
+                "D": 1,
+                "E": 1
+            }
         }
     ],
     "urls": {

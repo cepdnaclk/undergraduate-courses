@@ -3,7 +3,7 @@
     "name": "Software Project Management",
     "credits": 2,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
     "objectives": "NULL",
     "ILOs": {
@@ -15,6 +15,7 @@
     "modules": [],
     "references": "NULL",
     "marks": "NULL",
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester7/CO423.json",
         "view": "/semester7/CO423/",

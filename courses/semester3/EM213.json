@@ -3,7 +3,7 @@
     "name": "Probability & Statistics",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "NULL",
     "objectives": "To introduce basic concepts of probability and statistics and their use in applications",
     "ILOs": {
@@ -108,6 +108,7 @@
             "allocation": "60"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/EM213.json",
         "view": "/semester3/EM213/",

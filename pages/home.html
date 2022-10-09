@@ -109,3 +109,28 @@ title: Undergraduate Courses
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		// Switch to the right tab, absed on the location hash
+		const locHash = window.location.hash;
+		if (locHash != '') {
+			var tabTrigger = new bootstrap.Tab($(locHash)).show();
+		}
+
+		// Update the URL hash with tab selection
+		var tabsList = document.querySelectorAll('button[data-bs-toggle="pill"]')
+		tabsList.forEach((triggerEl) => {
+			triggerEl.addEventListener('shown.bs.tab', function (event) {
+				const tabID = (event.target.getAttribute('id'));
+				event.preventDefault();
+				window.location.hash = tabID;
+			})
+		});
+	});
+</script>

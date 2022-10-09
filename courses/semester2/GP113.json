@@ -126,6 +126,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester2/GP113.json",
         "view": "/semester2/GP113/",

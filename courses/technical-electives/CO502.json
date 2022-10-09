@@ -3,7 +3,7 @@
     "name": "Advanced Embedded Systems",
     "credits": 2,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "NULL",
     "objectives": "",
     "ILOs": {
@@ -26,6 +26,7 @@
     ],
     "references": [],
     "marks": [],
+    "statistics": [],
     "urls": {
         "edit": "/courses/technical-electives/CO502.json",
         "view": "/technical-electives/CO502/",

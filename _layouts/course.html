@@ -1,0 +1,327 @@
+---
+layout: default
+---
+
+{%- assign semesterPage = site.pages | where: "code", page.semester -%}
+
+
+{%- assign prerequisites_count = page.prerequisites | size -%}
+{%- assign module_count = page.modules | size -%}
+{%- assign ilos_count = page.ilos | size -%}
+{%- assign marks_count = page.marks | size -%}{%- assign resources_count = page.resources | size -%}
+{%- assign resources_count = page.resources | size -%}
+{%- assign statistics_count = page.statistics | size -%}
+
+<main class="container">
+	<div class="bg-secondary p-3 pb-1 rounded">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+				<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
+						Courses</a></li>
+				<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink }}" class="link-light">{{
+						semesterPage[0].title }}</a></li>
+				<li class="breadcrumb-item text-white">
+					{{page.course_code}}
+				</li>
+			</ol>
+		</nav>
+	</div>
+
+	<div class="container pt-4">
+		<nav>
+			<div class="nav nav-tabs" id="nav-tab" role="tablist">
+				<button class="nav-link active" id="description" data-bs-toggle="tab" data-bs-target="#description-tab"
+					type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+
+				{%- if module_count > 0 -%}
+				<button class="nav-link" id="timeAllocation" data-bs-toggle="tab" data-bs-target="#timeAllocation-tab"
+					type="button" role="tab" aria-controls="timeAllocation" aria-selected="false">Time
+					Allocation</button>
+				{%- endif -%}
+
+				{%- if marks_count > 0 -%}
+				<button class="nav-link" id="marksAllocation" data-bs-toggle="tab" data-bs-target="#marksAllocation-tab"
+					type="button" role="tab" aria-controls="marksAllocation" aria-selected="false">Marks
+					Allocation</button>
+				{%- endif -%}
+
+				{%- if statistics_count > 0 -%}
+				<button class="nav-link" id="statistics" data-bs-toggle="tab" data-bs-target="#statistics-tab"
+					type="button" role="tab" aria-controls="statistics" aria-selected="false">Statistics</button>
+				{%- endif -%}
+
+			</div>
+		</nav>
+	</div>
+
+	<div class="container pt-4">
+		<div class="tab-content" id="nav-tabContent" style="min-height: 50vh;">
+			<!-- Basic Details Tab -->
+			<div class="tab-pane fade active show" id="description-tab" role="tabpanel" aria-labelledby="description">
+				<div class="card mb-3">
+					<div class="card-body">
+						<!-- course code -->
+						{% if page.course_code %}
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Course Code</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.course_code}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- course title -->
+						{% if page.course_title %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Course Title</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.course_title}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- credits -->
+						{% if page.credits %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Credits</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.credits}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- core/elective -->
+						{% if page.type %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Core/Elective</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.type | camelcase}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- prerequisites -->
+						{% if prerequisites_count > 0 %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Prerequisites</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.prerequisites}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- aims/objectives -->
+						{% if page.aims_and_objectives %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								{{page.aims_and_objectives}}
+							</div>
+						</div>
+						{% endif %}
+
+						<!-- ILOs -->
+						{% if page.ilos_knowledge %}
+						<hr>
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
+							</div>
+
+							<div class="col-sm-9">
+								<div>
+									<span class="mb-0" style="font-weight: 500">Knowledge:</span>
+								</div>
+
+								<div class="text-secondary">
+									At the end of this course, a student will be able to;
+									<ul>
+										{%- for item in page.ilos_knowledge -%}
+										<li>{{item}}</li>
+										{%- endfor -%}
+									</ul>
+								</div>
+
+								<div>
+									<span class="mb-0" style="font-weight: 500">Skill:</span>
+								</div>
+
+								<div class="text-secondary">
+									At the end of this course, a student will be able to;
+									<ul>
+										{%- for item in page.ilos_skill -%}
+										<li>{{item}}</li>
+										{%- endfor -%}
+									</ul>
+								</div>
+
+								<div>
+									<span class="mb-0" style="font-weight: 500">Attitude:</span>
+								</div>
+
+								<div class="text-secondary">
+									<ul>
+										{%- for item in page.ilos_attitude -%}
+										<li>{{item}}</li>
+										{%- endfor -%}
+									</ul>
+								</div>
+							</div>
+						</div>
+						<hr>
+						{% endif %}
+
+						<!-- Textbooks and References -->
+						{% if page.textbooks_references %}
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">Textbooks and References</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								<ul>
+									{%- for item in page.textbooks_references -%}
+									<li>{{item}}</li>
+									{%- endfor -%}
+								</ul>
+							</div>
+						</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+
+			<!-- Time Allocation Tab -->
+			{%- if module_count > 0 -%}
+			<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
+
+
+				<table class="table table-sm table-bordered border-dark">
+					<tr>
+						<th rowspan="2" style="text-align:center; vertical-align:middle">Topic</th>
+						<th colspan="4" style="text-align:center; vertical-align:middle">Time Allocated / hours</th>
+					</tr>
+
+					<tr>
+						<th style="text-align:center; vertical-align:middle">L</th>
+						<th style="text-align:center; vertical-align:middle">T</th>
+						<th style="text-align:center; vertical-align:middle">P</th>
+						<th style="text-align:center; vertical-align:middle">A</th>
+					</tr>
+
+					{%- for item in page.modules -%}
+					<tr>
+						<td><b>{{item["topic"]}}</b> <br>{{item[1]}}</td>
+						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["L"] }}</td>
+						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["T"] }}</td>
+						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["P"] }}</td>
+						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["A"] }}</td>
+					</tr>
+					{%- endfor -%}
+				</table>
+				<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework assignments</p>
+			</div>
+			{%- endif -%}
+
+			<!-- Marks Allocation Tab -->
+			{%- if marks_count > 0 -%}
+			<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
+				<table class="table table-sm table-bordered border-dark">
+					<tr>
+						<th style="text-align:center; vertical-align:middle">Assessment</th>
+						<th style="text-align:center; vertical-align:middle">Percentage Marks</th>
+					</tr>
+
+					{%- for item in page.marks -%}
+					<tr>
+						<td style="vertical-align:middle">{{item["description"]}}</td>
+						<td style="text-align:center; vertical-align:middle">{{item["allocation"]}}</td>
+					</tr>
+					{%- endfor -%}
+				</table>
+			</div>
+			{%- endif -%}
+
+			<!-- Statistics Tab -->
+			{%- if statistics_count > 0 -%}
+			<div class="tab-pane fade" id="statistics-tab" role="tabpanel" aria-labelledby="statistics">
+
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+				{%- for item in page.statistics -%}
+				<div class="container pb-3">
+					<h3>{{ item.year }}</h3>
+					<canvas id="chart-{{ item.year }}" style="width:100%;max-width:600px"></canvas>
+				</div>
+
+				<script>
+					var barColors = ["red", "green", "blue", "orange", "brown", "red"];
+					let dataPoints_{{ item.year }} =[{% for m in item.grades %} "{{ m[1] }}", {% endfor %} ]
+					new Chart("chart-{{ item.year }}", {
+						type: "bar",
+						data: {
+							labels: ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "E"],
+							datasets: [{
+								// backgroundColor: barColors,
+								data: dataPoints_{{ item.year }}
+					}]
+						},
+						options: {
+						legend: { display: false },
+						title: {
+							display: true,
+							text: "Grade Distribution - {{ item.year }}"
+						}
+					}
+					});
+				</script>
+				{%- endfor -%}
+			</div>
+			{%- endif -%}
+		</div>
+	</div>
+</main>
+
+<style>
+	p {
+		text-align: justify;
+	}
+</style>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		// Switch to the right tab, absed on the location hash
+		const locHash = window.location.hash;
+		if (locHash != '') {
+			var tabTrigger = new bootstrap.Tab($(locHash)).show();
+		}
+
+		// Update the URL hash with tab selection
+		var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]')
+		tabsList.forEach((triggerEl) => {
+			triggerEl.addEventListener('shown.bs.tab', function (event) {
+				const tabID = (event.target.getAttribute('id'));
+				event.preventDefault();
+				window.location.hash = tabID;
+			})
+		});
+	});
+</script>

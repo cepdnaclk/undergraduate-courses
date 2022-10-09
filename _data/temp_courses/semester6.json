@@ -4,7 +4,7 @@
   "courses": [
     {
       "code": "CO326",
-      "name": "Computer Systems Engineering: Industrial Networks",
+      "name": "Computer Systems Engineering - Industrial Networks",
       "credits": 3,
       "type": "Core",
       "prerequisite": ["CO321", "EE386"],

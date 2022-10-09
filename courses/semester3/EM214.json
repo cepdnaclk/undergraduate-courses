@@ -3,7 +3,7 @@
     "name": "Discrete Mathematics",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
     "objectives": "NULL",
     "ILOs": {
@@ -111,6 +111,7 @@
             "allocation": "60"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/EM214.json",
         "view": "/semester3/EM214/",

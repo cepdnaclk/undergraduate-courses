@@ -41,6 +41,7 @@
                         "allocation": "-"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP101.json",
                     "view": "/semester1/GP101/",
@@ -244,6 +245,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP109.json",
                     "view": "/semester1/GP109/",
@@ -396,6 +398,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP110.json",
                     "view": "/semester1/GP110/",
@@ -576,6 +579,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP112.json",
                     "view": "/semester1/GP112/",
@@ -620,6 +624,7 @@
                         "allocation": "-"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP114.json",
                     "view": "/semester1/GP114/",
@@ -800,6 +805,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester1/GP115.json",
                     "view": "/semester1/GP115/",
@@ -850,6 +856,7 @@
                         "allocation": "-"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP102.json",
                     "view": "/semester2/GP102/",
@@ -894,6 +901,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP106.json",
                     "view": "/semester2/GP106/",
@@ -938,6 +946,7 @@
                         "allocation": "-"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP111.json",
                     "view": "/semester2/GP111/",
@@ -1072,6 +1081,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP113.json",
                     "view": "/semester2/GP113/",
@@ -1214,6 +1224,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP116.json",
                     "view": "/semester2/GP116/",
@@ -1258,6 +1269,7 @@
                         "allocation": "-"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester2/GP118.json",
                     "view": "/semester2/GP118/",
@@ -1275,7 +1287,7 @@
                 "name": "Digital Design",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
                 "objectives": "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation; its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
                 "ILOs": {
@@ -1408,6 +1420,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/CO221.json",
                     "view": "/semester3/CO221/",
@@ -1419,7 +1432,7 @@
                 "name": "Programming Methodology",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
                 "objectives": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
                 "ILOs": {
@@ -1591,6 +1604,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/CO222.json",
                     "view": "/semester3/CO222/",
@@ -1602,7 +1616,7 @@
                 "name": "Computer Communication Networks 1",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
                 "objectives": "NULL",
                 "ILOs": {
@@ -1629,6 +1643,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/CO223.json",
                     "view": "/semester3/CO223/",
@@ -1640,7 +1655,7 @@
                 "name": "Network Analysis for Computer Engineering",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks.",
                 "objectives": "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.",
                 "ILOs": {
@@ -1739,6 +1754,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/EE282.json",
                     "view": "/semester3/EE282/",
@@ -1750,7 +1766,7 @@
                 "name": "Ordinary Differencial Equations",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -1775,6 +1791,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/EM211.json",
                     "view": "/semester3/EM211/",
@@ -1786,7 +1803,7 @@
                 "name": "Probability & Statistics",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "NULL",
                 "objectives": "To introduce basic concepts of probability and statistics and their use in applications",
                 "ILOs": {
@@ -1891,6 +1908,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/EM213.json",
                     "view": "/semester3/EM213/",
@@ -1902,7 +1920,7 @@
                 "name": "Discrete Mathematics",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -2010,6 +2028,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester3/EM214.json",
                     "view": "/semester3/EM214/",
@@ -2027,7 +2046,7 @@
                 "name": "Computer Architecture",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Overview, Fundamentals of computer architecture, Computer arithmetic, CPU organization, Pipelining, Memory hierarchies, Interfacing and communication, Performance issues, Multiprocessors.",
                 "objectives": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
                 "ILOs": {
@@ -2171,6 +2190,44 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [
+                    {
+                        "year": 2022,
+                        "batch": "E18",
+                        "grades": {
+                            "A+": 1,
+                            "A": 1,
+                            "A-": 1,
+                            "B+": 1,
+                            "B": 1,
+                            "B-": 1,
+                            "C+": 1,
+                            "C": 1,
+                            "C-": 1,
+                            "D+": 1,
+                            "D": 1,
+                            "E": 1
+                        }
+                    },
+                    {
+                        "year": 2021,
+                        "batch": "E17",
+                        "grades": {
+                            "A+": 1,
+                            "A": 1,
+                            "A-": 1,
+                            "B+": 1,
+                            "B": 1,
+                            "B-": 1,
+                            "C+": 1,
+                            "C": 1,
+                            "C-": 1,
+                            "D+": 1,
+                            "D": 1,
+                            "E": 1
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/CO224.json",
                     "view": "/semester4/CO224/",
@@ -2182,7 +2239,7 @@
                 "name": "Software Construction",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
                 "objectives": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
                 "ILOs": {
@@ -2317,6 +2374,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester4/CO225.json",
                     "view": "/semester4/CO225/",
@@ -2328,7 +2386,7 @@
                 "name": "Database Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
                 "objectives": "NULL",
                 "ILOs": {
@@ -2451,6 +2509,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester4/CO226.json",
                     "view": "/semester4/CO226/",
@@ -2462,7 +2521,7 @@
                 "name": "Electronics I",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Diodes, Bipolar Junction Transistor, Amplifiers, Operational Amplifiers(OPAMP), OPAMP Applications, Junction Field Effect Transistors(JFET), Metal Oxide Semiconductor(MOS) Field Effect Transistors, Electronic Laboratory.",
                 "objectives": "To introduce commonly used electronics components, their operations, characteristics and practical use for designing electronic circuits. At the end of this course students should be able to implement single stage amplifiers, use a BJT as a switch and explain the behavior of the circuit, select a suitable OP-Amp for a given application and implement OP-Amp circuits for common applications.",
                 "ILOs": {
@@ -2594,6 +2653,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester4/EE285.json",
                     "view": "/semester4/EE285/",
@@ -2605,7 +2665,7 @@
                 "name": "Calculus II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -2691,6 +2751,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester4/EM212.json",
                     "view": "/semester4/EM212/",
@@ -2702,7 +2763,7 @@
                 "name": "Numerical Methods",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -2770,6 +2831,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester4/EM215.json",
                     "view": "/semester4/EM215/",
@@ -2787,7 +2849,7 @@
                 "name": "Embedded Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -2921,6 +2983,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/CO321.json",
                     "view": "/semester5/CO321/",
@@ -2932,7 +2995,7 @@
                 "name": "Data Structures and Algorithms",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3057,6 +3120,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/CO322.json",
                     "view": "/semester5/CO322/",
@@ -3068,7 +3132,7 @@
                 "name": "Computer Communication Networks II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3100,6 +3164,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/CO323.json",
                     "view": "/semester5/CO323/",
@@ -3111,7 +3176,7 @@
                 "name": "Network and Web Application Design",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3260,6 +3325,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/CO324.json",
                     "view": "/semester5/CO324/",
@@ -3271,7 +3337,7 @@
                 "name": "Computer and Network Security",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3424,6 +3490,7 @@
                         "allocation": "60"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/CO325.json",
                     "view": "/semester5/CO325/",
@@ -3435,7 +3502,7 @@
                 "name": "Electronics II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Data conversion circuits, Diode Logic Circuits, BJT Logic families, MOS Logic Families, Storage Elements, Design Parameter and issues, Interfacing logic families, Active Filters, Oscillators, Circuit modeling and simulation, Electronic Laboratory.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3528,6 +3595,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester5/EE386.json",
                     "view": "/semester5/EE386/",
@@ -3545,7 +3613,7 @@
                 "name": "Computer Systems Engineering - Industrial Networks",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3574,6 +3642,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester6/CO326.json",
                     "view": "/semester6/CO326/",
@@ -3585,7 +3654,7 @@
                 "name": "Operating Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3617,6 +3686,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester6/CO327.json",
                     "view": "/semester6/CO327/",
@@ -3628,7 +3698,7 @@
                 "name": "Software Engineering",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3661,6 +3731,7 @@
                         "allocation": "40"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester6/CO328.json",
                     "view": "/semester6/CO328/",
@@ -3672,7 +3743,7 @@
                 "name": "Signal Processing",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3704,6 +3775,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester6/EE387.json",
                     "view": "/semester6/EE387/",
@@ -3721,7 +3793,7 @@
                 "name": "Final Year Project I",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3733,6 +3805,7 @@
                 "modules": [],
                 "references": "NULL",
                 "marks": "NULL",
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester7/CO421.json",
                     "view": "/semester7/CO421/",
@@ -3744,7 +3817,7 @@
                 "name": "Professional Practices",
                 "credits": 2,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Professionalism, Group Dynamics and Psychology, Communication Skills.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3756,6 +3829,7 @@
                 "modules": [],
                 "references": "NULL",
                 "marks": "NULL",
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester7/CO422.json",
                     "view": "/semester7/CO422/",
@@ -3767,7 +3841,7 @@
                 "name": "Software Project Management",
                 "credits": 2,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3779,6 +3853,7 @@
                 "modules": [],
                 "references": "NULL",
                 "marks": "NULL",
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester7/CO423.json",
                     "view": "/semester7/CO423/",
@@ -3790,7 +3865,7 @@
                 "name": "Information Systems Management",
                 "credits": 2,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3811,6 +3886,7 @@
                         "allocation": "50"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester7/CO424.json",
                     "view": "/semester7/CO424/",
@@ -3828,7 +3904,7 @@
                 "name": "Final Year Project II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
                 "objectives": "NULL",
                 "ILOs": {
@@ -3840,6 +3916,7 @@
                 "modules": [],
                 "references": "NULL",
                 "marks": "NULL",
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/semester8/CO425.json",
                     "view": "/semester8/CO425/",
@@ -3857,7 +3934,7 @@
                 "name": "Computer Engineering Project",
                 "credits": 2,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "NULL",
                 "objectives": "The objective of this course is to let the students work with limited guidance on a project designed to consolidate theory and practice, and inculcate an attitude of self-learning and team work",
                 "ILOs": {
@@ -3920,6 +3997,7 @@
                         "allocation": "100"
                     }
                 ],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/short-semester/CO227.json",
                     "view": "/short-semester/CO227/",
@@ -3937,7 +4015,7 @@
                 "name": "The Engineer in Society",
                 "credits": 2,
                 "type": "GENERAL",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "NULL",
                 "objectives": "",
                 "ILOs": {
@@ -3960,6 +4038,7 @@
                 ],
                 "references": [],
                 "marks": [],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/general-electives/EF501.json",
                     "view": "/general-electives/EF501/",
@@ -3977,7 +4056,7 @@
                 "name": "Advanced Embedded Systems",
                 "credits": 2,
                 "type": "CORE",
-                "prerequisites": "[]",
+                "prerequisites": [],
                 "content": "NULL",
                 "objectives": "",
                 "ILOs": {
@@ -4000,6 +4079,7 @@
                 ],
                 "references": [],
                 "marks": [],
+                "statistics": [],
                 "urls": {
                     "edit": "/courses/technical-electives/CO502.json",
                     "view": "/technical-electives/CO502/",

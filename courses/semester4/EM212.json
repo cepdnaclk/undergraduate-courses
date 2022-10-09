@@ -3,7 +3,7 @@
     "name": "Calculus II",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
     "objectives": "NULL",
     "ILOs": {
@@ -89,6 +89,7 @@
             "allocation": "60"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester4/EM212.json",
         "view": "/semester4/EM212/",

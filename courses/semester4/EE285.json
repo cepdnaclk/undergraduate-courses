@@ -3,7 +3,7 @@
     "name": "Electronics I",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Diodes, Bipolar Junction Transistor, Amplifiers, Operational Amplifiers(OPAMP), OPAMP Applications, Junction Field Effect Transistors(JFET), Metal Oxide Semiconductor(MOS) Field Effect Transistors, Electronic Laboratory.",
     "objectives": "To introduce commonly used electronics components, their operations, characteristics and practical use for designing electronic circuits. At the end of this course students should be able to implement single stage amplifiers, use a BJT as a switch and explain the behavior of the circuit, select a suitable OP-Amp for a given application and implement OP-Amp circuits for common applications.",
     "ILOs": {
@@ -135,6 +135,7 @@
             "allocation": "50"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester4/EE285.json",
         "view": "/semester4/EE285/",

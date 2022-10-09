@@ -17,8 +17,8 @@ for semester in semesters:
         objectives = raw_course['objectives']
         ILOs = raw_course['ILOs']
         allocation = raw_course['allocation']
-        prerequisites = raw_course['prerequisites'] if 'prerequisites' in raw_course else "[]"
-
+        prerequisites = raw_course['prerequisites'] if 'prerequisites' in raw_course else []
+        statistics = raw_course['statistics'] if 'statistics' in raw_course else []
 
         modules = raw_course['modules']
         modulesList = list()
@@ -54,6 +54,7 @@ for semester in semesters:
             "modules": modulesList,
             "references": references,
             "marks": marks,
+            "statistics": statistics, 
             "urls": {
                 "edit": "/courses/{0}/{1}.json".format(semester, courseCode),
                 "view": "/{0}/{1}/".format(semester, courseCode),

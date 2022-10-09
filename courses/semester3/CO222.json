@@ -3,7 +3,7 @@
     "name": "Programming Methodology",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": "[]",
+    "prerequisites": [],
     "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
     "objectives": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
     "ILOs": {
@@ -175,6 +175,7 @@
             "allocation": "40"
         }
     ],
+    "statistics": [],
     "urls": {
         "edit": "/courses/semester3/CO222.json",
         "view": "/semester3/CO222/",

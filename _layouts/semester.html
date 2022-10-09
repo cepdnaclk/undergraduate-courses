@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<main class="container">
+  <div class="bg-secondary p-3 pb-1 rounded">
+    <!-- <h1 class="text-white">Course Details</h1> -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
+            Courses</a></li>
+        <li class="breadcrumb-item text-white">
+          {{page.title}}
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container pt-4">
+    <h2>{{ page.title }}</h2>
+
+    <div class="container pt-3">
+      {%- assign courses = site.pages | where: "semester", page.code -%}
+
+      {%- for course in courses -%}
+      <li><a href="{{ course.permalink }}">{{ course.title }}</a></li>
+      {%- endfor -%}
+
+    </div>
+  </div>
+</main>
