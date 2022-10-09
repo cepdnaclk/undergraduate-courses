@@ -1,42 +1,57 @@
 {
   "semester1": {
     "title": "Semester 1",
+    "description": "",
     "url": ""
   },
   "semester2": {
     "title": "Semester 2",
+    "description": "",
     "url": ""
   },
   "semester3": {
     "title": "Semester 3",
+    "description": "",
     "url": ""
   },
   "semester4": {
     "title": "Semester 4",
+    "description": "",
     "url": ""
   },
   "semester5": {
     "title": "Semester 5",
+    "description": "",
     "url": ""
   },
   "semester6": {
     "title": "Semester 6",
+    "description": "",
     "url": ""
   },
   "semester7": {
     "title": "Semester 7",
+    "description": "",
     "url": ""
   },
   "semester8": {
     "title": "Semester 8",
+    "description": "",
     "url": ""
   },
   "short-semester": {
     "title": "Short Semester",
+    "description": "",
     "url": ""
   },
   "general-electives": {
     "title": "General Electives",
+    "description": "",
+    "url": ""
+  },
+  "technical-electives": {
+    "title": "Technical Electives",
+    "description": "",
     "url": ""
   }
 }

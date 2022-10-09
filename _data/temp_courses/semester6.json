@@ -1,0 +1,164 @@
+{
+  "title": "Semester 6",
+  "description": "",
+  "courses": [
+    {
+      "code": "CO326",
+      "name": "Computer Systems Engineering: Industrial Networks",
+      "credits": 3,
+      "type": "Core",
+      "prerequisite": ["CO321", "EE386"],
+      "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
+      "objectives": "NULL",
+      "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+      },
+      "allocation": "Lectures : 34h, Practical-Classes : 12h, Assignments : 10h",
+      "modules": "NULL",
+      "references": "NULL",
+      "marks": [
+        {
+          "description": "Practicals",
+          "allocation": "20"
+        },
+        {
+          "description": "Assignments",
+          "allocation": "10"
+        },
+        {
+          "description": "Mid-Exam",
+          "allocation": "20"
+        },
+        {
+          "description": "End-Exam",
+          "allocation": "50"
+        }
+      ],
+      "lecturers": "NULL",
+      "url": "/courses/semester6/CO326"
+    },
+    {
+      "code": "CO327",
+      "name": "Operating Systems",
+      "credits": 3,
+      "type": "Core",
+      "prerequisite": ["CO224", "CO322"],
+      "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
+      "objectives": "NULL",
+      "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+      },
+      "allocation": "Lectures : 31h, Practical-Classes : 12h, Assignments : 16h",
+      "modules": "NULL",
+      "references": [
+        "A. Tanenbaum, Modern Operating Systems",
+        "Vahalia, Unix Internals; The new frontiers"
+      ],
+      "marks": [
+        {
+          "description": "Practicals",
+          "allocation": "15"
+        },
+        {
+          "description": "Assignments",
+          "allocation": "25"
+        },
+        {
+          "description": "Mid-Exam",
+          "allocation": "20"
+        },
+        {
+          "description": "End-Exam",
+          "allocation": "40"
+        }
+      ],
+      "lecturers": "NULL",
+      "url": "/courses/semester6/CO327"
+    },
+    {
+      "code": "CO328",
+      "name": "Software Engineering",
+      "credits": 3,
+      "type": "Core",
+      "prerequisite": ["CO226", "CO322", "CO324"],
+      "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
+      "objectives": "NULL",
+      "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+      },
+      "allocation": "Lectures : 28h, Tutorial-Classes : 3h, Practical-Classes : 8h, Assignments : 20h",
+      "modules": "NULL",
+      "references": [
+        "Eric Evans, Domain-Driven Design; Tackling Complexity in the Heart of Software",
+        "James O. Coplien, Gertrud BjÃƒÂ¸rnvig, Lean Architecture for Agile Software Development",
+        "Serge Demeyer, StÃƒÂ©phane Ducasse, Oscar Nierstrasz,  Object-Oriented Reengineering Patterns"
+      ],
+      "marks": [
+        {
+          "description": "Practicals",
+          "allocation": "10"
+        },
+        {
+          "description": "Assignments",
+          "allocation": "30"
+        },
+        {
+          "description": "Mid-Exam",
+          "allocation": "20"
+        },
+        {
+          "description": "End-Exam",
+          "allocation": "40"
+        }
+      ],
+      "lecturers": "NULL",
+      "url": "/courses/semester6/CO328"
+    },
+    {
+      "code": "ee387",
+      "name": "Signal Processing",
+      "credits": 3,
+      "type": "Core",
+      "prerequisite": ["ee282", "em212"],
+      "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
+      "objectives": "NULL",
+      "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+      },
+      "allocation": "Lectures : 39h, Tutorial-Classes : 13h, Practical-Classes : 8h, Assignments : 8h",
+      "modules": "NULL",
+      "references": [
+        "Discrete time signal processing 3rd edition",
+        "Signals and systems 3rd edition"
+      ],
+      "marks": [
+        {
+          "description": "Practicals",
+          "allocation": "15"
+        },
+        {
+          "description": "Assignments",
+          "allocation": "10"
+        },
+        {
+          "description": "Mid-Exam",
+          "allocation": "25"
+        },
+        {
+          "description": "End-Exam",
+          "allocation": "50"
+        }
+      ],
+      "lecturers": "NULL",
+      "url": "/courses/semester6/ee387"
+    }
+  ]
+}
