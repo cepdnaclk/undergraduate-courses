@@ -11,8 +11,8 @@ layout: default
 				<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
 						Courses</a></li>
 				<li class="breadcrumb-item text-white">
-					{%- if page.course_number -%}
-					{{page.course_number}}
+					{%- if page.course_code -%}
+					{{page.course_code}}
 					{%- endif -%}
 				</li>
 			</ol>
@@ -41,13 +41,13 @@ layout: default
 			<div class="card mb-3">
 				<div class="card-body">
 					<!-- course number -->
-					{% if page.course_number %}
+					{% if page.course_code %}
 					<div class="row">
 						<div class="col-sm-3">
 							<span class="mb-0" style="font-weight: 500">Course Number</span>
 						</div>
 						<div class="col-sm-9 text-secondary">
-							{{page.course_number}}
+							{{page.course_code}}
 						</div>
 					</div>
 					<hr>

@@ -40,9 +40,12 @@ for semester in semesters:
         outputString = f"""---
 layout: courses
 permalink: "{ pageURL }"
+
 title: {thisCourse["name"]}
-course_number : {thisCourse["code"].upper()} 
+semester: {semester}
+course_code : {thisCourse["code"].upper()} 
 course_title : {thisCourse["name"]}
+
 credits : {thisCourse["credits"]}
 type : {thisCourse["type"]} 
 prerequisites : {prerequisties}
