@@ -1,4 +1,11 @@
-# Author: E/18/227 Dinuka Mudalige - e18227@eng.pdn.ac.lk
+'''
+Author: E/18/227 Dinuka Mudalige - e18227@eng.pdn.ac.lk
+
+- This script will read the data files and create html files for each semester. 
+- This will be a daily process, run as a Cron job
+
+'''
+
 from importlib.resources import contents
 import os
 import json
@@ -28,7 +35,7 @@ code: {semester}
 description: {description}
 ---"""
 
-    # Write into file
+    # Write into a file
     file_url = f"../pages/semesters/{semester}.html"
     os.makedirs(os.path.dirname(file_url), exist_ok=True)
     htmlFile = open(file_url, "w")
@@ -36,4 +43,6 @@ description: {description}
     htmlFile.close()
     print("Generated: " + semester + ".html")
 
-print("")
+
+print("Semester page generation completed !")
+print("--------------------------------")

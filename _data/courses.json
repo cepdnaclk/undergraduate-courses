@@ -10,7 +10,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -18,7 +18,7 @@
                 },
                 "allocation": "Lectures : 20h, Assignments : 50h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Practicals",
@@ -41,12 +41,39 @@
                         "allocation": "-"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP101.json",
                     "view": "/semester1/GP101/",
                     "markdown": "/pages/courses/semester1/GP101"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP109",
@@ -245,12 +272,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP109.json",
                     "view": "/semester1/GP109/",
                     "markdown": "/pages/courses/semester1/GP109"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP110",
@@ -398,12 +452,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP110.json",
                     "view": "/semester1/GP110/",
                     "markdown": "/pages/courses/semester1/GP110"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP112",
@@ -579,12 +660,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP112.json",
                     "view": "/semester1/GP112/",
                     "markdown": "/pages/courses/semester1/GP112"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP114",
@@ -593,7 +701,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Fundamentals, Orthographic and isometric views, Engineering graphics, Freehand sketching, Introduction to drawing for civil and electrical engineering applications, Other speed tests",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -601,7 +709,7 @@
                 },
                 "allocation": "Lectures : 18h, Practical-Classes : 45h, Assignments : 9h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Practicals",
@@ -624,12 +732,39 @@
                         "allocation": "-"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP114.json",
                     "view": "/semester1/GP114/",
                     "markdown": "/pages/courses/semester1/GP114"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP115",
@@ -638,7 +773,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": [
                         "Analyze conceptual problems in limits, continuity, differentiability, and integration of functions of single variables and compute the partial derivatives of functions of several variables."
@@ -805,12 +940,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester1/GP115.json",
                     "view": "/semester1/GP115/",
                     "markdown": "/pages/courses/semester1/GP115"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -825,7 +987,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -833,7 +995,7 @@
                 },
                 "allocation": "Lectures : 20h, Assignments : 50h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "practicals",
@@ -856,12 +1018,39 @@
                         "allocation": "-"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP102.json",
                     "view": "/semester2/GP102/",
                     "markdown": "/pages/courses/semester2/GP102"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP106",
@@ -901,12 +1090,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP106.json",
                     "view": "/semester2/GP106/",
                     "markdown": "/pages/courses/semester2/GP106"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP111",
@@ -915,7 +1131,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Fundamentals, The Zeroth Law and the First Law, Thermodynamic substances, Application of the First Law to closed systems, Application of the First Law to open systems, Air standard cycles, The Rankine cycle, The Second Law, Laboratory classes",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -923,7 +1139,7 @@
                 },
                 "allocation": "Lectures : 27h, Tutorial-Classes : 9h, Practical-Classes : 12h, Assignments : 6h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "practicals",
@@ -946,12 +1162,39 @@
                         "allocation": "-"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP111.json",
                     "view": "/semester2/GP111/",
                     "markdown": "/pages/courses/semester2/GP111"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP113",
@@ -1081,12 +1324,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP113.json",
                     "view": "/semester2/GP113/",
                     "markdown": "/pages/courses/semester2/GP113"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP116",
@@ -1224,12 +1494,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP116.json",
                     "view": "/semester2/GP116/",
                     "markdown": "/pages/courses/semester2/GP116"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "GP118",
@@ -1238,7 +1535,7 @@
                 "type": "CORE",
                 "prerequisites": "NULL",
                 "content": "Measurements, Circuits, Electrostatics, Electromagnetism",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -1246,7 +1543,7 @@
                 },
                 "allocation": "Lectures : 27h, Tutorial-Classes : 6h, Practical-Classes : 24h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "practicals",
@@ -1269,12 +1566,39 @@
                         "allocation": "-"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester2/GP118.json",
                     "view": "/semester2/GP118/",
                     "markdown": "/pages/courses/semester2/GP118"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -1420,12 +1744,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/CO221.json",
                     "view": "/semester3/CO221/",
                     "markdown": "/pages/courses/semester3/CO221"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO222",
@@ -1604,12 +1955,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/CO222.json",
                     "view": "/semester3/CO222/",
                     "markdown": "/pages/courses/semester3/CO222"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO223",
@@ -1618,7 +1996,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -1643,12 +2021,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/CO223.json",
                     "view": "/semester3/CO223/",
                     "markdown": "/pages/courses/semester3/CO223"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EE282",
@@ -1754,12 +2159,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/EE282.json",
                     "view": "/semester3/EE282/",
                     "markdown": "/pages/courses/semester3/EE282"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EM211",
@@ -1768,7 +2200,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -1776,7 +2208,7 @@
                 },
                 "allocation": "Lectures : 36h, Tutorial-Classes : 9h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Assignments",
@@ -1791,12 +2223,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/EM211.json",
                     "view": "/semester3/EM211/",
                     "markdown": "/pages/courses/semester3/EM211"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EM213",
@@ -1908,12 +2367,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/EM213.json",
                     "view": "/semester3/EM213/",
                     "markdown": "/pages/courses/semester3/EM213"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EM214",
@@ -1922,7 +2408,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -2028,12 +2514,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester3/EM214.json",
                     "view": "/semester3/EM214/",
                     "markdown": "/pages/courses/semester3/EM214"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -2234,7 +2747,8 @@
                     "edit": "/courses/semester4/CO224.json",
                     "view": "/semester4/CO224/",
                     "markdown": "/pages/courses/semester4/CO224"
-                }
+                },
+                "last_edit": "2022-10-10 12:32:52 +0530"
             },
             {
                 "code": "CO225",
@@ -2376,12 +2890,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/CO225.json",
                     "view": "/semester4/CO225/",
                     "markdown": "/pages/courses/semester4/CO225"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO226",
@@ -2390,7 +2931,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -2511,12 +3052,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/CO226.json",
                     "view": "/semester4/CO226/",
                     "markdown": "/pages/courses/semester4/CO226"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EE285",
@@ -2655,12 +3223,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/EE285.json",
                     "view": "/semester4/EE285/",
                     "markdown": "/pages/courses/semester4/EE285"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EM212",
@@ -2669,7 +3264,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -2738,7 +3333,7 @@
                         }
                     }
                 ],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Assignments",
@@ -2753,12 +3348,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/EM212.json",
                     "view": "/semester4/EM212/",
                     "markdown": "/pages/courses/semester4/EM212"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EM215",
@@ -2767,7 +3389,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -2833,12 +3455,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester4/EM215.json",
                     "view": "/semester4/EM215/",
                     "markdown": "/pages/courses/semester4/EM215"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -2853,7 +3502,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -2985,12 +3634,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/CO321.json",
                     "view": "/semester5/CO321/",
                     "markdown": "/pages/courses/semester5/CO321"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO322",
@@ -2999,7 +3675,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3122,12 +3798,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/CO322.json",
                     "view": "/semester5/CO322/",
                     "markdown": "/pages/courses/semester5/CO322"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO323",
@@ -3136,7 +3839,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3166,12 +3869,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/CO323.json",
                     "view": "/semester5/CO323/",
                     "markdown": "/pages/courses/semester5/CO323"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO324",
@@ -3180,7 +3910,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3327,12 +4057,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/CO324.json",
                     "view": "/semester5/CO324/",
                     "markdown": "/pages/courses/semester5/CO324"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO325",
@@ -3341,7 +4098,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3492,12 +4249,39 @@
                         "allocation": "60"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/CO325.json",
                     "view": "/semester5/CO325/",
                     "markdown": "/pages/courses/semester5/CO325"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EE386",
@@ -3506,7 +4290,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Data conversion circuits, Diode Logic Circuits, BJT Logic families, MOS Logic Families, Storage Elements, Design Parameter and issues, Interfacing logic families, Active Filters, Oscillators, Circuit modeling and simulation, Electronic Laboratory.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3597,12 +4381,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester5/EE386.json",
                     "view": "/semester5/EE386/",
                     "markdown": "/pages/courses/semester5/EE386"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -3617,7 +4428,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3625,7 +4436,7 @@
                 },
                 "allocation": "Lectures : 34h, Practical-Classes : 12h, Assignments : 10h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Practicals",
@@ -3644,12 +4455,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester6/CO326.json",
                     "view": "/semester6/CO326/",
                     "markdown": "/pages/courses/semester6/CO326"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO327",
@@ -3658,7 +4496,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3688,12 +4526,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester6/CO327.json",
                     "view": "/semester6/CO327/",
                     "markdown": "/pages/courses/semester6/CO327"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO328",
@@ -3702,7 +4567,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3733,12 +4598,39 @@
                         "allocation": "40"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester6/CO328.json",
                     "view": "/semester6/CO328/",
                     "markdown": "/pages/courses/semester6/CO328"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "EE387",
@@ -3747,7 +4639,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3777,12 +4669,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester6/EE387.json",
                     "view": "/semester6/EE387/",
                     "markdown": "/pages/courses/semester6/EE387"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -3797,7 +4716,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3805,14 +4724,41 @@
                 },
                 "allocation": "NULL",
                 "modules": [],
-                "references": "NULL",
-                "marks": "NULL",
-                "statistics": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester7/CO421.json",
                     "view": "/semester7/CO421/",
                     "markdown": "/pages/courses/semester7/CO421"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO422",
@@ -3821,7 +4767,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Professionalism, Group Dynamics and Psychology, Communication Skills.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3829,14 +4775,41 @@
                 },
                 "allocation": "Lectures : 25h, Assignments : 10h",
                 "modules": [],
-                "references": "NULL",
-                "marks": "NULL",
-                "statistics": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester7/CO422.json",
                     "view": "/semester7/CO422/",
                     "markdown": "/pages/courses/semester7/CO422"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO423",
@@ -3845,7 +4818,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3853,14 +4826,41 @@
                 },
                 "allocation": "Lectures : 22h, Practical-Classes : 6h, Assignments : 10h",
                 "modules": [],
-                "references": "NULL",
-                "marks": "NULL",
-                "statistics": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester7/CO423.json",
                     "view": "/semester7/CO423/",
                     "markdown": "/pages/courses/semester7/CO423"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             },
             {
                 "code": "CO424",
@@ -3869,7 +4869,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3877,7 +4877,7 @@
                 },
                 "allocation": "Lectures : 20h, Assignments : 20h",
                 "modules": [],
-                "references": "NULL",
+                "references": [],
                 "marks": [
                     {
                         "description": "Projects",
@@ -3888,12 +4888,39 @@
                         "allocation": "50"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester7/CO424.json",
                     "view": "/semester7/CO424/",
                     "markdown": "/pages/courses/semester7/CO424"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -3908,7 +4935,7 @@
                 "type": "CORE",
                 "prerequisites": [],
                 "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-                "objectives": "NULL",
+                "objectives": [],
                 "ILOs": {
                     "Knowledge": "NULL",
                     "Skill": "NULL",
@@ -3916,14 +4943,41 @@
                 },
                 "allocation": "Assignments : 90h",
                 "modules": [],
-                "references": "NULL",
-                "marks": "NULL",
-                "statistics": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/semester8/CO425.json",
                     "view": "/semester8/CO425/",
                     "markdown": "/pages/courses/semester8/CO425"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -3999,12 +5053,39 @@
                         "allocation": "100"
                     }
                 ],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/short-semester/CO227.json",
                     "view": "/short-semester/CO227/",
                     "markdown": "/pages/courses/short-semester/CO227"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -4040,12 +5121,39 @@
                 ],
                 "references": [],
                 "marks": [],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/general-electives/EF501.json",
                     "view": "/general-electives/EF501/",
                     "markdown": "/pages/courses/general-electives/EF501"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     },
@@ -4081,12 +5189,39 @@
                 ],
                 "references": [],
                 "marks": [],
-                "statistics": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "D-": 0,
+                            "E": 0
+                        }
+                    }
+                ],
                 "urls": {
                     "edit": "/courses/technical-electives/CO502.json",
                     "view": "/technical-electives/CO502/",
                     "markdown": "/pages/courses/technical-electives/CO502"
-                }
+                },
+                "last_edit": "2022-10-10 16:52:53 +0530"
             }
         ]
     }
