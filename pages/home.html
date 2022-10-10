@@ -22,20 +22,21 @@ title: Undergraduate Courses
 	<div class="container pt-4">
 		<div class="d-flex align-items-start">
 			<div class="col-sm-3">
-				<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<div class="nav flex-column nav-pills me-3" id="semester-tabs" role="tablist"
+					aria-orientation="vertical">
 					{%- for sem in site.data.semesters -%}
 					<button class="nav-link {%- if forloop.first -%} {{' active '}} {%- endif -%}" id="{{sem[0]}}-tab"
-						data-bs-toggle="pill" data-bs-target="#v-pills-{{sem[0]}}" type="button" role="tab"
-						aria-controls="v-pills-{{sem[0]}}"
-						aria-selected="{%- if forloop.first -%} true {%- endif -%}">{{ sem[1]["title"] }}</button>
+						data-bs-toggle="pill" data-bs-target="#tab-{{sem[0]}}" type="button" role="tab"
+						aria-controls="tab-{{sem[0]}}" aria-selected="{%- if forloop.first -%} true {%- endif -%}">{{
+						sem[1]["title"] }}</button>
 					{%- endfor -%}
 				</div>
 			</div>
 
-			<div class="tab-content" id="v-pills-tabContent">
+			<div class="tab-content" id="semesters">
 				{%- for sem in site.data.courses -%}
-				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}" id="{{ sem[0] }}"
-					role="tabpanel" aria-labelledby="v-pills-{{ sem[0] }}-tab">
+				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}"
+					id="tab-{{ sem[0] }}" role="tabpanel" aria-labelledby="tab-{{ sem[0] }}-tab">
 					<h3>{{ sem[1]["title"] }} Courses</h3>
 					<h6>{{ sem[1]["description"] }}</h6>
 					<hr>
