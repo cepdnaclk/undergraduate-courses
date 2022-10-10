@@ -213,10 +213,9 @@ layout: default
 			{%- if module_count > 0 -%}
 			<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
 
-
 				<table class="table table-sm table-bordered border-dark">
 					<tr>
-						<th rowspan="2" style="text-align:center; vertical-align:middle">Topic</th>
+						<th style="width: 75%;" rowspan="2" style="text-align:center; vertical-align:middle">Topic</th>
 						<th colspan="4" style="text-align:center; vertical-align:middle">Time Allocated / hours</th>
 					</tr>
 
@@ -230,7 +229,7 @@ layout: default
 					{%- for item in page.modules -%}
 					<tr>
 						<td>
-							<b>{{item["topic"]}}</b> <br>{{item[1]}}
+							<b>{{item["topic"]}}</b> <br>{{item["description"]}}
 						</td>
 						<td style="text-align:center; vertical-align:middle">
 							{{ item["allocation"]["L"] }}
@@ -298,14 +297,7 @@ layout: default
 	{%- endif -%}
 </main>
 
-<style>
-	p {
-		text-align: justify;
-	}
-</style>
-
 <script type="text/javascript">
-
 	$(document).ready(function () {
 		// Switch to the right tab, absed on the location hash
 		const locHash = window.location.hash;

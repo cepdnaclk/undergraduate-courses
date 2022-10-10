@@ -18,15 +18,15 @@ layout: default
   </div>
 
 
-  <div class="page-entry">
-    <div class="container pt-4">
-      <div class="container pt-3">
-        {%- assign courses = site.pages | where: "semester", page.code -%}
+  <div class="row">
+    <div class="col-sm-12 col-md-10 col-lg-9 p-5">
 
-        {%- for course in courses -%}
-        <li><a href="{{ course.permalink | relative_url }}">{{ course.course_code }} : {{ course.title }}</a></li>
-        {%- endfor -%}
-      </div>
+      {%- assign course_list = site.data.courses[page.code] -%}
+
+      {%- for course in course_list["courses"] -%}
+      {% include courseCard.html course=course %}
+      {%- endfor -%}
     </div>
+  </div>
   </div>
 </main>

@@ -20,8 +20,8 @@ title: Undergraduate Courses
 
 <div class="page-entry">
 	<div class="container pt-4">
-		<div class="d-flex align-items-start">
-			<div class="col-sm-3">
+		<div class="row d-flex align-items-start">
+			<div class="col-xs-12 col-sm-3">
 				<div class="nav flex-column nav-pills me-3" id="semester-tabs" role="tablist"
 					aria-orientation="vertical">
 					{%- for sem in site.data.semesters -%}
@@ -33,7 +33,7 @@ title: Undergraduate Courses
 				</div>
 			</div>
 
-			<div class="tab-content" id="semesters">
+			<div class="col-xs-12 col-sm-9 tab-content" id="semesters">
 				{%- for sem in site.data.courses -%}
 				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}"
 					id="tab-{{ sem[0] }}" role="tabpanel" aria-labelledby="tab-{{ sem[0] }}-tab">
@@ -41,13 +41,7 @@ title: Undergraduate Courses
 					<h6>{{ sem[1]["description"] }}</h6>
 					<hr>
 					{%- for course in sem[1]["courses"] -%}
-					<h5><strong>{{ course.code }} {{ course.name }}</strong></h5>
-					<h6><strong>Course Content:</strong></h6>
-					<h6>{{ course.content }}</h6>
-					<h6>({{ course.allocation }})</h6>
-					<a href="{{ course.urls.view | relative_url}}">More Details</a>
-					<h6>&nbsp;</h6>
-					<hr>
+					{% include courseCard.html course=course %}
 					{%- endfor -%}
 				</div>
 				{%- endfor -%}
