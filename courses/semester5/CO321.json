@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -137,7 +137,33 @@
             "allocation": "40"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester5/CO321.json",
         "view": "/semester5/CO321/",

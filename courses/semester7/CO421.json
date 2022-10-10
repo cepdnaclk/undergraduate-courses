@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -13,9 +13,35 @@
     },
     "allocation": "NULL",
     "modules": [],
-    "references": "NULL",
-    "marks": "NULL",
-    "statistics": [],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester7/CO421.json",
         "view": "/semester7/CO421/",

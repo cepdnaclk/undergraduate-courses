@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": "NULL",
     "content": "Measurements, Circuits, Electrostatics, Electromagnetism",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -13,7 +13,7 @@
     },
     "allocation": "Lectures : 27h, Tutorial-Classes : 6h, Practical-Classes : 24h",
     "modules": [],
-    "references": "NULL",
+    "references": [],
     "marks": [
         {
             "description": "practicals",
@@ -36,7 +36,33 @@
             "allocation": "-"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester2/GP118.json",
         "view": "/semester2/GP118/",

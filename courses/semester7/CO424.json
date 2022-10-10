@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -13,7 +13,7 @@
     },
     "allocation": "Lectures : 20h, Assignments : 20h",
     "modules": [],
-    "references": "NULL",
+    "references": [],
     "marks": [
         {
             "description": "Projects",
@@ -24,7 +24,33 @@
             "allocation": "50"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester7/CO424.json",
         "view": "/semester7/CO424/",

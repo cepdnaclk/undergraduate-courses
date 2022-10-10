@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -30,7 +30,33 @@
             "allocation": "50"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester3/CO223.json",
         "view": "/semester3/CO223/",

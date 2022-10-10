@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": "NULL",
     "content": "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": [
             "Analyze conceptual problems in limits, continuity, differentiability, and integration of functions of single variables and compute the partial derivatives of functions of several variables."
@@ -172,7 +172,33 @@
             "allocation": "50"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester1/GP115.json",
         "view": "/semester1/GP115/",

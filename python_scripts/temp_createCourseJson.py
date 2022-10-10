@@ -3,6 +3,21 @@ import os
 
 semesters = json.load(open("../_data/semesters.json"))
 
+statisticsTemplate = {
+    "year": "NULL",
+    "batch": "NULL",
+    "lecturers": [ "lecturer@eng.pdn.ac.lk" ],
+    "instructors": [ "instructor@eng.pdn.ac.lk" ],
+    "grades": {
+        "A+": 0, "A": 0, "A-": 0, "B+": 0, "B": 0, "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0, "E": 0
+    }
+}
+ILOsTemplate = {
+    "Knowledge": "NULL",
+    "Skill": "NULL",
+    "Attitude": "NULL"
+}
+
 for semester in semesters:
     print(semester + "\n")
     semesterData = json.load(open("../_data/temp_courses/{0}.json".format(semester)))
@@ -14,20 +29,20 @@ for semester in semesters:
         courseCode = raw_course['code'].upper()
         url = "/{0}/{1}/".format(semester, courseCode)
 
-        objectives = raw_course['objectives']
-        ILOs = raw_course['ILOs']
-        allocation = raw_course['allocation']
+        objectives = raw_course['objectives'] if 'objectives' in raw_course and raw_course['objectives']!="NULL" else []
+        references = raw_course['references'] if 'references' in raw_course and raw_course['references']!="NULL" else []
+        ILOs = raw_course['ILOs'] if 'ILOs' in raw_course else ILOsTemplate
+        allocation = raw_course['allocation'] if 'allocation' in raw_course else "NULL"
         prerequisites = raw_course['prerequisites'] if 'prerequisites' in raw_course else []
-        statistics = raw_course['statistics'] if 'statistics' in raw_course else []
+        statistics = raw_course['statistics'] if 'statistics' in raw_course else [statisticsTemplate]
+        marks = raw_course['marks'] if 'marks' in raw_course and raw_course['marks']!="NULL" else []
 
         modules = raw_course['modules']
         modulesList = list()
 
         if modules!='NULL':
             modulesList = list()
-            
             for module in modules:
-            
                 ml = {
                     "topic": module["topic"],
                     "description": module["description"],
@@ -39,9 +54,6 @@ for semester in semesters:
                     }
                 }
                 modulesList.append(ml)
-
-        references = raw_course['references']
-        marks = raw_course['marks']
 
         course = {
             "code": courseCode,

@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -71,7 +71,33 @@
             "allocation": "60"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester4/EM215.json",
         "view": "/semester4/EM215/",

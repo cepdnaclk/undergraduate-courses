@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -13,7 +13,7 @@
     },
     "allocation": "Lectures : 34h, Practical-Classes : 12h, Assignments : 10h",
     "modules": [],
-    "references": "NULL",
+    "references": [],
     "marks": [
         {
             "description": "Practicals",
@@ -32,7 +32,33 @@
             "allocation": "50"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester6/CO326.json",
         "view": "/semester6/CO326/",

@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -35,7 +35,33 @@
             "allocation": "50"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester6/EE387.json",
         "view": "/semester6/EE387/",

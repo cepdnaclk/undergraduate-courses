@@ -5,7 +5,7 @@
     "type": "CORE",
     "prerequisites": [],
     "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
-    "objectives": "NULL",
+    "objectives": [],
     "ILOs": {
         "Knowledge": "NULL",
         "Skill": "NULL",
@@ -128,7 +128,33 @@
             "allocation": "40"
         }
     ],
-    "statistics": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "D-": 0,
+                "E": 0
+            }
+        }
+    ],
     "urls": {
         "edit": "/courses/semester5/CO322.json",
         "view": "/semester5/CO322/",

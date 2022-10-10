@@ -22,6 +22,8 @@ for semester in semesterList:
             course_data = json.load(open(course_file))
             semester_courses.append(course_data)
 
+            # TODO: Post-process Lecturer and Instructor details with info available at api.ce.pdn.ac.lk
+
         semester_courses.sort(key=lambda e:e['code']) 
 
         courses[semester] = { 
