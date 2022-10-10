@@ -38,27 +38,33 @@ for semester in semesters:
         statistics = thisCourse["statistics"]
         
         pageURL = thisCourse["urls"]["view"]
+        gh_page = "https://github.com/cepdnaclk/undergraduate-courses/tree/main{0}".format( thisCourse['urls']['edit']) 
  
         outputString = f"""---
 layout: course
 permalink: "{ pageURL }"
 
-title: {thisCourse["name"]}
+title: {thisCourse["code"].upper()} {thisCourse["name"]}
 semester: {semester}
 course_code : {thisCourse["code"].upper()} 
 course_title : {thisCourse["name"]}
 
 credits : {thisCourse["credits"]}
 type : {thisCourse["type"]} 
+
 prerequisites : {prerequisties}
 aims_and_objectives: {thisCourse["objectives"]}
 ilos_knowledge : {thisCourse["ILOs"]["Knowledge"]}
 ilos_skill : {thisCourse["ILOs"]["Skill"]}
 ilos_attitude : {thisCourse["ILOs"]["Attitude"]}
+
 modules: {thisCourse["modules"]}
 textbooks_references : {thisCourse["references"]}
+
 marks: {marks}
 statistics: {statistics}
+
+gh_page: {gh_page}
 ---"""
 
         # Write into file

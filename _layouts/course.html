@@ -228,15 +228,25 @@ layout: default
 
 					{%- for item in page.modules -%}
 					<tr>
-						<td><b>{{item["topic"]}}</b> <br>{{item[1]}}</td>
-						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["L"] }}</td>
-						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["T"] }}</td>
-						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["P"] }}</td>
-						<td style="text-align:center; vertical-align:middle">{{ item["allocation"]["A"] }}</td>
+						<td>
+							<b>{{item["topic"]}}</b> <br>{{item[1]}}
+						</td>
+						<td style="text-align:center; vertical-align:middle">
+							{{ item["allocation"]["L"] }}
+						</td>
+						<td style="text-align:center; vertical-align:middle">
+							{{ item["allocation"]["T"] }}
+						</td>
+						<td style="text-align:center; vertical-align:middle">
+							{{ item["allocation"]["P"] }}
+						</td>
+						<td style="text-align:center; vertical-align:middle">
+							{{ item["allocation"]["A"] }}
+						</td>
 					</tr>
 					{%- endfor -%}
 				</table>
-				<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework assignments</p>
+				<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework Assignments</p>
 			</div>
 			{%- endif -%}
 
@@ -271,32 +281,20 @@ layout: default
 					<canvas id="chart-{{ item.year }}" style="width:100%;max-width:600px"></canvas>
 				</div>
 
-				<script>
-					var barColors = ["red", "green", "blue", "orange", "brown", "red"];
-					let dataPoints_{{ item.year }} =[{% for m in item.grades %} "{{ m[1] }}", {% endfor %} ]
-					new Chart("chart-{{ item.year }}", {
-						type: "bar",
-						data: {
-							labels: ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "E"],
-							datasets: [{
-								// backgroundColor: barColors,
-								data: dataPoints_{{ item.year }}
-					}]
-						},
-						options: {
-						legend: { display: false },
-						title: {
-							display: true,
-							text: "Grade Distribution - {{ item.year }}"
-						}
-					}
-					});
-				</script>
+				<!-- Chart -->
+				{% include gradeChart.js year = item.year data = item.grades %}
+
 				{%- endfor -%}
 			</div>
 			{%- endif -%}
 		</div>
 	</div>
+
+	{%- if page.gh_page -%}
+	<div class="container text-end pt-5">
+		<a href="{{ page.gh_page }}" target="_blank"><i class="fab fa-github"></i> Edit this page on GitHub</a>
+	</div>
+	{%- endif -%}
 </main>
 
 <style>

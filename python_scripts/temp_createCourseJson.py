@@ -25,7 +25,9 @@ for semester in semesters:
 
         if modules!='NULL':
             modulesList = list()
+            
             for module in modules:
+            
                 ml = {
                     "topic": module["topic"],
                     "description": module["description"],
