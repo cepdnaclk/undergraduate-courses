@@ -19,7 +19,8 @@ layout: default
 				<li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
 				<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
 						Courses</a></li>
-				<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink }}" class="link-light">{{
+				<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink | relative_url }}"
+						class="link-light">{{
 						semesterPage[0].title }}</a></li>
 				<li class="breadcrumb-item text-white">
 					{{page.course_code}}

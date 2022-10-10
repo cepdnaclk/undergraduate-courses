@@ -24,7 +24,7 @@ layout: default
         {%- assign courses = site.pages | where: "semester", page.code -%}
 
         {%- for course in courses -%}
-        <li><a href="{{ course.permalink }}">{{ course.course_code }} : {{ course.title }}</a></li>
+        <li><a href="{{ course.permalink | relative_url }}">{{ course.course_code }} : {{ course.title }}</a></li>
         {%- endfor -%}
       </div>
     </div>

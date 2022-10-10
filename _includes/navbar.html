@@ -19,7 +19,8 @@ Contains the logo, home staff students alumni links
                 <ul class="dropdown-menu" aria-labelledby="dropdown-semesters">
                     {%- for sem in site.data.semesters -%}
                     <li>
-                        <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ sem[1]['url'] }}">
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                            href="{{ sem[1]['url'] | relative_url}}">
                             <span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;">
                             </span>{{ sem[1]['title'] }}
                         </a>
