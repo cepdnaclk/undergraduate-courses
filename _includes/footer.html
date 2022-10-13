@@ -2,8 +2,15 @@
     <div class="container">
         <p class="m-2 text-center text-white">
             Department of Computer Engineering - University of Peradeniya
-            <br>
-            <span style="color: #9f9b9b; font-size: small">Last Update: {{site.time | date: "%d/%m/%Y" }}</span>
+        </p>
+        <p>
+            <a class="text-decoration-none small text-muted" href="{{ '/documentation/' | relative_url }}">
+                Documentation</a> |
+            <a class="text-decoration-none small text-muted" href="{{ '/sitemap/' | relative_url }}">
+                Sitemap</a> |
+            <a class="text-decoration-none small text-muted" href="https://api.ce.pdn.ac.lk/docs/courses/"
+                target="_blank">Data API</a> |
+            <span class="small text-muted">Last Build: {{site.time | date: "%d/%m/%Y" }}</span>
         </p>
     </div>
 </footer>
