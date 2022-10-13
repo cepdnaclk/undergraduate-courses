@@ -28,13 +28,29 @@ jobs:
           pip install requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: "Generate Course data"
+        run: |
+          cd ./python_scripts/
+          python3 generate_course_pages.py
+          cd ../
+
+      - name: "Create and update the semester pages"
+        run: |
+          cd ./python_scripts/
+          python3 generate_semester_pages.py
+          cd ../
+
+      - name: "Create and update the course pages"
+        run: |
+          cd ./python_scripts/
+          python3 generate_course_pages.py
+          cd ../
 
       - name: "Unit test for API validity"
         run: |
           cd ./python_scripts/unitTests
           python3 test_api.py
           cd ../
-
 
       - name: Commit and push into the main branch
         run: |
