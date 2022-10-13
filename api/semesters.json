@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: "/api/semesters/"
+sitemap: false
+---
+
+{%- assign all = site.data.semesters -%}
+{{ all | jsonify }}

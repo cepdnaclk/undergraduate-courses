@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<main class="container">
+  <div class="bg-secondary p-3 pb-1 rounded">
+    <h1 class="text-white">{{ page.title }}</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
+            Courses</a></li>
+        <li class="breadcrumb-item text-white">
+          {{page.title}}
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-12 col-md-10 col-lg-9 p-5">
+
+      {%- assign course_list = site.data.courses[page.code] -%}
+
+      {%- for course in course_list["courses"] -%}
+      {% include courseCard.html course=course %}
+      {%- endfor -%}
+    </div>
+  </div>
+  </div>
+</main>

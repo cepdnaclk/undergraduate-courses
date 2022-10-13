@@ -2,41 +2,36 @@
 Navbar used in every page.
 Contains the logo, home staff students alumni links
 {%- endcomment -%}
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        {%- comment -%}
-        logo
-        {%- endcomment -%}
+<div class="container mb-3">
+    <header class="d-flex flex-wrap justify-content-center py-2">
         <a href="{{ '/' | relative_url }}"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <span class="fs-4"><img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt=""></span>
         </a>
 
         <ul class="nav nav-pills">
-            {%- comment -%}
-            Home
-            {%- endcomment -%}
-            <li class="nav-item"><a href="http://www.ce.pdn.ac.lk/" class="nav-link">Home</a></li>
-			
-			<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-                    aria-expanded="false">Staff</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2"
-                            href="https://people.ce.pdn.ac.lk/staff/academic/"><span
-                                class="d-inline-block bg-primary rounded-circle"
-                                style="width: .5em; height: .5em;"></span>Academic Staff</a>
+            <!-- <li class="nav-item"><a href="http://www.ce.pdn.ac.lk/" class="nav-link">Department Website</a></li> -->
+            <!-- <li class="nav-item"><a href="{% link pages/home.html %}" class="nav-link">Undergraduate Courses</a></li> -->
+
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown-semesters" data-bs-toggle="dropdown"
+                    aria-expanded="false">Semesters</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-semesters">
+                    {%- for sem in site.data.semesters -%}
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                            href="{{ sem[1]['url'] | relative_url}}">
+                            <span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;">
+                            </span>{{ sem[1]['title'] }}
+                        </a>
                     </li>
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2"
-                            href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/"><span
-                                class="d-inline-block bg-primary rounded-circle"
-                                style="width: .5em; height: .5em;"></span>Temporary Academic staff</a>
-                    </li>
+                    {%- endfor -%}
                 </ul>
-            </li>
-			
-			<li class="nav-item"><a href="{{ '/api/courses/' | relative_url }}" class="nav-link">Courses API</a>
-			<li class="nav-item"><a href="{{ '/documentation/' | relative_url }}" class="nav-link">Documentation</a>
+            </li> -->
+
+            <!-- <li class="nav-item"><a href="{{ '/api/courses/' | relative_url }}" class="nav-link">Courses API</a> -->
+            <!-- <li class="nav-item"><a href="{{ '/documentation/' | relative_url }}" class="nav-link">Documentation</a> -->
+
         </ul>
     </header>
 </div>

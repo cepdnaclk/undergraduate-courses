@@ -1,8 +1,9 @@
-.vh-50{
-    min-height: 50vh!important;
+.vh-50 {
+  min-height: 50vh !important;
 }
-.vh-75{
-    min-height: 75vh!important;
+
+.vh-75 {
+  min-height: 75vh !important;
 }
 
 
@@ -13,6 +14,12 @@ footer {
   background-color: #cdcdcd;
   border-top: .05rem solid #bfbfbf;
 }
+
 footer p:last-child {
   margin-bottom: 0;
+}
+
+/* Custom css for breadcrumb divider color*/
+.breadcrumb-item+.breadcrumb-item::before {
+  color: white;
 }

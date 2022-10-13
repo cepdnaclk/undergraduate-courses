@@ -22,7 +22,8 @@ title: Documentation
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="http://www.ce.pdn.ac.lk/" class="link-light">Home</a></li>
-                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate Courses</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
+                        Courses</a></li>
                 <li class="breadcrumb-item active text-white">Documentation</li>
             </ol>
         </nav>
@@ -32,28 +33,23 @@ title: Documentation
 <main class="pb-5 px-1 pt-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-sm-12 col-lg-8">
+            <div class="col-md-10 col-sm-12 col-lg-10 mx-auto">
                 <div class="container p-3">
-                    <!-- Add new files to pages/documentation/ then it will be added here automatically, and sorted according to value -->
-                    <!-- {% assign docPages = site.pages | where: "layout", "documentation" | sort: "index"%} -->
-                    <!-- {% for item in docPages %} -->
-                    <!-- <ul style="font-size: 1.1rem;"> -->
-                    <!-- <li><a href="{{item.permalink | relative_url}}">{{item.question}}</a></li> -->
-                    <!-- </ul> -->
-                    <!-- {% endfor %} -->
 
                     <h3>Course Pages</h3>
                     <ul style="font-size: 1.1rem;">
-                        <li><a href="{{ '/documentation/add-student-page/' | relative_url }}">How to add a new Course page ?</a></li>
-                        <li><a href="{{ '/documentation/edit-student-page/' | relative_url }}">How to edit a Course page ?</a></li>
+                        <li><a href="{{'/documentation/how-to-add-a-new-course/' | relative_url }}">
+                                How to add a new Course page ?</a></li>
+                        <li><a href="{{ '/documentation/how-to-edit-a-course/' | relative_url }}">How to edit a Course
+                                page ?</a> (To be written)</li>
                     </ul>
                     <br>
 
                     <h3>Other</h3>
                     <ul style="font-size: 1.1rem;">
-                        <li><a href="{{ '/documentation/run-locally/' | relative_url }}">How to run this website locally?</a></li>
-                        <li><a href="{{ '/documentation/run-on-gh-pages/' | relative_url }}">How to run this on GitHub pages?</a></li>
-                        <li><a href="https://github.com/cepdnaclk/Undergraduate-Courses">Source Code</a></li>
+                        <li><a href="{{ '/documentation/run-locally/' | relative_url }}">How to run this website
+                                locally?</a></li>
+                        <li><a href="https://github.com/cepdnaclk/undergraduate-courses">Source Code</a></li>
                     </ul>
 
                 </div>
@@ -62,10 +58,19 @@ title: Documentation
                     <!-- contact us section -->
                     <p><b>If you have any questions, Please contact any of the developers.</b></p>
                     <ul style="font-size: 1rem;">
-                        <li><a href="{{ '/students/e18/077/' | relative_url }}">Dharmarathna N.S.</a></li>
-                        <li><a href="{{ '/students/e18/224/' | relative_url }}">Mihiranga G.D.R.</a></li>
-                        <li><a href="{{ '/students/e17/227/' | relative_url }}">Mudalige D.H.</a></li>
+                        <li><a href="{{ 'https://people.ce.pdn.ac.lk/students/e18/077/' }}">Dharmarathna N.S.
+                                (Developer)</a></li>
+                        <li><a href="{{ 'https://people.ce.pdn.ac.lk/students/e18/224/' }}">Mihiranga G.D.R.
+                                (Developer)</a></li>
+                        <li><a href="{{ 'https://people.ce.pdn.ac.lk/students/e17/227/' }}">Mudalige D.H.
+                                (Developer)</a></li>
+                        <li><a href="{{ 'https://people.ce.pdn.ac.lk/students/e15/140/' }}">Jaliyagoda A.J.N.M. (Project
+                                Coordinator)</a></li>
                     </ul>
+
+                    <p>This website was developed as a part of <i>CO227: Computer Systems</i> project. The project page
+                        and details are available <a
+                            href="https://projects.ce.pdn.ac.lk/co227/e18/Department-Course-Page-Group-A/">here</a>.</p>
                 </div>
             </div>
         </div>
