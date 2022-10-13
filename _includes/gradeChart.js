@@ -28,16 +28,19 @@
     }]
         },
         options: {
-        scales: {
-            y: {
-                beginAtZero: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                },
+                x: {
+
+                }
+            },
+            legend: { display: false },
+            title: {
+                display: true,
+                text: "Grade Distribution"
             }
-        },
-        legend: { display: false },
-        title: {
-            display: true,
-            text: "Grade Distribution - {{ include.year }}"
         }
-    }
     });
 </script>
