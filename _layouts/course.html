@@ -35,19 +35,15 @@ layout: default
 				<button class="nav-link active" id="description" data-bs-toggle="tab" data-bs-target="#description-tab"
 					type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
 
-				{%- if module_count > 0 -%}
 				<button class="nav-link" id="timeAllocation" data-bs-toggle="tab" data-bs-target="#timeAllocation-tab"
 					type="button" role="tab" aria-controls="timeAllocation" aria-selected="false">Time
 					Allocation</button>
-				{%- endif -%}
 
-				{%- if marks_count > 0 -%}
 				<button class="nav-link" id="marksAllocation" data-bs-toggle="tab" data-bs-target="#marksAllocation-tab"
 					type="button" role="tab" aria-controls="marksAllocation" aria-selected="false">Marks
 					Allocation</button>
-				{%- endif -%}
 
-				{%- if statistics_count > 0 -%}
+				{%- if statistics_count > 0 and page.statistics[0].year != "NULL" -%}
 				<button class="nav-link" id="statistics" data-bs-toggle="tab" data-bs-target="#statistics-tab"
 					type="button" role="tab" aria-controls="statistics" aria-selected="false">Statistics</button>
 				{%- endif -%}
@@ -105,7 +101,7 @@ layout: default
 						<hr>
 						<div class="row">
 							<div class="col-sm-3">
-								<span class="mb-0" style="font-weight: 500">Core/Elective</span>
+								<span class="mb-0" style="font-weight: 500">Course Type</span>
 							</div>
 							<div class="col-sm-9 text-secondary">
 								{{page.type | camelcase}}
@@ -127,7 +123,8 @@ layout: default
 						{% endif %}
 
 						<!-- aims/objectives -->
-						{% if page.aims_and_objectives %}
+						{% assign objective_count = page.aims_and_objectives | size %}
+						{% if objective_count > 0 %}
 						<hr>
 						<div class="row">
 							<div class="col-sm-3">
@@ -140,7 +137,6 @@ layout: default
 						{% endif %}
 
 						<!-- ILOs -->
-						{% if page.ilos_knowledge %}
 						<hr>
 						<div class="row">
 							<div class="col-sm-3">
@@ -148,6 +144,7 @@ layout: default
 							</div>
 
 							<div class="col-sm-9">
+								{%- if page.ilos_knowledge -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Knowledge:</span>
 								</div>
@@ -160,7 +157,9 @@ layout: default
 										{%- endfor -%}
 									</ul>
 								</div>
+								{%- endif -%}
 
+								{%- if page.ilos_skill -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Skill:</span>
 								</div>
@@ -173,7 +172,9 @@ layout: default
 										{%- endfor -%}
 									</ul>
 								</div>
+								{%- endif -%}
 
+								{%- if page.ilos_attitude -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Attitude:</span>
 								</div>
@@ -185,10 +186,10 @@ layout: default
 										{%- endfor -%}
 									</ul>
 								</div>
+								{%- endif -%}
 							</div>
 						</div>
 						<hr>
-						{% endif %}
 
 						<!-- Textbooks and References -->
 						{% if page.textbooks_references %}
@@ -210,8 +211,8 @@ layout: default
 			</div>
 
 			<!-- Time Allocation Tab -->
-			{%- if module_count > 0 -%}
 			<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
+				{%- if module_count > 0 and page.modules[0].topic != "" -%}
 
 				<table class="table table-sm table-bordered border-dark">
 					<tr>
@@ -247,12 +248,15 @@ layout: default
 					{%- endfor -%}
 				</table>
 				<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework Assignments</p>
+
+				{%- else if -%}
+				<p class="text-center p-5 text-muted">Time Allocation details not available for this course</p>
+				{%- endif -%}
 			</div>
-			{%- endif -%}
 
 			<!-- Marks Allocation Tab -->
-			{%- if marks_count > 0 -%}
 			<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
+				{%- if marks_count > 0 -%}
 				<table class="table table-sm table-bordered border-dark">
 					<tr>
 						<th style="text-align:center; vertical-align:middle">Assessment</th>
@@ -266,24 +270,37 @@ layout: default
 					</tr>
 					{%- endfor -%}
 				</table>
+				{%- else if -%}
+				<p class="text-center p-5 text-muted">Marks Allocation details not available for this course</p>
+				{%- endif -%}
 			</div>
-			{%- endif -%}
 
 			<!-- Statistics Tab -->
-			{%- if statistics_count > 0 -%}
+			{%- if statistics_count > 0 and page.statistics[0].year != "NULL" -%}
 			<div class="tab-pane fade" id="statistics-tab" role="tabpanel" aria-labelledby="statistics">
 
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 				{%- for item in page.statistics -%}
+
+				{%- if item.year != "NULL" -%}
 				<div class="container pb-3">
-					<h3>{{ item.year }}</h3>
-					<canvas id="chart-{{ item.year }}" style="width:100%;max-width:600px"></canvas>
+					<h3>
+						Grades Distribution: {{ item.year }}
+						{%- if item.batch != "" -%}
+						<span> - {{ item.batch }}</span>
+						{%- endif -%}
+					</h3>
+
+					<div class="row">
+						<canvas id="chart-{{ item.year }}" style="width:100%;max-width:600px"></canvas>
+					</div>
 				</div>
 
 				<!-- Chart -->
 				{% include gradeChart.js year = item.year data = item.grades %}
 
+				{%- endif -%}
 				{%- endfor -%}
 			</div>
 			{%- endif -%}
@@ -292,7 +309,9 @@ layout: default
 
 	{%- if page.gh_page -%}
 	<div class="container text-end pt-5">
-		<a href="{{ page.gh_page }}" target="_blank"><i class="fab fa-github"></i> Edit this page on GitHub</a>
+		<a href="{{ page.gh_page }}" target="_blank" class="text-decoration-none btn btn-link">
+			<i class="fab fa-github"></i> Edit this page
+		</a>
 	</div>
 	{%- endif -%}
 </main>
@@ -302,14 +321,14 @@ layout: default
 		// Switch to the right tab, absed on the location hash
 		const locHash = window.location.hash;
 		if (locHash != '') {
-			var tabTrigger = new bootstrap.Tab($(locHash)).show();
+			var tabTrigger = new bootstrap.Tab($(locHash.replace("tab_", ""))).show();
 		}
 
 		// Update the URL hash with tab selection
 		var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]')
 		tabsList.forEach((triggerEl) => {
 			triggerEl.addEventListener('shown.bs.tab', function (event) {
-				const tabID = (event.target.getAttribute('id'));
+				const tabID = 'tab_' + (event.target.getAttribute('id'));
 				event.preventDefault();
 				window.location.hash = tabID;
 			})
