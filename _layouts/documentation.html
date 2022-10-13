@@ -11,14 +11,23 @@ Basic layout for the documentation pages
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
-                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate Courses</a></li>
-                <li class="breadcrumb-item"><a href="{{ '/documentation/' | relative_url }}" class="link-light">Documentation</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
+                        Courses</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/documentation/' | relative_url }}"
+                        class="link-light">Documentation</a></li>
                 <li class="breadcrumb-item active text-white">{{page.question}}</li>
             </ol>
         </nav>
     </div>
 </main>
 
-<div class="container p-3 pt-4">
-    {{content}}
+<div class="row">
+    <div class="col-sm-12 col-md-11 col-lg-10 mx-auto">
+        {{content}}
+    </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
