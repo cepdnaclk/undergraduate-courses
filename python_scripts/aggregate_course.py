@@ -22,6 +22,7 @@ def getLastEditDate(filename):
 # Get the list of semesters 
 semesterList = json.load(open("../_data/semesters.json"))
 courses = {}
+courses_index = {}
 
 for semester in semesterList:
     print(semester)
@@ -52,6 +53,7 @@ for semester in semesterList:
                 course_data['last_edit'] = getLastEditDate(course_file)
                 
                 semester_courses.append(course_data)
+                courses_index[course_code] = course_data
 
             except Exception as err:
                 print("ERROR:", err)
@@ -72,3 +74,14 @@ filename = "../_data/courses.json"
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, "w") as f:
     f.write(json.dumps(courses, indent = 4))
+
+# Sort the course_index
+sorted_course_index = {}
+for key in sorted(courses_index):
+    sorted_course_index[key] = courses_index[key]
+
+# Write the courses_index.json file
+filename = "../_data/courses_index.json"
+os.makedirs(os.path.dirname(filename), exist_ok=True)
+with open(filename, "w") as f:
+    f.write(json.dumps(sorted_course_index, indent = 4))
