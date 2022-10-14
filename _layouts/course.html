@@ -111,13 +111,19 @@ layout: default
 
 						<!-- prerequisites -->
 						{% if prerequisites_count > 0 %}
+						<!-- TODO: Generate links to the relevent courses -->
 						<hr>
 						<div class="row">
 							<div class="col-sm-3">
 								<span class="mb-0" style="font-weight: 500">Prerequisites</span>
 							</div>
 							<div class="col-sm-9 text-secondary">
-								{{page.prerequisites}}
+								{%- for p in page.prerequisites -%}
+								{%- assign p_data = site.data.courses_index[p] -%}
+								<a class="" href="{{ p_data.urls.view | relative_url }}">{{p}}</a>
+								{% if forloop.last %}{% else %}, {% endif %}
+								{%- endfor -%}
+
 							</div>
 						</div>
 						{% endif %}
