@@ -111,7 +111,6 @@ layout: default
 
 						<!-- prerequisites -->
 						{% if prerequisites_count > 0 %}
-						<!-- TODO: Generate links to the relevent courses -->
 						<hr>
 						<div class="row">
 							<div class="col-sm-3">
@@ -123,7 +122,6 @@ layout: default
 								<a class="" href="{{ p_data.urls.view | relative_url }}">{{p}}</a>
 								{% if forloop.last %}{% else %}, {% endif %}
 								{%- endfor -%}
-
 							</div>
 						</div>
 						{% endif %}
