@@ -9,6 +9,7 @@ Author: E/18/227 Dinuka Mudalige - e18227@eng.pdn.ac.lk
 from importlib.resources import contents
 import os
 import json
+import shutil
 
 # Delete the existing folder 
 dir_path = "../pages/courses/"
