@@ -28,19 +28,19 @@ jobs:
           pip install requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: "Generate Course data"
+      - name: "Generate Course data collection"
         run: |
           cd ./python_scripts/
-          python3 generate_course_pages.py
+          python3 aggregate_course.py
           cd ../
 
-      - name: "Create and update the semester pages"
+      - name: "Create and update the Semester pages"
         run: |
           cd ./python_scripts/
           python3 generate_semester_pages.py
           cd ../
 
-      - name: "Create and update the course pages"
+      - name: "Create and update the Course pages"
         run: |
           cd ./python_scripts/
           python3 generate_course_pages.py
