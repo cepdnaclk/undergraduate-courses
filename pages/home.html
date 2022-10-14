@@ -25,8 +25,8 @@ title: Undergraduate Courses
 				<div class="nav flex-column nav-pills me-3" id="semester-tabs" role="tablist"
 					aria-orientation="vertical">
 					{%- for sem in site.data.semesters -%}
-					<button class="nav-link {%- if forloop.first -%} {{' active '}} {%- endif -%}" id="{{sem[0]}}-tab"
-						data-bs-toggle="pill" data-bs-target="#tab-{{sem[0]}}" type="button" role="tab"
+					<button class="nav-link {%- if forloop.first -%} {{' active '}} {%- endif -%}" id="{{sem[0]}}"
+						data-bs-toggle="pill" data-bs-target="#{{sem[0]}}-tab" type="button" role="tab"
 						aria-controls="tab-{{sem[0]}}" aria-selected="{%- if forloop.first -%} true {%- endif -%}">{{
 						sem[1]["title"] }}</button>
 					{%- endfor -%}
@@ -36,7 +36,7 @@ title: Undergraduate Courses
 			<div class="col-xs-12 col-sm-9 tab-content " id="semesters">
 				{%- for sem in site.data.courses -%}
 				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}"
-					id="tab-{{ sem[0] }}" role="tabpanel" aria-labelledby="tab-{{ sem[0] }}-tab">
+					id="{{ sem[0] }}-tab" role="tabpanel" aria-labelledby="tab-{{ sem[0] }}-tab">
 					<h3>{{ sem[1]["title"] }} Courses</h3>
 					<h6>{{ sem[1]["description"] }}</h6>
 					<hr>
@@ -68,14 +68,14 @@ title: Undergraduate Courses
 		// Switch to the right tab, absed on the location hash
 		const locHash = window.location.hash;
 		if (locHash != '') {
-			var tabTrigger = new bootstrap.Tab($(locHash.replace("tab_", ""))).show();
+			var tabTrigger = new bootstrap.Tab($(locHash.replace("tab-", ""))).show();
 		}
 
 		// Update the URL hash with tab selection
 		var tabsList = document.querySelectorAll('button[data-bs-toggle="pill"]')
 		tabsList.forEach((triggerEl) => {
 			triggerEl.addEventListener('shown.bs.tab', function (event) {
-				const tabID = 'tab_' + (event.target.getAttribute('id'));
+				const tabID = 'tab-' + (event.target.getAttribute('id'));
 				event.preventDefault();
 				window.location.hash = tabID;
 			})
