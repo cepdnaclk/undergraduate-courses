@@ -19,6 +19,11 @@
     "description": "",
     "url": "/semester4"
   },
+  "short-semester": {
+    "title": "Short Semester",
+    "description": "",
+    "url": "/short-semester"
+  },
   "semester5": {
     "title": "Semester 5",
     "description": "",
@@ -38,11 +43,6 @@
     "title": "Semester 8",
     "description": "",
     "url": "/semester8"
-  },
-  "short-semester": {
-    "title": "Short Semester",
-    "description": "",
-    "url": "/short-semester"
   },
   "general-electives": {
     "title": "General Electives",
