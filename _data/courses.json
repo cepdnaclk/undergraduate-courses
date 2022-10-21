@@ -2726,7 +2726,9 @@
                 "name": "Software Construction",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO222"
+                ],
                 "content": "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
                 "objectives": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
                 "ILOs": {
@@ -2899,7 +2901,10 @@
                 "name": "Database Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO222",
+                    "EM313"
+                ],
                 "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
                 "objectives": [],
                 "ILOs": {
@@ -3573,7 +3578,9 @@
                 "name": "Embedded Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO224"
+                ],
                 "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
                 "objectives": [],
                 "ILOs": {
@@ -3745,7 +3752,9 @@
                 "name": "Data Structures and Algorithms",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO225"
+                ],
                 "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
                 "objectives": [],
                 "ILOs": {
@@ -3908,7 +3917,9 @@
                 "name": "Computer Communication Networks II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO223"
+                ],
                 "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
                 "objectives": [],
                 "ILOs": {
@@ -3978,7 +3989,10 @@
                 "name": "Network and Web Application Design",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO223",
+                    "CO225"
+                ],
                 "content": "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
                 "objectives": [],
                 "ILOs": {
@@ -4165,7 +4179,9 @@
                 "name": "Computer and Network Security",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO223"
+                ],
                 "content": "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
                 "objectives": [],
                 "ILOs": {
@@ -4356,7 +4372,9 @@
                 "name": "Electronics II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO285"
+                ],
                 "content": "Data conversion circuits, Diode Logic Circuits, BJT Logic families, MOS Logic Families, Storage Elements, Design Parameter and issues, Interfacing logic families, Active Filters, Oscillators, Circuit modeling and simulation, Electronic Laboratory.",
                 "objectives": [],
                 "ILOs": {
@@ -4493,7 +4511,10 @@
                 "name": "Computer Systems Engineering - Industrial Networks",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO321",
+                    "EE386"
+                ],
                 "content": "Introduction, Hardware Components for designing control systems, Designing simple digital systems using a standard PC, Designing I/O systems for standard PC, Development of control systems using microcontrollers, Communication for industrial control systems, Instrument automaton and development of test systems, PC based test, measurement and control modules and modular systems, SCADA and Industrial Automation Systems, Industrial automation project",
                 "objectives": [],
                 "ILOs": {
@@ -4560,7 +4581,10 @@
                 "name": "Operating Systems",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO224",
+                    "CO322"
+                ],
                 "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
                 "objectives": [],
                 "ILOs": {
@@ -4630,7 +4654,11 @@
                 "name": "Software Engineering",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO226",
+                    "CO322",
+                    "CO324"
+                ],
                 "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
                 "objectives": [],
                 "ILOs": {
@@ -4701,7 +4729,10 @@
                 "name": "Signal Processing",
                 "credits": 4,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "EE282",
+                    "EM202"
+                ],
                 "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
                 "objectives": [],
                 "ILOs": {
@@ -4877,7 +4908,9 @@
                 "name": "Software Project Management",
                 "credits": 2,
                 "type": "GENERAL",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO328"
+                ],
                 "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
                 "objectives": [],
                 "ILOs": {
@@ -4927,7 +4960,9 @@
                 "name": "Information Systems Management",
                 "credits": 2,
                 "type": "GENERAL",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO328"
+                ],
                 "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
                 "objectives": [],
                 "ILOs": {
@@ -4992,7 +5027,9 @@
                 "name": "Final Year Project II",
                 "credits": 3,
                 "type": "CORE",
-                "prerequisites": [],
+                "prerequisites": [
+                    "CO421"
+                ],
                 "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
                 "objectives": [],
                 "ILOs": {
@@ -5233,6 +5270,69 @@
                     "edit": "/courses/technical-electives/CO503.json",
                     "view": "/technical-electives/CO503/",
                     "markdown": "/pages/courses/technical-electives/CO503"
+                },
+                "last_edit": "2022-10-21 12:59:05 +0530"
+            },
+            {
+                "code": "CO504",
+                "name": "Hardware Software Co-design",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO224"
+                ],
+                "content": "Introduction to hardware/software co-design, Mapping applications to architecture, System partitioning, Design space exploration, Interface synthesis, Estimation, System simulation, Execution time analysis, Performance analysis.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 29h, Tutorial-Classes: 4h, Practicals: 18h, Assignments: 6h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO504.json",
+                    "view": "/technical-electives/CO504/",
+                    "markdown": "/pages/courses/technical-electives/CO504"
                 },
                 "last_edit": "2022-10-21 12:59:05 +0530"
             },
@@ -5804,19 +5904,87 @@
                 "last_edit": "2022-10-21 12:59:05 +0530"
             },
             {
-                "code": "CO542",
-                "name": "",
+                "code": "CO541",
+                "name": "Artificial Intelligence",
                 "credits": 3,
                 "type": "ELECTIVE",
-                "prerequisites": [],
-                "content": "NULL",
+                "prerequisites": [
+                    "CO222"
+                ],
+                "content": "Introduction, Artificial intelligence programming, Knowledge representation and inference, Expert systems, Search, Natural language processing, Vision, Dealing with uncertainty, Role of neural networks and fuzzy logic in AI, Applications of AI.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures & Tutorial-Classes: 22h, Practicals & Assignments: 14h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO541.json",
+                    "view": "/technical-electives/CO541/",
+                    "markdown": "/pages/courses/technical-electives/CO541"
+                },
+                "last_edit": "2022-10-21 12:59:05 +0530"
+            },
+            {
+                "code": "CO542",
+                "name": "Neural Networks and Fuzzy Systems",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "Introduction to fuzzy systems, Fuzzy relations, Extension principle , Fuzzy inference, Fuzzy non-linear simulation, Fuzzy applications , Artificial neural networks (ANN), Learning in ANN, The perceptron, Back propagation algorithm, Hopefield model, Memory type paradigms, Fuzzy neural networks applications",
+                "objectives": [
+                    "Apply theories and techniques of Artificial Neural Networks and Fuzzy Systems to identify potential applications in real-life product design, commercial/trade and scientific problems, ",
+                    "Analyse and formulate the problem for solution using Artificial Neural Networks and Fuzzy Systems, ",
+                    "Develop prototype solutions to the formulated problem and validate them, ",
+                    "Continue developing their Artificial Neural Networks and Fuzzy Systems skills by keeping abreast with new learning in the area through continuous learning."
+                ],
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures & Tutorial-Classes: 33h, Practical & Assignments: 24h",
                 "modules": [
                     {
                         "topic": "",
@@ -5866,18 +6034,18 @@
             },
             {
                 "code": "CO543",
-                "name": "",
+                "name": "Image Processing",
                 "credits": 3,
                 "type": "ELECTIVE",
                 "prerequisites": [],
-                "content": "NULL",
+                "content": "Course Content: Introduction, Digital image fundamentals, Image enhancement in the spatial domain, Image enhancement in the frequency domain, Colour image processing, Image compression, Assignments.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures & Tutorial-Classes: 30h, Practicals & Assignments: 30h",
                 "modules": [
                     {
                         "topic": "",
@@ -5927,18 +6095,20 @@
             },
             {
                 "code": "CO544",
-                "name": "",
+                "name": "Machine Learning and Data Mining",
                 "credits": 3,
                 "type": "ELECTIVE",
-                "prerequisites": [],
-                "content": "NULL",
+                "prerequisites": [
+                    "CO322"
+                ],
+                "content": "Introduction, Input, Output, Basic algorithms, Evaluation and credibility, Real machine learning algorithms, Data preparation for knowledge discovery.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures & Tutorial-Classes: 30h, Practicals & Assignments: 10h",
                 "modules": [
                     {
                         "topic": "",
@@ -5988,18 +6158,18 @@
             },
             {
                 "code": "CO551",
-                "name": "",
+                "name": "Theory of Computation",
                 "credits": 3,
                 "type": "ELECTIVE",
                 "prerequisites": [],
-                "content": "NULL",
+                "content": "Preliminaries, Finite automata, Regular expressions and properties of regular sets, Context-free grammars (CGF) and properties of context-free languages (CFL), Pushdown automata, Turing machines, Undecidability, Complexity theory, Intractable problems.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures & Tutorial-Classes: 37h, Practicals & Assignments: 16h",
                 "modules": [
                     {
                         "topic": "",
@@ -6049,18 +6219,20 @@
             },
             {
                 "code": "CO552",
-                "name": "",
+                "name": "Game Theory and Markov Decision Processes",
                 "credits": 3,
                 "type": "ELECTIVE",
-                "prerequisites": [],
-                "content": "NULL",
+                "prerequisites": [
+                    "EM202"
+                ],
+                "content": "Introduction to game theory, Mixed Strategies, Expected Payoffs, Nash Equilibrium and Nash Theorem, 2-Player Zero-Sum Games, and The Minimax Theorem, Linear Programming, Simplex Algorithm, LP Duality Theorem, Computing Solutions for General Finite Strategic Games, Games in Extensive Form, Games of Perfect Information, Games on Graphs, Simulation, Markov Decision Processes and Stochastic Games, Selfish Network Routing, Congestion Games, and the Price of Anarchy, Auctions and Mechanism Design, Reachability and safety games, Buchi and coBuchi Games.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures: 35h, Tutorial-Classes: 10h, Assignments: 10h",
                 "modules": [
                     {
                         "topic": "",
@@ -6110,18 +6282,18 @@
             },
             {
                 "code": "CO553",
-                "name": "",
+                "name": "Formal Verification Tools and Techniques for Complex Reactive Systems",
                 "credits": 3,
                 "type": "ELECTIVE",
                 "prerequisites": [],
-                "content": "NULL",
+                "content": "The aim of this course is to impart a working knowledge of formal methods used in rigorous verification of reactive systems and enable students to use them in designing systems.As principle objectives, at the end of the course,students are expected toknow how the behaviour of a complex (safety-critical) reactive system could be specified and how such a system could be designed so that they could prove the correctness of the system behaviour usingan appropriate formalism from among, (symbolic) model checking and temporal logic, Hoare logic and weakest precondition calculus, Petri nets and process algebra.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "allocation": "Lectures: 31h, Tutorial-Classes: 4h, Assignments: 20h",
                 "modules": [
                     {
                         "topic": "",
@@ -6166,130 +6338,6 @@
                     "edit": "/courses/technical-electives/CO553.json",
                     "view": "/technical-electives/CO553/",
                     "markdown": "/pages/courses/technical-electives/CO553"
-                },
-                "last_edit": "2022-10-21 12:59:05 +0530"
-            },
-            {
-                "code": "CO5541",
-                "name": "",
-                "credits": 3,
-                "type": "ELECTIVE",
-                "prerequisites": [],
-                "content": "NULL",
-                "objectives": "",
-                "ILOs": {
-                    "Knowledge": [],
-                    "Skill": [],
-                    "Attitude": []
-                },
-                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
-                "modules": [
-                    {
-                        "topic": "",
-                        "description": "",
-                        "allocation": {
-                            "L": "-",
-                            "T": "-",
-                            "P": "-",
-                            "A": "-"
-                        }
-                    }
-                ],
-                "references": [],
-                "marks": [],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/technical-electives/CO541.json",
-                    "view": "/technical-electives/CO541/",
-                    "markdown": "/pages/courses/technical-electives/CO541"
-                },
-                "last_edit": "2022-10-21 12:59:05 +0530"
-            },
-            {
-                "code": "CO5o4",
-                "name": "Hardware Software Co-design",
-                "credits": 3,
-                "type": "ELECTIVE",
-                "prerequisites": [
-                    "CO224"
-                ],
-                "content": "Introduction to hardware/software co-design, Mapping applications to architecture, System partitioning, Design space exploration, Interface synthesis, Estimation, System simulation, Execution time analysis, Performance analysis.",
-                "objectives": "",
-                "ILOs": {
-                    "Knowledge": [],
-                    "Skill": [],
-                    "Attitude": []
-                },
-                "allocation": "Lectures: 29h, Tutorial-Classes: 4h, Practicals: 18h, Assignments: 6h",
-                "modules": [
-                    {
-                        "topic": "",
-                        "description": "",
-                        "allocation": {
-                            "L": "-",
-                            "T": "-",
-                            "P": "-",
-                            "A": "-"
-                        }
-                    }
-                ],
-                "references": [],
-                "marks": [],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/technical-electives/CO504.json",
-                    "view": "/technical-electives/CO504/",
-                    "markdown": "/pages/courses/technical-electives/CO504"
                 },
                 "last_edit": "2022-10-21 12:59:05 +0530"
             }

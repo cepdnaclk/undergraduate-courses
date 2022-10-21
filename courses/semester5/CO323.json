@@ -3,7 +3,9 @@
     "name": "Computer Communication Networks II",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO223"
+    ],
     "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
     "objectives": [],
     "ILOs": {

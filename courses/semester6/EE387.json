@@ -3,7 +3,10 @@
     "name": "Signal Processing",
     "credits": 4,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "EE282",
+        "EM202"
+    ],
     "content": "Fundamental Concepts of Signals, Time Domain Processing of Signals, Fourier Series, Fourier Transformation, Frequency Domain Analysis of Discrete-time Signals, Transfer Functions, Frequency Domain Processing of Singals.",
     "objectives": [],
     "ILOs": {

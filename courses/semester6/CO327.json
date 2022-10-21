@@ -3,7 +3,10 @@
     "name": "Operating Systems",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO224",
+        "CO322"
+    ],
     "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
     "objectives": [],
     "ILOs": {

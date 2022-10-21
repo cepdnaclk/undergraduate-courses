@@ -3,7 +3,10 @@
     "name": "Database Systems",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO222",
+        "EM313"
+    ],
     "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
     "objectives": [],
     "ILOs": {

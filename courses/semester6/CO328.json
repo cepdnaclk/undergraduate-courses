@@ -3,7 +3,11 @@
     "name": "Software Engineering",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO226",
+        "CO322",
+        "CO324"
+    ],
     "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
     "objectives": [],
     "ILOs": {

@@ -3,7 +3,9 @@
     "name": "Final Year Project II",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO421"
+    ],
     "content": "Project planning, literature review, implementation, evaluation, report writing, presentation of findings, project demonstration.",
     "objectives": [],
     "ILOs": {

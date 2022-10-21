@@ -3,7 +3,9 @@
     "name": "Data Structures and Algorithms",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO225"
+    ],
     "content": "Teach the mechanics underlying collections and associated algorithms available in high-level languages and their efficiency characteristics, so that students can choose the most appropriate data representation and algorithms to solve a given problem efficiently.",
     "objectives": [],
     "ILOs": {

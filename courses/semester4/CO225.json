@@ -3,7 +3,9 @@
     "name": "Software Construction",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO222"
+    ],
     "content": "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
     "objectives": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
     "ILOs": {

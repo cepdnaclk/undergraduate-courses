@@ -3,7 +3,9 @@
     "name": "Computer and Network Security",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO223"
+    ],
     "content": "Apply principles of computer security to the analysis of application, computer and network security mechanisms and policies.",
     "objectives": [],
     "ILOs": {

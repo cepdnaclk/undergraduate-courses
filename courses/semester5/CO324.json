@@ -3,7 +3,10 @@
     "name": "Network and Web Application Design",
     "credits": 3,
     "type": "CORE",
-    "prerequisites": [],
+    "prerequisites": [
+        "CO223",
+        "CO225"
+    ],
     "content": "Teach the design and implementation of network and web applications so that students can effectively use these techniques while designing programs.",
     "objectives": [],
     "ILOs": {
