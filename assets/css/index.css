@@ -23,3 +23,12 @@ footer p:last-child {
 .breadcrumb-item+.breadcrumb-item::before {
   color: white;
 }
+
+.footer-link {
+  color: #6c757d !important;
+  transition: all 0.2s ease-in;
+}
+
+.footer-link:hover {
+  color: #0d6efd !important;
+}
