@@ -3457,6 +3457,113 @@
             }
         ]
     },
+    "short-semester": {
+        "title": "Short Semester",
+        "description": "During his semester, the students will follow a Guided Software Engineering project with General Elective courses of at least 9 credits. The semester is 7 weeks long.",
+        "courses": [
+            {
+                "code": "CO227",
+                "name": "Computer Engineering Project",
+                "credits": 2,
+                "type": "CORE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "The objective of this course is to let the students work with limited guidance on a project designed to consolidate theory and practice, and inculcate an attitude of self-learning and team work",
+                "ILOs": {
+                    "Knowledge": [
+                        "Construct relatively complex software solutions for real world problem using the knowledge they gained during their specialization (in particular CO225 and CO226)."
+                    ],
+                    "Skill": [
+                        "Model a real-world problem using suitable techniques.",
+                        "Break a project into manageable tasks.",
+                        "Use appropriate programming techniques, tools for the task at hand.",
+                        "Work effectively as a team and manage time to meet deadlines.",
+                        "Collect and analyze project outcomes.",
+                        "Write technical report."
+                    ],
+                    "Attitude": [
+                        "Able to work independently on a project.",
+                        "Have the confidence to undertake a nontrivial project.",
+                        "Self-directed learning of skills required for a project."
+                    ]
+                },
+                "allocation": "Lectures : 5h, Assignments : 50h",
+                "modules": [
+                    {
+                        "topic": "seminar",
+                        "description": "Report writing, technical presentation skills",
+                        "allocation": {
+                            "L": "5",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    },
+                    {
+                        "topic": "Project",
+                        "description": "Software project in a group",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "50"
+                        }
+                    },
+                    {
+                        "topic": "Total (hours)",
+                        "description": "",
+                        "allocation": {
+                            "L": "5",
+                            "T": "-",
+                            "P": "-",
+                            "A": "50"
+                        }
+                    }
+                ],
+                "references": [
+                    "Damith C. Rajapakse, Practical tips for software intensive student projects"
+                ],
+                "marks": [
+                    {
+                        "description": "Projects",
+                        "allocation": "100"
+                    }
+                ],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/short-semester/CO227.json",
+                    "view": "/short-semester/CO227/",
+                    "markdown": "/pages/courses/short-semester/CO227"
+                },
+                "last_edit": "2022-10-13 20:34:12 +0530"
+            }
+        ]
+    },
     "semester5": {
         "title": "Semester 5",
         "description": "",
@@ -3578,7 +3685,7 @@
                     }
                 ],
                 "references": [
-                    "Book - AVR Microcontroller and Embedded Systems File; https://feels.pdn.ac.lk/pluginfile.php/39720/mod_resource/content/1/Book%20-%20AVR%20Microcontroller%20and%20Embedded%20Systems.pdf",
+                    "Book - AVR Microcontroller and Embedded Systems",
                     "Fredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.",
                     "Mano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals"
                 ],
@@ -4932,113 +5039,6 @@
             }
         ]
     },
-    "short-semester": {
-        "title": "Short Semester",
-        "description": "",
-        "courses": [
-            {
-                "code": "CO227",
-                "name": "Computer Engineering Project",
-                "credits": 2,
-                "type": "CORE",
-                "prerequisites": [],
-                "content": "NULL",
-                "objectives": "The objective of this course is to let the students work with limited guidance on a project designed to consolidate theory and practice, and inculcate an attitude of self-learning and team work",
-                "ILOs": {
-                    "Knowledge": [
-                        "Construct relatively complex software solutions for real world problem using the knowledge they gained during their specialization (in particular CO225 and CO226)."
-                    ],
-                    "Skill": [
-                        "Model a real-world problem using suitable techniques.",
-                        "Break a project into manageable tasks.",
-                        "Use appropriate programming techniques, tools for the task at hand.",
-                        "Work effectively as a team and manage time to meet deadlines.",
-                        "Collect and analyze project outcomes.",
-                        "Write technical report."
-                    ],
-                    "Attitude": [
-                        "Able to work independently on a project.",
-                        "Have the confidence to undertake a nontrivial project.",
-                        "Self-directed learning of skills required for a project."
-                    ]
-                },
-                "allocation": "Lectures : 5h, Assignments : 50h",
-                "modules": [
-                    {
-                        "topic": "seminar",
-                        "description": "Report writing, technical presentation skills",
-                        "allocation": {
-                            "L": "5",
-                            "T": "-",
-                            "P": "-",
-                            "A": "-"
-                        }
-                    },
-                    {
-                        "topic": "Project",
-                        "description": "Software project in a group",
-                        "allocation": {
-                            "L": "-",
-                            "T": "-",
-                            "P": "-",
-                            "A": "50"
-                        }
-                    },
-                    {
-                        "topic": "Total (hours)",
-                        "description": "",
-                        "allocation": {
-                            "L": "5",
-                            "T": "-",
-                            "P": "-",
-                            "A": "50"
-                        }
-                    }
-                ],
-                "references": [
-                    "Damith C. Rajapakse, Practical tips for software intensive student projects"
-                ],
-                "marks": [
-                    {
-                        "description": "Projects",
-                        "allocation": "100"
-                    }
-                ],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/short-semester/CO227.json",
-                    "view": "/short-semester/CO227/",
-                    "markdown": "/pages/courses/short-semester/CO227"
-                },
-                "last_edit": "2022-10-13 20:34:12 +0530"
-            }
-        ]
-    },
     "general-electives": {
         "title": "General Electives",
         "description": "",
@@ -5112,18 +5112,20 @@
         "courses": [
             {
                 "code": "CO502",
-                "name": "Advanced Embedded Systems",
-                "credits": 2,
-                "type": "CORE",
-                "prerequisites": [],
-                "content": "NULL",
+                "name": "Advanced Computer Architecture",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO224"
+                ],
+                "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
                 "objectives": "",
                 "ILOs": {
                     "Knowledge": [],
                     "Skill": [],
                     "Attitude": []
                 },
-                "allocation": "",
+                "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
                 "modules": [
                     {
                         "topic": "",
@@ -5170,6 +5172,1126 @@
                     "markdown": "/pages/courses/technical-electives/CO502"
                 },
                 "last_edit": "2022-10-13 20:34:12 +0530"
+            },
+            {
+                "code": "CO503",
+                "name": "Advanced Embedded Systems",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO321"
+                ],
+                "content": "Introduction to embedded systems, Custom single-purpose processors, General-purpose processors: software, Embedded system modelling: state machine and concurrent process models, Design technologies of embedded systems, Hardware/software co-design of embedded systems, Operating systems for embedded systems, Design example, System on a Chip (SoC).",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures & Tutorial-Classes: 30h, Practicals & Assignments: 30h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO503.json",
+                    "view": "/technical-electives/CO503/",
+                    "markdown": "/pages/courses/technical-electives/CO503"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO513",
+                "name": "Advanced Computer Communication Networks",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO323"
+                ],
+                "content": "An overview of communication networks, Multimedia network applications and protocols, Quality of service, Broadcast and multicasting routing, Multi-protocol label switching (MPLS) and Generalized MPLS, Wireless and mobile networks, Network security, Network management.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 30h, Tutorial-Classes: 2h, Practicals: 15h, Assignments: 11h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO513.json",
+                    "view": "/technical-electives/CO513/",
+                    "markdown": "/pages/courses/technical-electives/CO513"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO514",
+                "name": "Optical Communication Networks",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO323"
+                ],
+                "content": "An overview of communication networks, Optical transmission fundamentals and issues, IP traffic over WDM optical networks, Synchronous optical networks (SONET)/Synchronous digital hierarchy (SDH), WDM optical networks: optical circuit switching (OCS), WDM optical networks: optical packet switching (OPS), WDM optical networks: optical burst switching (OBS), Optical access networks, Other technologies, trends, and challenges.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 30h, Tutorial-Classes: 7h, Assignments: 16h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO514.json",
+                    "view": "/technical-electives/CO514/",
+                    "markdown": "/pages/courses/technical-electives/CO514"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO515",
+                "name": "Advances in Computer Networks:Selected Topics",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO323"
+                ],
+                "content": "An overview of networking trends, Data center networks and applications, Network function virtualization and Software Defined Networks, Carrier internt protocol, Multiprotocol label Switching (MPLS), Carrier Ethernet, Provider backbone, Metro Ethernet, Traffic Engineering, Big data concepts and applications, Network management.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 35h, Tutorial-Classes: 2h, Assignments: 16h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO515.json",
+                    "view": "/technical-electives/CO515/",
+                    "markdown": "/pages/courses/technical-electives/CO515"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO521",
+                "name": "Compilers",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO322"
+                ],
+                "content": "Introduction, Programming tools: Lexical analysis, Semantic analysis, Static semantics, Code generation, Miscellaneous topics.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures % Tutorial-Classes: 30h, Practicals & Assignments: 15h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO521.json",
+                    "view": "/technical-electives/CO521/",
+                    "markdown": "/pages/courses/technical-electives/CO521"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO523",
+                "name": "Programming Languages",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO322"
+                ],
+                "content": "Introduction. Imperative languages: Object oriented languages, Functional languages, Logical languages, Concurrent languages.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures & Tutorial-Classes: 27h, Practicals & Assignments: 18h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO523.json",
+                    "view": "/technical-electives/CO523/",
+                    "markdown": "/pages/courses/technical-electives/CO523"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO524",
+                "name": "Parallel Computers and Algorithms",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO327"
+                ],
+                "content": "Parallel architecture, Interconnection networks, Designing parallel programmes, Performance modelling, Programming paradigms, Message passing interface, Multithreading, Parallelising numerical algorithms, Parallelising non-numerical algorithms, State of the art.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 30h, Practicals: 8h, Assignments: 22h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO524.json",
+                    "view": "/technical-electives/CO524/",
+                    "markdown": "/pages/courses/technical-electives/CO524"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO526",
+                "name": "Advanvced Operating Systems",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO327"
+                ],
+                "content": "Introduction to operating system design, Introduction to microkernel, Microkernel based systems, Managing virtual memory, Process Management, File Systems, Threads, Syttem calls, I/O handling, Security, Research topics.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 30h, Practicals & Assignments: 15h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO526.json",
+                    "view": "/technical-electives/CO526/",
+                    "markdown": "/pages/courses/technical-electives/CO526"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO527",
+                "name": "Advanced Database Systems",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO226"
+                ],
+                "content": "Data storage and indexing structures, Query Optimization and database tuning, Transaction Processing, Database security, Distributed Databases, Object databases and Object-relational databases, other data models, Data models for advanced applications.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 32h, Tutorial-Classes: 6h, Practicals: 12h, Assignments: 2h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO527.json",
+                    "view": "/technical-electives/CO527/",
+                    "markdown": "/pages/courses/technical-electives/CO527"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO528",
+                "name": "Applied Software Architecture",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO328"
+                ],
+                "content": "Introduction to applied software architecture, Basic of software architecture, Web application architectures, Service oriented architectures, Enterprise architectures, Product architectures, Mobile application architectures, Cloud architectures.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 31h, Practicals: 12h, Assignments: 16h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO528.json",
+                    "view": "/technical-electives/CO528/",
+                    "markdown": "/pages/courses/technical-electives/CO528"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO542",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO542.json",
+                    "view": "/technical-electives/CO542/",
+                    "markdown": "/pages/courses/technical-electives/CO542"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO543",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO543.json",
+                    "view": "/technical-electives/CO543/",
+                    "markdown": "/pages/courses/technical-electives/CO543"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO544",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO544.json",
+                    "view": "/technical-electives/CO544/",
+                    "markdown": "/pages/courses/technical-electives/CO544"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO551",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO551.json",
+                    "view": "/technical-electives/CO551/",
+                    "markdown": "/pages/courses/technical-electives/CO551"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO552",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO552.json",
+                    "view": "/technical-electives/CO552/",
+                    "markdown": "/pages/courses/technical-electives/CO552"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO553",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO553.json",
+                    "view": "/technical-electives/CO553/",
+                    "markdown": "/pages/courses/technical-electives/CO553"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO5541",
+                "name": "",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [],
+                "content": "NULL",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO541.json",
+                    "view": "/technical-electives/CO541/",
+                    "markdown": "/pages/courses/technical-electives/CO541"
+                },
+                "last_edit": "b'"
+            },
+            {
+                "code": "CO5o4",
+                "name": "Hardware Software Co-design",
+                "credits": 3,
+                "type": "ELECTIVE",
+                "prerequisites": [
+                    "CO224"
+                ],
+                "content": "Introduction to hardware/software co-design, Mapping applications to architecture, System partitioning, Design space exploration, Interface synthesis, Estimation, System simulation, Execution time analysis, Performance analysis.",
+                "objectives": "",
+                "ILOs": {
+                    "Knowledge": [],
+                    "Skill": [],
+                    "Attitude": []
+                },
+                "allocation": "Lectures: 29h, Tutorial-Classes: 4h, Practicals: 18h, Assignments: 6h",
+                "modules": [
+                    {
+                        "topic": "",
+                        "description": "",
+                        "allocation": {
+                            "L": "-",
+                            "T": "-",
+                            "P": "-",
+                            "A": "-"
+                        }
+                    }
+                ],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/technical-electives/CO504.json",
+                    "view": "/technical-electives/CO504/",
+                    "markdown": "/pages/courses/technical-electives/CO504"
+                },
+                "last_edit": "b'"
             }
         ]
     }

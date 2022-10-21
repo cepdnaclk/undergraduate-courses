@@ -142,13 +142,18 @@ layout: default
 
 						<!-- ILOs -->
 						<hr>
+						{%- assign ilos_knowledge_count = page.ilos_knowledge | size -%}
+						{%- assign ilos_skill_count = page.ilos_skill | size -%}
+						{%- assign ilos_attitude_count = page.ilos_attitude | size -%}
+
+						{%- if ilos_attitude_count > 0 or ilos_knowledge_count > 0 or ilos_skill_count >0 -%}
 						<div class="row">
 							<div class="col-sm-3">
 								<span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
 							</div>
 
 							<div class="col-sm-9">
-								{%- if page.ilos_knowledge -%}
+								{%- if ilos_knowledge_count > 0 -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Knowledge:</span>
 								</div>
@@ -163,7 +168,7 @@ layout: default
 								</div>
 								{%- endif -%}
 
-								{%- if page.ilos_skill -%}
+								{%- if ilos_skill_count > 0 -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Skill:</span>
 								</div>
@@ -178,7 +183,7 @@ layout: default
 								</div>
 								{%- endif -%}
 
-								{%- if page.ilos_attitude -%}
+								{%- if ilos_attitude_count > 0 -%}
 								<div>
 									<span class="mb-0" style="font-weight: 500">Attitude:</span>
 								</div>
@@ -194,9 +199,11 @@ layout: default
 							</div>
 						</div>
 						<hr>
+						{%- endif -%}
 
 						<!-- Textbooks and References -->
-						{% if page.textbooks_references %}
+						{% assign references_count = page.textbooks_references | size %}
+						{% if references_count > 0 %}
 						<div class="row">
 							<div class="col-sm-3">
 								<span class="mb-0" style="font-weight: 500">Textbooks and References</span>
