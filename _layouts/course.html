@@ -320,8 +320,10 @@ layout: default
 
 	{%- if page.gh_page -%}
 	<div class="container text-end pt-5">
-		<a href="{{ page.gh_page }}" target="_blank" class="text-decoration-none btn btn-link">
-			<i class="fab fa-github"></i> Edit this page
+		<span class="text-muted">Last Update: {{ page.last_edit }}</span>
+		{{ ' | ' }}
+		<a href="{{ page.gh_page }}" target="_blank" class="text-decoration-none">
+			Edit this page <i class="fab fa-github"></i>
 		</a>
 	</div>
 	{%- endif -%}

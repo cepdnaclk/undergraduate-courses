@@ -47,7 +47,8 @@ for semester in semesters:
         
         pageURL = thisCourse["urls"]["view"]
         gh_page = "https://github.com/cepdnaclk/undergraduate-courses/tree/main{0}".format( thisCourse['urls']['edit']) 
- 
+        last_edit = thisCourse["last_edit"].split(" ")[0]
+
         outputString = f"""---
 layout: course
 permalink: "{ pageURL }"
@@ -72,6 +73,7 @@ textbooks_references : {thisCourse["references"]}
 marks: {marks}
 statistics: {statistics}
 
+last_edit: {last_edit}
 gh_page: {gh_page}
 ---"""
 
