@@ -1,17 +1,17 @@
 {
-  "code": "CO502",
-  "name": "Advanced Computer Architecture",
+  "code": "CO5o4",
+  "name": "Hardware Software Co-design",
   "credits": 3,
   "type": "ELECTIVE",
   "prerequisites": ["CO224"],
-  "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+  "content": "Introduction to hardware/software co-design, Mapping applications to architecture, System partitioning, Design space exploration, Interface synthesis, Estimation, System simulation, Execution time analysis, Performance analysis.",
   "objectives": "",
   "ILOs": {
     "Knowledge": [],
     "Skill": [],
     "Attitude": []
   },
-  "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+  "allocation": "Lectures: 29h, Tutorial-Classes: 4h, Practicals: 18h, Assignments: 6h",
   "modules": [
     {
       "topic": "",

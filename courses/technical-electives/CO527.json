@@ -1,17 +1,17 @@
 {
-  "code": "CO502",
-  "name": "Advanced Computer Architecture",
+  "code": "CO527",
+  "name": "Advanced Database Systems",
   "credits": 3,
   "type": "ELECTIVE",
-  "prerequisites": ["CO224"],
-  "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+  "prerequisites": ["CO226"],
+  "content": "Data storage and indexing structures, Query Optimization and database tuning, Transaction Processing, Database security, Distributed Databases, Object databases and Object-relational databases, other data models, Data models for advanced applications.",
   "objectives": "",
   "ILOs": {
     "Knowledge": [],
     "Skill": [],
     "Attitude": []
   },
-  "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+  "allocation": "Lectures: 32h, Tutorial-Classes: 6h, Practicals: 12h, Assignments: 2h",
   "modules": [
     {
       "topic": "",

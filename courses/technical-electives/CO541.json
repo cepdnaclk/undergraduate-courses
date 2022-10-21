@@ -1,17 +1,17 @@
 {
-  "code": "CO502",
-  "name": "Advanced Computer Architecture",
+  "code": "CO5541",
+  "name": "",
   "credits": 3,
   "type": "ELECTIVE",
-  "prerequisites": ["CO224"],
-  "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+  "prerequisites": [],
+  "content": "NULL",
   "objectives": "",
   "ILOs": {
     "Knowledge": [],
     "Skill": [],
     "Attitude": []
   },
-  "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+  "allocation": "Lectures: h, Tutorial-Classes: h, Practicals: h, Assignments: h",
   "modules": [
     {
       "topic": "",

@@ -1,17 +1,17 @@
 {
-  "code": "CO502",
-  "name": "Advanced Computer Architecture",
+  "code": "CO514",
+  "name": "Optical Communication Networks",
   "credits": 3,
   "type": "ELECTIVE",
-  "prerequisites": ["CO224"],
-  "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+  "prerequisites": ["CO323"],
+  "content": "An overview of communication networks, Optical transmission fundamentals and issues, IP traffic over WDM optical networks, Synchronous optical networks (SONET)/Synchronous digital hierarchy (SDH), WDM optical networks: optical circuit switching (OCS), WDM optical networks: optical packet switching (OPS), WDM optical networks: optical burst switching (OBS), Optical access networks, Other technologies, trends, and challenges.",
   "objectives": "",
   "ILOs": {
     "Knowledge": [],
     "Skill": [],
     "Attitude": []
   },
-  "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+  "allocation": "Lectures: 30h, Tutorial-Classes: 7h, Assignments: 16h",
   "modules": [
     {
       "topic": "",

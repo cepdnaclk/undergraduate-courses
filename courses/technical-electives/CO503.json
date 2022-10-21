@@ -1,17 +1,17 @@
 {
-  "code": "CO502",
-  "name": "Advanced Computer Architecture",
+  "code": "CO503",
+  "name": "Advanced Embedded Systems",
   "credits": 3,
   "type": "ELECTIVE",
-  "prerequisites": ["CO224"],
-  "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+  "prerequisites": ["CO321"],
+  "content": "Introduction to embedded systems, Custom single-purpose processors, General-purpose processors: software, Embedded system modelling: state machine and concurrent process models, Design technologies of embedded systems, Hardware/software co-design of embedded systems, Operating systems for embedded systems, Design example, System on a Chip (SoC).",
   "objectives": "",
   "ILOs": {
     "Knowledge": [],
     "Skill": [],
     "Attitude": []
   },
-  "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+  "allocation": "Lectures & Tutorial-Classes: 30h, Practicals & Assignments: 30h",
   "modules": [
     {
       "topic": "",
