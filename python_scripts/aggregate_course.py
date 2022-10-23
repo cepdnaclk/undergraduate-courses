@@ -10,19 +10,22 @@ single JSON file, './_data/courses.json'.
 import json 
 import os
 import subprocess
+import hashlib
 from datetime import datetime
 
-def getLastEditDate(filename):
-    fileLastEditedDateSTR = str(subprocess.run(['git', 'log', '-1', '--pretty="format:%ci"', course_file], stdout=subprocess.PIPE).stdout)
-    firstIndex = fileLastEditedDateSTR.find(":") + 1
-    lastIndex = fileLastEditedDateSTR.find("\"", firstIndex)
-    return fileLastEditedDateSTR[firstIndex:lastIndex]
-    
+def dict_hash(dictionary):
+    dhash = hashlib.md5()
+    encoded = json.dumps(dictionary, sort_keys=True).encode()
+    dhash.update(encoded)
+    return dhash.hexdigest()
+
 
 # Get the list of semesters 
 semesterList = json.load(open("../_data/semesters.json"))
 courses = {}
 courses_index = {}
+
+courses_existing = json.load(open("../_data/courses_index.json"))
 
 for semester in semesterList:
     print(semester)
@@ -49,15 +52,31 @@ for semester in semesterList:
                 # TODO: Post-process Lecturer and Instructor details with info available at api.ce.pdn.ac.lk
 
 
-                # Update the last edit date and time 
-                course_data['last_edit'] = getLastEditDate(course_file)
+                # Changes and only update the `last_edit` if there any new difference
+                current_course = courses_existing[course_code]
+                
+                # Remove the last edit info before compare 
+                if "last_edit" in current_course: 
+                    last_edit_prev = current_course.pop("last_edit")
+                else:
+                    last_edit_prev = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                
+                hash_currentCourse = dict_hash(current_course)
+                hash_newCourse = dict_hash(course_data)
+
+                if hash_currentCourse != hash_newCourse:
+                    # The course details were changed
+                    course_data['last_edit'] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                else: 
+                    # There isn't any change happened
+                    course_data['last_edit'] = last_edit_prev
                 
                 semester_courses.append(course_data)
                 courses_index[course_code] = course_data
 
             except Exception as err:
                 print("ERROR:", err)
-            
+
         semester_courses.sort(key=lambda e:e['code']) 
 
         courses[semester] = { 
