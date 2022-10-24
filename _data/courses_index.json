@@ -2139,7 +2139,7 @@
         "credits": 2,
         "type": "GENERAL",
         "prerequisites": [],
-        "content": "Professionalism, Group Dynamics and Psychology, Communication Skills.",
+        "content": "Professionalism, Group Dynamics and Psychology, Communication Skills. Offered in semester 7",
         "objectives": [],
         "ILOs": {
             "Knowledge": "NULL",
@@ -2177,11 +2177,11 @@
             }
         ],
         "urls": {
-            "edit": "/courses/semester7/CO422.json",
-            "view": "/semester7/CO422/",
-            "markdown": "/pages/courses/semester7/CO422"
+            "edit": "/courses/general-electives/CO422.json",
+            "view": "/general-electives/CO422/",
+            "markdown": "/pages/courses/general-electives/CO422"
         },
-        "last_edit": "24/10/2022 01:25:50"
+        "last_edit": "24/10/2022 10:57:14"
     },
     "CO423": {
         "code": "CO423",
@@ -2191,7 +2191,7 @@
         "prerequisites": [
             "CO328"
         ],
-        "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
+        "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics. Offered in semester 7",
         "objectives": [],
         "ILOs": {
             "Knowledge": "NULL",
@@ -2229,11 +2229,11 @@
             }
         ],
         "urls": {
-            "edit": "/courses/semester7/CO423.json",
-            "view": "/semester7/CO423/",
-            "markdown": "/pages/courses/semester7/CO423"
+            "edit": "/courses/general-electives/CO423.json",
+            "view": "/general-electives/CO423/",
+            "markdown": "/pages/courses/general-electives/CO423"
         },
-        "last_edit": "24/10/2022 01:25:50"
+        "last_edit": "24/10/2022 10:57:14"
     },
     "CO424": {
         "code": "CO424",
@@ -2243,7 +2243,7 @@
         "prerequisites": [
             "CO328"
         ],
-        "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
+        "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study. Offered in semester 7",
         "objectives": [],
         "ILOs": {
             "Knowledge": "NULL",
@@ -2290,11 +2290,11 @@
             }
         ],
         "urls": {
-            "edit": "/courses/semester7/CO424.json",
-            "view": "/semester7/CO424/",
-            "markdown": "/pages/courses/semester7/CO424"
+            "edit": "/courses/general-electives/CO424.json",
+            "view": "/general-electives/CO424/",
+            "markdown": "/pages/courses/general-electives/CO424"
         },
-        "last_edit": "24/10/2022 01:25:50"
+        "last_edit": "24/10/2022 10:57:14"
     },
     "CO425": {
         "code": "CO425",

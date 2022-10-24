@@ -4852,169 +4852,6 @@
                     "markdown": "/pages/courses/semester7/CO421"
                 },
                 "last_edit": "24/10/2022 01:25:50"
-            },
-            {
-                "code": "CO422",
-                "name": "Professional Practices",
-                "credits": 2,
-                "type": "GENERAL",
-                "prerequisites": [],
-                "content": "Professionalism, Group Dynamics and Psychology, Communication Skills.",
-                "objectives": [],
-                "ILOs": {
-                    "Knowledge": "NULL",
-                    "Skill": "NULL",
-                    "Attitude": "NULL"
-                },
-                "allocation": "Lectures : 25h, Assignments : 10h",
-                "modules": [],
-                "references": [],
-                "marks": [],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/semester7/CO422.json",
-                    "view": "/semester7/CO422/",
-                    "markdown": "/pages/courses/semester7/CO422"
-                },
-                "last_edit": "24/10/2022 01:25:50"
-            },
-            {
-                "code": "CO423",
-                "name": "Software Project Management",
-                "credits": 2,
-                "type": "GENERAL",
-                "prerequisites": [
-                    "CO328"
-                ],
-                "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics",
-                "objectives": [],
-                "ILOs": {
-                    "Knowledge": "NULL",
-                    "Skill": "NULL",
-                    "Attitude": "NULL"
-                },
-                "allocation": "Lectures : 22h, Practical-Classes : 6h, Assignments : 10h",
-                "modules": [],
-                "references": [],
-                "marks": [],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/semester7/CO423.json",
-                    "view": "/semester7/CO423/",
-                    "markdown": "/pages/courses/semester7/CO423"
-                },
-                "last_edit": "24/10/2022 01:25:50"
-            },
-            {
-                "code": "CO424",
-                "name": "Information Systems Management",
-                "credits": 2,
-                "type": "GENERAL",
-                "prerequisites": [
-                    "CO328"
-                ],
-                "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study.",
-                "objectives": [],
-                "ILOs": {
-                    "Knowledge": "NULL",
-                    "Skill": "NULL",
-                    "Attitude": "NULL"
-                },
-                "allocation": "Lectures : 20h, Assignments : 20h",
-                "modules": [],
-                "references": [],
-                "marks": [
-                    {
-                        "description": "Projects",
-                        "allocation": "50"
-                    },
-                    {
-                        "description": "End-Exam",
-                        "allocation": "50"
-                    }
-                ],
-                "statistics": [
-                    {
-                        "year": "NULL",
-                        "batch": "NULL",
-                        "lecturers": [
-                            "lecturer@eng.pdn.ac.lk"
-                        ],
-                        "instructors": [
-                            "instructor@eng.pdn.ac.lk"
-                        ],
-                        "grades": {
-                            "A+": 0,
-                            "A": 0,
-                            "A-": 0,
-                            "B+": 0,
-                            "B": 0,
-                            "B-": 0,
-                            "C+": 0,
-                            "C": 0,
-                            "C-": 0,
-                            "D+": 0,
-                            "D": 0,
-                            "E": 0
-                        }
-                    }
-                ],
-                "urls": {
-                    "edit": "/courses/semester7/CO424.json",
-                    "view": "/semester7/CO424/",
-                    "markdown": "/pages/courses/semester7/CO424"
-                },
-                "last_edit": "24/10/2022 01:25:50"
             }
         ]
     },
@@ -5080,6 +4917,169 @@
         "title": "General Electives",
         "description": "",
         "courses": [
+            {
+                "code": "CO422",
+                "name": "Professional Practices",
+                "credits": 2,
+                "type": "GENERAL",
+                "prerequisites": [],
+                "content": "Professionalism, Group Dynamics and Psychology, Communication Skills. Offered in semester 7",
+                "objectives": [],
+                "ILOs": {
+                    "Knowledge": "NULL",
+                    "Skill": "NULL",
+                    "Attitude": "NULL"
+                },
+                "allocation": "Lectures : 25h, Assignments : 10h",
+                "modules": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/general-electives/CO422.json",
+                    "view": "/general-electives/CO422/",
+                    "markdown": "/pages/courses/general-electives/CO422"
+                },
+                "last_edit": "24/10/2022 10:57:14"
+            },
+            {
+                "code": "CO423",
+                "name": "Software Project Management",
+                "credits": 2,
+                "type": "GENERAL",
+                "prerequisites": [
+                    "CO328"
+                ],
+                "content": "Introduction to the subject, Project life cycle and organization, Team structures, The role of risk in the life cycle, Project Quality management, Application quality requirements, Process improvement models, Project Management topics. Offered in semester 7",
+                "objectives": [],
+                "ILOs": {
+                    "Knowledge": "NULL",
+                    "Skill": "NULL",
+                    "Attitude": "NULL"
+                },
+                "allocation": "Lectures : 22h, Practical-Classes : 6h, Assignments : 10h",
+                "modules": [],
+                "references": [],
+                "marks": [],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/general-electives/CO423.json",
+                    "view": "/general-electives/CO423/",
+                    "markdown": "/pages/courses/general-electives/CO423"
+                },
+                "last_edit": "24/10/2022 10:57:14"
+            },
+            {
+                "code": "CO424",
+                "name": "Information Systems Management",
+                "credits": 2,
+                "type": "GENERAL",
+                "prerequisites": [
+                    "CO328"
+                ],
+                "content": "Introduction to Information Systems, Relationship between IS and the business, IS planning and budgeting, Acquiring information technology resources and capabilities, Risk management, Case study. Offered in semester 7",
+                "objectives": [],
+                "ILOs": {
+                    "Knowledge": "NULL",
+                    "Skill": "NULL",
+                    "Attitude": "NULL"
+                },
+                "allocation": "Lectures : 20h, Assignments : 20h",
+                "modules": [],
+                "references": [],
+                "marks": [
+                    {
+                        "description": "Projects",
+                        "allocation": "50"
+                    },
+                    {
+                        "description": "End-Exam",
+                        "allocation": "50"
+                    }
+                ],
+                "statistics": [
+                    {
+                        "year": "NULL",
+                        "batch": "NULL",
+                        "lecturers": [
+                            "lecturer@eng.pdn.ac.lk"
+                        ],
+                        "instructors": [
+                            "instructor@eng.pdn.ac.lk"
+                        ],
+                        "grades": {
+                            "A+": 0,
+                            "A": 0,
+                            "A-": 0,
+                            "B+": 0,
+                            "B": 0,
+                            "B-": 0,
+                            "C+": 0,
+                            "C": 0,
+                            "C-": 0,
+                            "D+": 0,
+                            "D": 0,
+                            "E": 0
+                        }
+                    }
+                ],
+                "urls": {
+                    "edit": "/courses/general-electives/CO424.json",
+                    "view": "/general-electives/CO424/",
+                    "markdown": "/pages/courses/general-electives/CO424"
+                },
+                "last_edit": "24/10/2022 10:57:14"
+            },
             {
                 "code": "EF501",
                 "name": "The Engineer in Society",
