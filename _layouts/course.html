@@ -14,9 +14,10 @@ layout: default
 
 <main class="container">
 	<div class="bg-secondary p-3 pb-1 rounded">
+		<h1 class="text-white">{{page.course_code}} - {{page.course_title}}</h1>
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="{{ site.home }}" class="link-light">Home</a></li>
+				<li class="breadcrumb-item"><a href="http://www.ce.pdn.ac.lk/" class="link-light">Home</a></li>
 				<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}" class="link-light">Undergraduate
 						Courses</a></li>
 				<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink | relative_url }}"
