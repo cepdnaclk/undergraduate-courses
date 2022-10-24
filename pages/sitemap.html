@@ -34,7 +34,7 @@ Basic layout for the documentation pages
         </h4>
         <ul>
             {%- for course in sem[1]["courses"] -%}
-            <li> <a href="{{ course.ulrs.view | relative_url }}">{{ course.code }}: {{ course.name }}</a> </li>
+            <li> <a href="{{ course.urls.view | relative_url }}">{{ course.code }}: {{ course.name }}</a> </li>
             {%- endfor -%}
         </ul>
     </div>
