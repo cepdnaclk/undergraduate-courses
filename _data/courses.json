@@ -4801,7 +4801,7 @@
     },
     "semester7": {
         "title": "Semester 7",
-        "description": "",
+        "description": "This is a short semester of 8 weeks, the students will start their final year projects and follow a few mandatory general elective courses",
         "courses": [
             {
                 "code": "CO421",
