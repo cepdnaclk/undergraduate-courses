@@ -32,3 +32,7 @@ footer p:last-child {
 .footer-link:hover {
   color: #0d6efd !important;
 }
+
+.course-button {
+  min-width: 12rem;
+}

@@ -1,0 +1,85 @@
+---
+layout: default
+permalink: "/home-old"
+title: Undergraduate Courses
+---
+
+<!-- breadcrumb -->
+<main class="container">
+	<div class="bg-secondary p-3 pb-1 rounded">
+		<h1 class="text-white">Undergraduate Courses</h1>
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="http://www.ce.pdn.ac.lk/" class="link-light">Home</a></li>
+				<li class="breadcrumb-item text-white">Undergraduate Courses</li>
+			</ol>
+		</nav>
+	</div>
+</main>
+
+
+<div class="page-entry">
+	<div class="container pt-4">
+		<div class="row d-flex align-items-start">
+			<div class="col-xs-12 col-sm-3 pb-5">
+				<div class="nav flex-column nav-pills me-3" id="semester-tabs" role="tablist"
+					aria-orientation="vertical">
+					{%- for sem in site.data.semesters -%}
+					<button class="nav-link {%- if forloop.first -%} {{' active '}} {%- endif -%}" id="{{sem[0]}}"
+						data-bs-toggle="pill" data-bs-target="#{{sem[0]}}-tab" type="button" role="tab"
+						aria-controls="tab-{{sem[0]}}" aria-selected="{%- if forloop.first -%} true {%- endif -%}">{{
+						sem[1]["title"] }}</button>
+					{%- endfor -%}
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-9 tab-content " id="semesters">
+				{%- for sem in site.data.courses -%}
+				<div class="tab-pane fade show {%- if forloop.first -%} {{' active '}} {%- endif -%}"
+					id="{{ sem[0] }}-tab" role="tabpanel" aria-labelledby="tab-{{ sem[0] }}-tab">
+					<h3>{{ sem[1]["title"] }} Courses</h3>
+					<h6>{{ sem[1]["description"] }}</h6>
+					<hr>
+					{%- for course in sem[1]["courses"] -%}
+					{% include courseCard.html course=course %}
+					{%- endfor -%}
+				</div>
+				{%- endfor -%}
+			</div>
+		</div>
+	</div>
+
+	<div class="container pt-5">
+		<div class="row">
+			<div class="container col-sm-11 col-md-10 col-lg-10 mx-auto">
+				<figure class="figure">
+					<img src="{{ '/assets/img/courses_overview_v2.jpg' | relative_url }}"
+						class="figure-img img-fluid rounded" alt="Overall Course Plan">
+					<figcaption class="figure-caption">Courses offered in four-year degree program</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		// Switch to the right tab, absed on the location hash
+		const locHash = window.location.hash;
+		if (locHash != '') {
+			var tabTrigger = new bootstrap.Tab($(locHash.replace("tab-", ""))).show();
+		}
+
+		// Update the URL hash with tab selection
+		var tabsList = document.querySelectorAll('button[data-bs-toggle="pill"]')
+		tabsList.forEach((triggerEl) => {
+			triggerEl.addEventListener('shown.bs.tab', function (event) {
+				const tabID = 'tab-' + (event.target.getAttribute('id'));
+				event.preventDefault();
+				window.location.hash = tabID;
+			})
+		});
+
+	});
+</script>
