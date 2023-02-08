@@ -41,14 +41,18 @@ for semester in semesterList:
             try:
                 course_file = "../courses/{0}/{1}".format(semester, course)
                 course_data = json.load(open(course_file))
-
+                
+                
                 course_code = course.replace(".json", "")
 
                 course_data['urls'] = {}
                 course_data['urls']['edit'] = f"/courses/{semester}/{course_code}.json"
                 course_data['urls']['view'] = f"/{semester}/{course_code}/"
                 course_data['urls']['markdown'] = f"/pages/courses/{semester}/{course_code}"
+                course_data['urls']['faq_page'] = course_data['faq_page']
                 
+                course_data.pop("faq_page") 
+
                 # TODO: Post-process Lecturer and Instructor details with info available at api.ce.pdn.ac.lk
 
 

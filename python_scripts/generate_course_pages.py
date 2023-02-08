@@ -75,6 +75,8 @@ statistics: {statistics}
 
 last_edit: {last_edit}
 gh_page: {gh_page}
+faq_page: {thisCourse["urls"]["faq_page"]}
+
 ---"""
 
         # Write into a file

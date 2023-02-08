@@ -217,6 +217,18 @@ layout: default
 								</ul>
 							</div>
 						</div>
+						<hr>
+						{% endif %}
+
+						{% if page.faq_page %}
+						<div class="row">
+							<div class="col-sm-3">
+								<span class="mb-0" style="font-weight: 500">FAQ</span>
+							</div>
+							<div class="col-sm-9 text-secondary">
+								<a href="{{ page.faq_page }}">{{ page.faq_page }}</a>
+							</div>
+						</div>
 						{% endif %}
 					</div>
 				</div>

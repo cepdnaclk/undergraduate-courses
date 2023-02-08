@@ -34,7 +34,6 @@ for semester in semesterList:
 
 
 
-
             # ----------------------------
 
             # Save the file

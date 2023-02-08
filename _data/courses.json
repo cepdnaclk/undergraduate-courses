@@ -70,9 +70,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP101.json",
                     "view": "/semester1/GP101/",
-                    "markdown": "/pages/courses/semester1/GP101"
+                    "markdown": "/pages/courses/semester1/GP101",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP109",
@@ -300,9 +301,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP109.json",
                     "view": "/semester1/GP109/",
-                    "markdown": "/pages/courses/semester1/GP109"
+                    "markdown": "/pages/courses/semester1/GP109",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:27:19"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP110",
@@ -479,9 +481,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP110.json",
                     "view": "/semester1/GP110/",
-                    "markdown": "/pages/courses/semester1/GP110"
+                    "markdown": "/pages/courses/semester1/GP110",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP112",
@@ -686,9 +689,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP112.json",
                     "view": "/semester1/GP112/",
-                    "markdown": "/pages/courses/semester1/GP112"
+                    "markdown": "/pages/courses/semester1/GP112",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP114",
@@ -757,9 +761,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP114.json",
                     "view": "/semester1/GP114/",
-                    "markdown": "/pages/courses/semester1/GP114"
+                    "markdown": "/pages/courses/semester1/GP114",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP115",
@@ -964,9 +969,10 @@
                 "urls": {
                     "edit": "/courses/semester1/GP115.json",
                     "view": "/semester1/GP115/",
-                    "markdown": "/pages/courses/semester1/GP115"
+                    "markdown": "/pages/courses/semester1/GP115",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -1041,9 +1047,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP102.json",
                     "view": "/semester2/GP102/",
-                    "markdown": "/pages/courses/semester2/GP102"
+                    "markdown": "/pages/courses/semester2/GP102",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP106",
@@ -1112,9 +1119,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP106.json",
                     "view": "/semester2/GP106/",
-                    "markdown": "/pages/courses/semester2/GP106"
+                    "markdown": "/pages/courses/semester2/GP106",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP111",
@@ -1183,9 +1191,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP111.json",
                     "view": "/semester2/GP111/",
-                    "markdown": "/pages/courses/semester2/GP111"
+                    "markdown": "/pages/courses/semester2/GP111",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP113",
@@ -1344,9 +1353,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP113.json",
                     "view": "/semester2/GP113/",
-                    "markdown": "/pages/courses/semester2/GP113"
+                    "markdown": "/pages/courses/semester2/GP113",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP116",
@@ -1513,9 +1523,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP116.json",
                     "view": "/semester2/GP116/",
-                    "markdown": "/pages/courses/semester2/GP116"
+                    "markdown": "/pages/courses/semester2/GP116",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "GP118",
@@ -1584,9 +1595,10 @@
                 "urls": {
                     "edit": "/courses/semester2/GP118.json",
                     "view": "/semester2/GP118/",
-                    "markdown": "/pages/courses/semester2/GP118"
+                    "markdown": "/pages/courses/semester2/GP118",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -1761,9 +1773,10 @@
                 "urls": {
                     "edit": "/courses/semester3/CO221.json",
                     "view": "/semester3/CO221/",
-                    "markdown": "/pages/courses/semester3/CO221"
+                    "markdown": "/pages/courses/semester3/CO221",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO222",
@@ -1971,9 +1984,10 @@
                 "urls": {
                     "edit": "/courses/semester3/CO222.json",
                     "view": "/semester3/CO222/",
-                    "markdown": "/pages/courses/semester3/CO222"
+                    "markdown": "/pages/courses/semester3/CO222",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO223",
@@ -2036,9 +2050,10 @@
                 "urls": {
                     "edit": "/courses/semester3/CO223.json",
                     "view": "/semester3/CO223/",
-                    "markdown": "/pages/courses/semester3/CO223"
+                    "markdown": "/pages/courses/semester3/CO223",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EE282",
@@ -2173,9 +2188,10 @@
                 "urls": {
                     "edit": "/courses/semester3/EE282.json",
                     "view": "/semester3/EE282/",
-                    "markdown": "/pages/courses/semester3/EE282"
+                    "markdown": "/pages/courses/semester3/EE282",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EM211",
@@ -2236,9 +2252,10 @@
                 "urls": {
                     "edit": "/courses/semester3/EM211.json",
                     "view": "/semester3/EM211/",
-                    "markdown": "/pages/courses/semester3/EM211"
+                    "markdown": "/pages/courses/semester3/EM211",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EM213",
@@ -2379,9 +2396,10 @@
                 "urls": {
                     "edit": "/courses/semester3/EM213.json",
                     "view": "/semester3/EM213/",
-                    "markdown": "/pages/courses/semester3/EM213"
+                    "markdown": "/pages/courses/semester3/EM213",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EM214",
@@ -2525,9 +2543,10 @@
                 "urls": {
                     "edit": "/courses/semester3/EM214.json",
                     "view": "/semester3/EM214/",
-                    "markdown": "/pages/courses/semester3/EM214"
+                    "markdown": "/pages/courses/semester3/EM214",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -2717,9 +2736,10 @@
                 "urls": {
                     "edit": "/courses/semester4/CO224.json",
                     "view": "/semester4/CO224/",
-                    "markdown": "/pages/courses/semester4/CO224"
+                    "markdown": "/pages/courses/semester4/CO224",
+                    "faq_page": "https://faq.ce.pdn.ac.lk/academics/sem4/co224/"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO225",
@@ -2892,9 +2912,10 @@
                 "urls": {
                     "edit": "/courses/semester4/CO225.json",
                     "view": "/semester4/CO225/",
-                    "markdown": "/pages/courses/semester4/CO225"
+                    "markdown": "/pages/courses/semester4/CO225",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO226",
@@ -3056,9 +3077,10 @@
                 "urls": {
                     "edit": "/courses/semester4/CO226.json",
                     "view": "/semester4/CO226/",
-                    "markdown": "/pages/courses/semester4/CO226"
+                    "markdown": "/pages/courses/semester4/CO226",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EE285",
@@ -3226,9 +3248,10 @@
                 "urls": {
                     "edit": "/courses/semester4/EE285.json",
                     "view": "/semester4/EE285/",
-                    "markdown": "/pages/courses/semester4/EE285"
+                    "markdown": "/pages/courses/semester4/EE285",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EM212",
@@ -3350,9 +3373,10 @@
                 "urls": {
                     "edit": "/courses/semester4/EM212.json",
                     "view": "/semester4/EM212/",
-                    "markdown": "/pages/courses/semester4/EM212"
+                    "markdown": "/pages/courses/semester4/EM212",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EM215",
@@ -3456,9 +3480,10 @@
                 "urls": {
                     "edit": "/courses/semester4/EM215.json",
                     "view": "/semester4/EM215/",
-                    "markdown": "/pages/courses/semester4/EM215"
+                    "markdown": "/pages/courses/semester4/EM215",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -3563,9 +3588,10 @@
                 "urls": {
                     "edit": "/courses/short-semester/CO227.json",
                     "view": "/short-semester/CO227/",
-                    "markdown": "/pages/courses/short-semester/CO227"
+                    "markdown": "/pages/courses/short-semester/CO227",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -3743,9 +3769,10 @@
                 "urls": {
                     "edit": "/courses/semester5/CO321.json",
                     "view": "/semester5/CO321/",
-                    "markdown": "/pages/courses/semester5/CO321"
+                    "markdown": "/pages/courses/semester5/CO321",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO322",
@@ -3908,9 +3935,10 @@
                 "urls": {
                     "edit": "/courses/semester5/CO322.json",
                     "view": "/semester5/CO322/",
-                    "markdown": "/pages/courses/semester5/CO322"
+                    "markdown": "/pages/courses/semester5/CO322",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO323",
@@ -3980,9 +4008,10 @@
                 "urls": {
                     "edit": "/courses/semester5/CO323.json",
                     "view": "/semester5/CO323/",
-                    "markdown": "/pages/courses/semester5/CO323"
+                    "markdown": "/pages/courses/semester5/CO323",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO324",
@@ -4170,9 +4199,10 @@
                 "urls": {
                     "edit": "/courses/semester5/CO324.json",
                     "view": "/semester5/CO324/",
-                    "markdown": "/pages/courses/semester5/CO324"
+                    "markdown": "/pages/courses/semester5/CO324",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO325",
@@ -4363,9 +4393,10 @@
                 "urls": {
                     "edit": "/courses/semester5/CO325.json",
                     "view": "/semester5/CO325/",
-                    "markdown": "/pages/courses/semester5/CO325"
+                    "markdown": "/pages/courses/semester5/CO325",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EE386",
@@ -4496,9 +4527,10 @@
                 "urls": {
                     "edit": "/courses/semester5/EE386.json",
                     "view": "/semester5/EE386/",
-                    "markdown": "/pages/courses/semester5/EE386"
+                    "markdown": "/pages/courses/semester5/EE386",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -4572,9 +4604,10 @@
                 "urls": {
                     "edit": "/courses/semester6/CO326.json",
                     "view": "/semester6/CO326/",
-                    "markdown": "/pages/courses/semester6/CO326"
+                    "markdown": "/pages/courses/semester6/CO326",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO327",
@@ -4645,9 +4678,10 @@
                 "urls": {
                     "edit": "/courses/semester6/CO327.json",
                     "view": "/semester6/CO327/",
-                    "markdown": "/pages/courses/semester6/CO327"
+                    "markdown": "/pages/courses/semester6/CO327",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO328",
@@ -4720,9 +4754,10 @@
                 "urls": {
                     "edit": "/courses/semester6/CO328.json",
                     "view": "/semester6/CO328/",
-                    "markdown": "/pages/courses/semester6/CO328"
+                    "markdown": "/pages/courses/semester6/CO328",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EE387",
@@ -4793,9 +4828,10 @@
                 "urls": {
                     "edit": "/courses/semester6/EE387.json",
                     "view": "/semester6/EE387/",
-                    "markdown": "/pages/courses/semester6/EE387"
+                    "markdown": "/pages/courses/semester6/EE387",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -4849,9 +4885,10 @@
                 "urls": {
                     "edit": "/courses/semester7/CO421.json",
                     "view": "/semester7/CO421/",
-                    "markdown": "/pages/courses/semester7/CO421"
+                    "markdown": "/pages/courses/semester7/CO421",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -4907,9 +4944,10 @@
                 "urls": {
                     "edit": "/courses/semester8/CO425.json",
                     "view": "/semester8/CO425/",
-                    "markdown": "/pages/courses/semester8/CO425"
+                    "markdown": "/pages/courses/semester8/CO425",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -4963,9 +5001,10 @@
                 "urls": {
                     "edit": "/courses/general-electives/CO422.json",
                     "view": "/general-electives/CO422/",
-                    "markdown": "/pages/courses/general-electives/CO422"
+                    "markdown": "/pages/courses/general-electives/CO422",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 10:57:14"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO423",
@@ -5015,9 +5054,10 @@
                 "urls": {
                     "edit": "/courses/general-electives/CO423.json",
                     "view": "/general-electives/CO423/",
-                    "markdown": "/pages/courses/general-electives/CO423"
+                    "markdown": "/pages/courses/general-electives/CO423",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 10:57:14"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO424",
@@ -5076,9 +5116,10 @@
                 "urls": {
                     "edit": "/courses/general-electives/CO424.json",
                     "view": "/general-electives/CO424/",
-                    "markdown": "/pages/courses/general-electives/CO424"
+                    "markdown": "/pages/courses/general-electives/CO424",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 10:57:14"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "EF501",
@@ -5137,9 +5178,10 @@
                 "urls": {
                     "edit": "/courses/general-electives/EF501.json",
                     "view": "/general-electives/EF501/",
-                    "markdown": "/pages/courses/general-electives/EF501"
+                    "markdown": "/pages/courses/general-electives/EF501",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     },
@@ -5206,9 +5248,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO502.json",
                     "view": "/technical-electives/CO502/",
-                    "markdown": "/pages/courses/technical-electives/CO502"
+                    "markdown": "/pages/courses/technical-electives/CO502",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO503",
@@ -5269,9 +5312,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO503.json",
                     "view": "/technical-electives/CO503/",
-                    "markdown": "/pages/courses/technical-electives/CO503"
+                    "markdown": "/pages/courses/technical-electives/CO503",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO504",
@@ -5332,9 +5376,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO504.json",
                     "view": "/technical-electives/CO504/",
-                    "markdown": "/pages/courses/technical-electives/CO504"
+                    "markdown": "/pages/courses/technical-electives/CO504",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO513",
@@ -5395,9 +5440,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO513.json",
                     "view": "/technical-electives/CO513/",
-                    "markdown": "/pages/courses/technical-electives/CO513"
+                    "markdown": "/pages/courses/technical-electives/CO513",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO514",
@@ -5458,9 +5504,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO514.json",
                     "view": "/technical-electives/CO514/",
-                    "markdown": "/pages/courses/technical-electives/CO514"
+                    "markdown": "/pages/courses/technical-electives/CO514",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO515",
@@ -5521,9 +5568,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO515.json",
                     "view": "/technical-electives/CO515/",
-                    "markdown": "/pages/courses/technical-electives/CO515"
+                    "markdown": "/pages/courses/technical-electives/CO515",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO521",
@@ -5584,9 +5632,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO521.json",
                     "view": "/technical-electives/CO521/",
-                    "markdown": "/pages/courses/technical-electives/CO521"
+                    "markdown": "/pages/courses/technical-electives/CO521",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO523",
@@ -5647,9 +5696,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO523.json",
                     "view": "/technical-electives/CO523/",
-                    "markdown": "/pages/courses/technical-electives/CO523"
+                    "markdown": "/pages/courses/technical-electives/CO523",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO524",
@@ -5710,9 +5760,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO524.json",
                     "view": "/technical-electives/CO524/",
-                    "markdown": "/pages/courses/technical-electives/CO524"
+                    "markdown": "/pages/courses/technical-electives/CO524",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO526",
@@ -5773,9 +5824,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO526.json",
                     "view": "/technical-electives/CO526/",
-                    "markdown": "/pages/courses/technical-electives/CO526"
+                    "markdown": "/pages/courses/technical-electives/CO526",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO527",
@@ -5836,9 +5888,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO527.json",
                     "view": "/technical-electives/CO527/",
-                    "markdown": "/pages/courses/technical-electives/CO527"
+                    "markdown": "/pages/courses/technical-electives/CO527",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO528",
@@ -5899,9 +5952,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO528.json",
                     "view": "/technical-electives/CO528/",
-                    "markdown": "/pages/courses/technical-electives/CO528"
+                    "markdown": "/pages/courses/technical-electives/CO528",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO541",
@@ -5962,9 +6016,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO541.json",
                     "view": "/technical-electives/CO541/",
-                    "markdown": "/pages/courses/technical-electives/CO541"
+                    "markdown": "/pages/courses/technical-electives/CO541",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO542",
@@ -6028,9 +6083,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO542.json",
                     "view": "/technical-electives/CO542/",
-                    "markdown": "/pages/courses/technical-electives/CO542"
+                    "markdown": "/pages/courses/technical-electives/CO542",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO543",
@@ -6089,9 +6145,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO543.json",
                     "view": "/technical-electives/CO543/",
-                    "markdown": "/pages/courses/technical-electives/CO543"
+                    "markdown": "/pages/courses/technical-electives/CO543",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO544",
@@ -6152,9 +6209,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO544.json",
                     "view": "/technical-electives/CO544/",
-                    "markdown": "/pages/courses/technical-electives/CO544"
+                    "markdown": "/pages/courses/technical-electives/CO544",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO551",
@@ -6213,9 +6271,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO551.json",
                     "view": "/technical-electives/CO551/",
-                    "markdown": "/pages/courses/technical-electives/CO551"
+                    "markdown": "/pages/courses/technical-electives/CO551",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO552",
@@ -6276,9 +6335,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO552.json",
                     "view": "/technical-electives/CO552/",
-                    "markdown": "/pages/courses/technical-electives/CO552"
+                    "markdown": "/pages/courses/technical-electives/CO552",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             },
             {
                 "code": "CO553",
@@ -6337,9 +6397,10 @@
                 "urls": {
                     "edit": "/courses/technical-electives/CO553.json",
                     "view": "/technical-electives/CO553/",
-                    "markdown": "/pages/courses/technical-electives/CO553"
+                    "markdown": "/pages/courses/technical-electives/CO553",
+                    "faq_page": "#"
                 },
-                "last_edit": "24/10/2022 01:25:50"
+                "last_edit": "08/02/2023 12:22:54"
             }
         ]
     }
