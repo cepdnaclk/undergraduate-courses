@@ -19,7 +19,7 @@ title: Undergraduate Courses
 
 
 <div class="page-entry">
-	<div class="container-fluid pt-5">
+	<div class="container pt-5 py-3">
 		{%- for sem in site.data.semesters -%}
 		<div class="container pb-3">
 			<h4>{{ sem[1]["title"] }}</h4>
@@ -38,16 +38,16 @@ title: Undergraduate Courses
 			{% when 'EM' %}
 			{% assign course_color = "btn-outline-danger" %}
 			{% when 'GP' %}
-			{% assign course_color = "btn-outline-secondary" %}
+			{% assign course_color = "btn-outline-warning" %}
 			{% else %}
 			{% assign course_color = "btn-outline-secondary" %}
 			{% endcase %}
 
 			<div class="col-12 col-sm-6 col-md-4 d-grid">
 				<a href="{{ course.urls.view | relative_url}}"
-					class="btn btn-block mb-2 me-2 course-button {{ course_color }}">{{
-					course.code }} ({{ course.credits }}C) <br>
-					<span>{{ course.name }}</span></a>
+					class="btn btn-block mb-2 me-2 course-button {{ course_color }}">
+					<span class="font-monospace">{{course.code }} ({{ course.credits }}C)</span><br>
+					<b>{{ course.name }}</b></a>
 			</div>
 			{%- endfor -%}
 		</div>
